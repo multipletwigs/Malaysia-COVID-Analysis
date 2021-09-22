@@ -5,8 +5,11 @@
          "stroke": "transparent"
       }
     },
-    "width": 987,
-    "height": 300,
+    "width": "container",
+    "height": "container",
+    "autosize": {
+      "resize": true
+    },
     "data": {
       "url": "https://raw.githubusercontent.com/multipletwigs/FIT3179-Data-Visualization/main/Week%209%20Homework/Layout/JSONs/malaysia_singapore_brunei_administrative_malaysia_state_province_boundary.json",
       "format": {

@@ -37,9 +37,9 @@ Add transition to containers so they can push in and out.
 
 .content-map-content{
     background-color: white;
-    margin-top: 1em;
+    margin: 1em auto auto auto
 }
-.card-header{
+.section-header{
     background-color: white;
     padding: 10px;
     margin-bottom: 0px;
@@ -48,9 +48,9 @@ Add transition to containers so they can push in and out.
     font-size: 1.2em;
 }
 
-.map-header{
-    background-color: white;
+.map-desc{
     padding: 10px;
+    margin-bottom: 0px;
 }
 
 .header {
@@ -119,8 +119,23 @@ Add transition to containers so they can push in and out.
 
 .list-item-content{
     margin: 25px 0 0 25px;
+    display: flex;
 }
 
+.card-title{
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.card-desc{
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+.vaxpop{
+    width:100%;
+    height: 300px;
+}
 
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
 
@@ -164,5 +179,26 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     #layout.active {
         position: relative;
         left: 150px;
+    }
+    .row-1{
+        flex-direction: column;
+    }
+    .list-item2{
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 10px;
+        width: 330px;
+        height: 100px;
+        border-radius: 0.2em;
+        box-shadow: 5px 10px 10px #ccc;
+        background-color: white;
+    }
+    .list-item{
+        margin-top: 10px;
+        width: 330px;
+        height: 100px;
+        border-radius: 0.2em;
+        box-shadow: 5px 10px 10px #ccc;
+        background-color: white;
     }
 }
