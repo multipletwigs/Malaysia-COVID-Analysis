@@ -30,11 +30,15 @@ Add transition to containers so they can push in and out.
 .content {
     margin: 0 auto;
     padding: 0 2em;
-    max-width: 800px;
+    max-width: 1000px;
     margin-bottom: 50px;
     line-height: 1.6em;
 }
 
+.content-map-content{
+    background-color: white;
+    margin-top: 1em;
+}
 .card-header{
     background-color: white;
     padding: 10px;
@@ -44,12 +48,16 @@ Add transition to containers so they can push in and out.
     font-size: 1.2em;
 }
 
+.map-header{
+    background-color: white;
+    padding: 10px;
+}
+
 .header {
     margin: 0 auto;
-    padding: 0 2em;
     color: #333;
-    max-width: 800px;
-    padding: 2.5em 2em 0;
+    max-width: 1000px;
+    padding: 2.5em 1em 0;
  }
     .header h1 {
         margin: 0.2em 0;
@@ -87,13 +95,13 @@ Add transition to containers so they can push in and out.
 }
 
 .slide:hover{
-    color:#333;
+    color:black;
     transition: all .2s ease-in;
 }
 
 .list-item{
     margin: 0;
-    width: 300px;
+    width: 330px;
     height: 100px;
     border-radius: 0.2em;
     box-shadow: 5px 10px 10px #ccc;
@@ -102,7 +110,7 @@ Add transition to containers so they can push in and out.
 
 .list-item2{
     margin: 0 1em 2em;
-    width: 300px;
+    width: 330px;
     height: 100px;
     border-radius: 0.2em;
     box-shadow: 5px 10px 10px #ccc;

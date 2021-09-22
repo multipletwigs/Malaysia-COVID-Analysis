@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
     <title>Tester</title>
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" media="all">
@@ -23,7 +26,7 @@
 
         <div class="content">
             <div class="top-cards">
-                    <div class="card-header">Nation Performance Index (Analysis Period: 24/2/2021 - 17/9/2021)</div>
+                <div class="card-header">Nation Performance Index (Analysis Period: 24/2/2021 - 17/9/2021)</div>
                 <div class="info-cards">
                     <div class="row-1">
                         <li class="list-item">
@@ -61,6 +64,18 @@
                     </div>
                 </div>
             </div>
+            <div class="content-map">
+                <div class="map-header">Nation Performance Index (Analysis Period: 24/2/2021 - 17/9/2021)</div>
+                <div class="content-map-content">
+                    <div class="vaxpop" id="choropleth_map"></div>
+                    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quisquam earum, magnam rem maiores dolorum totam corporis dicta autem illum libero laborum temporibus. Aperiam corrupti voluptas delectus culpa fuga molestiae.
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var spec2 = "JSONs/chloropleth.vg.json"
+                vegaEmbed('#choropleth_map', spec2, {"actions": false}).then(function(result) {}).catch(console.error);
+            </script>
         </div>
     </div>
     
