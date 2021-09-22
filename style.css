@@ -123,12 +123,13 @@ Add transition to containers so they can push in and out.
 }
 
 .card-title{
-    font-weight: 500;
+    font-weight: 300;
     padding-left: 10px;
 }
 
 .card-desc{
     font-size: 1.5em;
+    font-weight: 800;
     padding-left: 10px;
 }
 
