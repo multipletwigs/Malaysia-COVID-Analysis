@@ -1,0 +1,18 @@
+Planning
+What do I want to show! 
+
+Title: How did Malaysia perform in 2021 against COVID-19?  
+Nationwide Statistics 
+
+3 Sections 
+- Total COVID Patients in 2021 		> no link
+- Total Recoved Patients in 2021 	> no link
+- Total Deaths from COVID-19 in 2021 	> no link
+
+- Health care Utilizations
+	- ICU Patients % beds by state, % 
+	- % beds used by state (bar chart?)
+	- 
+- COVID-19 Survival Rate
+	- Deaths per Infected
+- Vaccination Progress
