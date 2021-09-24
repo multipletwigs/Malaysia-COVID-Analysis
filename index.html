@@ -88,20 +88,17 @@
                     </div>
                 </div>
             </div>
-            <div class="content-map">
-                <div class="section-header">Distribution of Vaccination Progress According to State</div>
-                <div class="content-map-content">
-                    <div class="vaxpop" id="choropleth_map"></div>
-                    <div class="map-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quisquam earum, magnam rem maiores dolorum totam corporis dicta autem illum libero laborum temporibus. Aperiam corrupti voluptas delectus culpa fuga molestiae.
-                    </div>
-                </div>
-            </div>
-            <script type="text/javascript">
-                var spec2 = "JSONs/chloropleth.vg.json"
-                vegaEmbed('#choropleth_map', spec2, {"actions": false}).then(function(result) {}).catch(console.error);
-            </script>
         </div>
     </div>
     
 </body>
 </html>
+
+<!--Script Injections for Vega-Lite Idioms-->
+<script type="text/javascript">
+    var vis1 = "JSONs/chloropleth.vg.json"
+    vegaEmbed('#choropleth_map', vis1, {"actions": false}).then(function(result) {}).catch(console.error);
+
+    var vis2 = "JSONs/trellis_area_cases_state.vg.json"
+    vegaEmbed('#area-trellis', vis2, {"actions": false}).then(function(result) {}).catch(console.error);
+</script>
