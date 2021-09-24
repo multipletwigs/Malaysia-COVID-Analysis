@@ -1,8 +1,13 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Drag the sliders to highlight points.",
+    "width": 1000,
+    "height": 1000,
     "data": {"url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/deaths_state_21.csv"},
-    "transform": [{"calculate": "month(datum.date)", "as": "Year"}],
+    "transform": [
+                  {"calculate": "month(datum.date)", "as": "Year"},
+                  {"calculate": "(datum.cumul_full/datum.population) * 100", "as":"percentage_vaxxed"}
+                 ],
     "layer": [{
       "params": [{
         "name": "CylYr",
@@ -12,13 +17,11 @@
           "Year": {"input": "range", "min": 1969, "max": 1981, "step": 1}
         }
       }],
-      "mark": "circle",
+      "mark": "bar",
       "encoding": {
-        "x": {"field": "deaths_new", "type": "quantitative"},
-        "y": {"field": "cumul_full", "type": "quantitative"},
-        "color": {
-          "value": "grey"
-        }
+        "x": {"field": "date", "type": "temporal"},
+        "y": {"field": "deaths_new", "type": "quantitative"},
+        "color": {"field": "state", "type": "nominal"}
       }
     }]
   }
