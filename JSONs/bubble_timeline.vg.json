@@ -2,7 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A bubble timeline showing distribution of covid-cases in Malaysia against time",
     "width": "container",
-    "height": 200,
+    "height": 300,
+    "background": "#1b1b38",
     "data": {
         "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/cases_malaysia.csv"
     },
@@ -14,7 +15,10 @@
     ],
     "mark":{
         "type" : "circle",
-        "size": 500
+        "size": 500,
+        "color": "#ffc000",
+        "opacity": 0.1,
+        "stroke":"black"
     },
     "encoding": {
         "x": {
@@ -24,12 +28,26 @@
             "axis":{
                 "labelFont": "Oswald",
                 "labelFontWeight":500,
-                "labelFontSize": 20
+                "labelFontSize": 20,
+                "labelColor":"white",
+                "ticks": false,
+                "grid": false,
+                "title": null,
+                "domain":false
             }
         },
         "y": {
             "field": "yaxis-adjust",
-            "type": "quantitative"
+            "type": "quantitative",
+            "axis":{
+                "labelFont": "Oswald",
+                "labelFontWeight":500,
+                "labelFontSize": 20,
+                "labelColor":"white",
+                "ticks": false,
+                "title": null,
+                "domain":false
+            }
         },
         "size": {
             "field": "cases_new",
@@ -37,9 +55,16 @@
             "scale": {
                 "type": "threshold",
                 "domain": [5000, 10000, 15000, 20000, 25000],
-                "range":[1000, 2000, 3000, 4000, 5000, 10000]
+                "range":[500, 5000, 10000, 15000, 40000]
             },
             "legend":null
         }
-    }
+    },
+    "config": {
+        "style": {
+          "cell": {
+            "stroke": "transparent"
+          }
+        }
+      }
 }
