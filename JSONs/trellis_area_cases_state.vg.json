@@ -1,0 +1,33 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Stock prices of four large companies as a small multiples of area charts.",
+    "width": 300,
+    "height": 10,
+    "data": {"url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/cases_state_21.csv"},
+    "mark": "area",
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": "Time",
+        "timeUnit": "yearmonthdate"
+      },
+      "y": {
+        "field": "cases_new",
+        "type": "quantitative",
+        "title": "cases",
+        "axis": {"grid": false}
+      },
+      "color": {
+        "field": "state",
+        "type": "nominal",
+        "legend": null
+      },
+      "row": {
+        "field": "state",
+        "type": "nominal",
+        "title": "States"
+      }
+    }
+  }
+  

@@ -21,7 +21,7 @@
       "lookup": "properties.name",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/multipletwigs/FIT3179-Data-Visualization/main/Week%209%20Homework/Datasets/Covid-19%20Vaccinations/vaccination/test.csv"
+          "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/Vaccination%20Statistics/vaccination/vax_pop_latest.csv"
         },
         "key": "state",
         "fields": ["daily_full", "pop", "cumul_full"]
