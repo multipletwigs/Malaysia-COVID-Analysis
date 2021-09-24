@@ -88,6 +88,9 @@
                     </div>
                 </div>
             </div>
+            <div class="timeline-bubble">
+                <div class="vis-wrapper" id="bubble_timeline"></div>
+            </div>
         </div>
     </div>
     
@@ -101,4 +104,7 @@
 
     var vis2 = "JSONs/trellis_area_cases_state.vg.json"
     vegaEmbed('#area-trellis', vis2, {"actions": false}).then(function(result) {}).catch(console.error);
+
+    var vis3 = "JSONs/bubble_timeline.vg.json"
+    vegaEmbed('#bubble_timeline', vis3, {"actions": false}).then(function(result) {}).catch(console.error);
 </script>

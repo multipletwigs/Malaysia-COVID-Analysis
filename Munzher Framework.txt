@@ -1,17 +1,21 @@
 What? 
 PLEASE EXCLUDE KUALA LUMPUR DATA, IT IS INCONSISTENT. 
+
+<Top section>
 - How many COVID cases did 2021 have?
 	Malaysia
 	- Bubble timeline plot of monthly COVID-19 Cases 
 	(MUST HAPPEN)
 
-	States
+	States COVID Cases
 	- Map Projection of infected per 1k population
 
+<Middle>
 - Does age affect survivablity from COVID-19? 
 	- Stacked histogram showing age distribution of dead 	  	          patients with and without co-morbidity of whole msia
 	- Box plot of qualitative states and quantitative deaths
 
+<Middle>
 - How much of Malaysians are vaccinated? 
 	>Remember that indications are very important here
 	- Waffle chart showing distributions of population                   vaccinated compared to whole population, solid color for 	  first doses and lighter color for second doses. Showing 	  	  important indicators at different % intervals

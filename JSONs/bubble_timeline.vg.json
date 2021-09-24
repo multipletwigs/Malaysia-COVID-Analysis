@@ -1,11 +1,45 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A bubble timeline showing distribution of covid-cases in Malaysia against time",
-    "data": {"url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/cases_malaysia.csv"},
-    "mark": "point",
+    "width": "container",
+    "height": 200,
+    "data": {
+        "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/cases_malaysia.csv"
+    },
+    "transform": [
+        {
+            "calculate": "0",
+            "as": "yaxis-adjust"
+        }
+    ],
+    "mark":{
+        "type" : "circle",
+        "size": 500
+    },
     "encoding": {
-      "x": {"field": "Horsepower", "type": "quantitative"},
-      "y": {"field": "Miles_per_Gallon", "type": "quantitative"},
-      "size": {"field": "Acceleration", "type": "quantitative"}
+        "x": {
+            "field": "date",
+            "type": "temporal",
+            "timeUnit": "month",
+            "axis":{
+                "labelFont": "Oswald",
+                "labelFontWeight":500,
+                "labelFontSize": 20
+            }
+        },
+        "y": {
+            "field": "yaxis-adjust",
+            "type": "quantitative"
+        },
+        "size": {
+            "field": "cases_new",
+            "type": "quantitative",
+            "scale": {
+                "type": "threshold",
+                "domain": [5000, 10000, 15000, 20000, 25000],
+                "range":[1000, 2000, 3000, 4000, 5000, 10000]
+            },
+            "legend":null
+        }
     }
-  }
+}

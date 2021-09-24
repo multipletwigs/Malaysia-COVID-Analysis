@@ -142,6 +142,11 @@ Add transition to containers so they can push in and out.
     width: 100%;
     height: 500px;
 }
+
+.vis-wrapper{
+    width: 100%;
+    height: 500px;
+}
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
 
 /*
