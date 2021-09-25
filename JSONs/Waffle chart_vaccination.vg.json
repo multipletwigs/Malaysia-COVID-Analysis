@@ -1,0 +1,41 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Stock prices of four large companies as a small multiples of area charts.",
+    "width": 500,
+    "height": 500,
+    "data": {"url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/waffle_vax.csv"},
+    "mark":{
+        "type" : "square",
+        "size": 1500
+    },
+    "encoding": {
+      "x": {
+        "field": "column ",
+        "type": "quantitative",
+        "axis":null
+      },
+      "y": {
+        "field": "row ",
+        "type": "quantitative",
+        "axis":null
+      },
+      "color": {
+        "field": "Type",
+        "type": "nominal",
+        "scale": {
+            "type": "ordinal",
+            "domain": ["Full", "Partial", "Non-vax"],
+            "range":["#aabfea", "#98e2ed", "grey"]
+        },
+        "legend":null
+      }
+    },
+    "config": {
+        "style": {
+          "cell": {
+            "stroke": "transparent"
+          }
+        }
+      }
+  }
+  
