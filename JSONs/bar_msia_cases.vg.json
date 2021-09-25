@@ -7,8 +7,7 @@
     "layer": [
       {
         "mark": {
-          "type": "bar",
-          "cornerRadius": 20
+          "type": "bar"
         },
         "encoding": {
           "x": {
@@ -17,7 +16,7 @@
             "title": "Time"
           },
           "y": {
-            "field": "cases_new",
+            "field": "cases_recovered",
             "type": "quantitative",
             "title": "cases",
             "axis": {"grid": false}
