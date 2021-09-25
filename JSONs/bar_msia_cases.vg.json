@@ -4,12 +4,6 @@
     "width": 1000,
     "height": 500,
     "data": {"url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/cases_malaysia.csv"},
-    "transform": [
-      {
-        "groupby": ["cases_new", "cases_recovered"]
-        
-      } 
-    ],
     "layer": [
       {
         "mark": {
@@ -22,7 +16,7 @@
             "title": "Time"
           },
           "y": {
-            "field": "total_count",
+            "field": "total_cases",
             "type": "quantitative",
             "title": "cases",
             "axis": {"grid": false}
