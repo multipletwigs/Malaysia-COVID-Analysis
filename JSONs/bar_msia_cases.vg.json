@@ -1,28 +1,162 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Stock prices of four large companies as a small multiples of area charts.",
-    "width": 1000,
-    "height": 500,
-    "data": {"url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/cases_malaysia.csv"},
+    "width": "container",
+    "height": "container",
+    "background": "#f4f7fc",
+    "data": {"url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/msia_monthly_cases.csv"},
     "layer": [
       {
-        "mark": {
-          "type": "bar"
-        },
         "encoding": {
           "x": {
             "field": "date",
             "type": "temporal",
-            "title": "Time"
+            "timeUnit":"utcyearmonthdate",
+            "title": "Time",
+            "axis":{
+              "labelFont": "Roboto",
+              "labelFontWeight":800,
+              "labelFontSize": 15,
+              "labelColor":"black",
+              "labelOffset": 10
+          }
+          },
+          "y": {
+            "field": "cases_new",
+            "type": "quantitative",
+            "axis": {
+              "labelFont": "Roboto",
+              "labelFontWeight":800,
+              "labelFontSize": 15,
+              "labelColor":"black"
+            }
+          }
+        },
+        "layer": [
+          {
+            "mark": {
+              "type" : "area",
+              "color": "#bcd8fc",
+              "interpolate": "natural",
+              "opacity": 0.5
+            }
+          },
+          {
+            "params": [{
+              "name": "cases_new",
+              "select": {
+                "type": "point",
+                "encodings": ["x"],
+                "nearest": true,
+                "on": "mouseover"
+              }
+            }],
+            "mark": "point",
+            "encoding": {
+              "opacity": {
+                "condition": {
+                  "param": "cases_new",
+                  "empty": false,
+                  "value": 1
+                },
+                "value": 0
+              }
+            }
+          }
+        ] 
+      },
+      {
+        "encoding": {
+          "x": {
+            "field": "date",
+            "type": "temporal",
+            "timeUnit":"utcyearmonthdate",
+            "axis":{
+              "labelFont": "Roboto",
+              "labelFontWeight":800,
+              "labelFontSize": 10,
+              "labelColor":"black",
+              "ticks": false,
+              "grid": false,
+              "title": null
+          }
           },
           "y": {
             "field": "cases_recovered",
             "type": "quantitative",
-            "title": "cases",
-            "axis": {"grid": false}
+            "title": null
           }
-        } 
+        },
+        "layer": [
+          {
+            "mark": {
+              "type" : "area",
+              "color": "#989fff",
+              "interpolate": "natural",
+              "opacity": 0.5
+            }
+          },
+          {
+            "params": [{
+              "name": "cases_recovered",
+              "select": {
+                "type": "point",
+                "encodings": ["x"],
+                "nearest": true,
+                "on": "mouseover"
+              }
+            }],
+            "mark": "point",
+            "encoding": {
+              "opacity": {
+                "condition": {
+                  "param": "cases_recovered",
+                  "empty": false,
+                  "value": 1
+                },
+                "value": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+      "transform": [{"filter": {"param": "cases_new", "empty": false}}],
+      "layer": [
+        {
+          "mark": {"type": "rule", "color": "gray"},
+          "encoding": {
+            "x": {"type": "temporal", "field": "date", "timeUnit":"utcyearmonthdate"}
+          }
+        },
+        {
+          "encoding": {
+            "text": {"type": "quantitative", "field": "cases_new"},
+            "x": {"type": "temporal", "field": "date","timeUnit":"utcyearmonthdate"},
+            "y": {"type": "quantitative", "field": "cases_new"}
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "stroke": "white",
+                "strokeWidth": 2,
+                "align": "left",
+                "dx": 5,
+                "dy": -5
+              }
+            }
+          ]
+        }
+      ]
+    }
+    ],
+    "config": {
+        "style": {
+          "cell": {
+            "stroke": "transparent"
+          }
+        }
       }
-    ]
 }
   

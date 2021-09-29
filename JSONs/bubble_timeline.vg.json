@@ -2,8 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A bubble timeline showing distribution of covid-cases in Malaysia against time",
     "width": "container",
-    "height": 300,
-    "background": "#1b1b38",
+    "height": "container",
+    "background": "#f4f7fc",
     "data": {
         "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/msia_monthly_cases.csv"
     },

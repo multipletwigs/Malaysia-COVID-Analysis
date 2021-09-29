@@ -1,8 +1,8 @@
 body {
     text-align: justify;
-    background-color: #1b1b38;
-    font-family: 'Oswald', 'sans-serif';
-    color: white;
+    background-color: #f4f7fc;
+    font-family: 'Roboto', 'sans-serif';
+    color: #122944;
 }
 
 .pure-img-responsive {
@@ -37,7 +37,7 @@ Add transition to containers so they can push in and out.
 }
 
 .section-header{
-    background-color: #323259;
+    background-color: #ffffff;
     padding: 10px;
     margin-bottom: 0px;
     border-radius: 0.2em;
@@ -82,11 +82,11 @@ Add transition to containers so they can push in and out.
 }
 
 .slide{
-    color: white;
+    color: grey;
 }
 
 .slide:hover{
-    color:black;
+    color:#86bafd;
     transition: all .2s ease-in;
 }
 
@@ -97,12 +97,12 @@ Add transition to containers so they can push in and out.
     width: 330px;
     height: 100px;
     border-radius: 0.2em;
-    background-color: #a16eff;
+    background-color: #ffffff;
     transition: all .2s ease-in;
 }
 
 .list-item:hover{
-   border-left: 10px solid #d0d0d0;
+   border-left: 10px solid #86bafd;
    transition: all .2s ease-in;
 }
 
@@ -113,12 +113,12 @@ Add transition to containers so they can push in and out.
     width: 330px;
     height: 100px;
     border-radius: 0.2em;
-    background-color: #a16eff;
+    background-color: #ffffff;
     transition: all .2s ease-in;
 }
 
 .list-item2:hover{
-    border-left: 10px solid #d0d0d0;
+    border-left: 10px solid #86bafd;
     transition: all .2s ease-in;
  }
 
