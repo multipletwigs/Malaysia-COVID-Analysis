@@ -4,6 +4,12 @@
     "transform": [
         {"calculate": "timeParse(datum['date'], '%d/%m/%Y')", 
          "as": "date"
+        },
+        {"calculate": "(datum.cumul_partial / 32657400) * 100", 
+            "as": "partial_percentage"
+        },
+        {"calculate": "(datum.cumul_full / 32657400) * 100", 
+            "as": "full_percentage"
         }
     ],
     "vconcat":[
@@ -31,7 +37,13 @@
                         "y":{
                             "field":"cases_new",
                             "type":"quantitative",
-                            "axis":{"grid": false}
+                            "axis":{
+                                "title":"Daily New Cases", 
+                                "labelFont": "Roboto", 
+                                "labelFontSize": 15,
+                                "titleFont": "Roboto",
+                                "titleFontSize":15
+                            }
                         }
                     }
                 },
@@ -54,14 +66,73 @@
                             }
                         },
                         "y":{
-                            "field":"cases_new",
-                            "type":"quantitative",
-                            "axis":{"grid": false}
+                            "field": "cases_new",
+                            "type": "quantitative",
+                            "axis":null
                         }
                     }
 
+                },{
+                    "mark":{
+                        "type": "line",
+                        "color": "grey",
+                        "size": 2,
+                        "interpolate":"natural",
+                        "strokeDash":[8,8]
+                    },
+                    "encoding": {
+                        "x":{
+                            "field":"date", 
+                            "type":"temporal",
+                            "axis":{"title":null, "grid": false},
+                            "scale":{
+                                "domain":{
+                                    "param":"brush"
+                                }
+                            }
+                        },
+                        "y":{
+                            "field":"partial_percentage",
+                            "type":"quantitative",
+                            "axis":null,
+                            "scale": {"domain": [0, 100]}
+                        }
+                    }
+                },
+                {
+                    "mark":{
+                        "type": "line",
+                        "color": "grey",
+                        "size": 2,
+                        "interpolate":"natural"
+                    },
+                    "encoding": {
+                        "x":{
+                            "field":"date", 
+                            "type":"temporal",
+                            "axis":{"title":null, "grid": false, "labelFont": "Roboto", "titleFont": "Roboto"},
+                            "scale":{
+                                "domain":{
+                                    "param":"brush"
+                                }
+                            }
+                        },
+                        "y":{
+                            "field":"full_percentage",
+                            "type":"quantitative",
+                            "axis":{
+                                "title":"percentage (%)", 
+                                "labelFont": "Roboto", 
+                                "labelFontSize": 15,
+                                "titleFont": "Roboto",
+                                "titleFontSize":15
+                            },
+                            "scale": {"domain": [0, 100]}
+                        }
+                    }
                 }
-            ]
+            ],
+            "resolve": {"scale": {"y": "independent"}}
         },
         {
             "width":"container",
@@ -89,7 +160,7 @@
                         "y":{
                             "field":"cases_new",
                             "type":"quantitative",
-                            "axis":{"tickCount":3, "grid": false}
+                            "axis":{"title": null, "tickCount":3, "grid": false}
                         }
                     }
                 }
