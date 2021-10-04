@@ -1,0 +1,99 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/cases_malaysia.csv"},
+    "transform": [
+        {"calculate": "timeParse(datum['date'], '%d/%m/%Y')", 
+         "as": "date"
+        }
+    ],
+    "vconcat":[
+        {
+            "width":"container",
+            "height":"container",
+            "layer":[
+                {
+                    "mark":{
+                        "type": "area",
+                        "color": "#e1f0ff",
+                        "interpolate":"natural"
+                    },
+                    "encoding": {
+                        "x":{
+                            "field":"date", 
+                            "type":"temporal",
+                            "axis":{"title":null, "grid": false},
+                            "scale":{
+                                "domain":{
+                                    "param":"brush"
+                                }
+                            }
+                        },
+                        "y":{
+                            "field":"cases_new",
+                            "type":"quantitative",
+                            "axis":{"grid": false}
+                        }
+                    }
+                },
+                {
+                    "mark":{
+                        "type": "line",
+                        "color": "#3699ff",
+                        "size": 2,
+                        "interpolate":"natural"
+                    },
+                    "encoding": {
+                        "x":{
+                            "field":"date", 
+                            "type":"temporal",
+                            "axis":{"title":null, "grid": false},
+                            "scale":{
+                                "domain":{
+                                    "param":"brush"
+                                }
+                            }
+                        },
+                        "y":{
+                            "field":"cases_new",
+                            "type":"quantitative",
+                            "axis":{"grid": false}
+                        }
+                    }
+
+                }
+            ]
+        },
+        {
+            "width":"container",
+            "height":60,
+            "layer":[
+                {
+                    "mark":{
+                        "type": "area",
+                        "color": "#e1f0ff"
+                    },
+                    "params": [
+                        {
+                            "name":"brush",
+                            "select":{
+                                "type":"interval",
+                                "encodings": ["x"]
+                            }
+                        }
+                    ],
+                    "encoding": {
+                        "x":{
+                            "field":"date", 
+                            "type":"temporal"
+                        },
+                        "y":{
+                            "field":"cases_new",
+                            "type":"quantitative",
+                            "axis":{"tickCount":3, "grid": false}
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
