@@ -26,24 +26,27 @@
 
         <div class="content">
             <div class="top-cards">
-                <div class="section-header">Nation Performance Index (Analysis Period: 24/2/2021 - 17/9/2021)<br>Click on the Icons to find out more</div>
+                <div class="section-header">
+                    <h3>Nation Performance Index (Analysis Period: January 2021 to September 2021)</h3>
+                    <p>This visualization reports on the important findings of COVID-19 Data in Malaysia using data from January to September. Below is a summary of statistical figures in 2021, in which we will perform in depth analysis on.</p>
+                </div>
                 <div class="info-cards">
                     <div class="row-1">
                         <li class="list-item">
                             <div class="list-item-content">
                                 <i class="fas fa-hospital fa-3x slide"></i>
                                 <div class="card-stats">
-                                    <div class="card-title">Confirmed Cases in August</div>
-                                    <div class="card-desc">32,918 patients</div>
+                                    <div class="card-title">Confirmed Cases</div>
+                                    <div class="card-desc">2,147,675 patients</div>
                                 </div>
                             </div>
                         </li>
                         <li class="list-item2">
                             <div class="list-item-content">
-                                <i class="fas fa-first-aid fa-3x slide"></i>
+                                <i class="fas fa-procedures fa-3x slide"></i>
                                 <div class="card-stats">
-                                    <div class="card-title">Confirmed Deaths</div>
-                                    <div class="card-desc">918 patients</div>
+                                    <div class="card-title">Total Deaths</div>
+                                    <div class="card-desc">567 patients</div>
                                 </div>
                             </div>
                         </li>
@@ -51,8 +54,8 @@
                             <div class="list-item-content">
                                 <i class="fas fa-heartbeat fa-3x slide"></i>
                                 <div class="card-stats">
-                                    <div class="card-title">Average Recovery</div>
-                                    <div class="card-desc">38 patients</div>
+                                    <div class="card-title">Total Recovered Cases</div>
+                                    <div class="card-desc">1,828,237 patients</div>
                                 </div>
                             </div>
                         </li>
@@ -63,16 +66,16 @@
                                 <i class="fas fa-syringe fa-3x slide"></i>
                                 <div class="card-stats">
                                     <div class="card-title">Total Population Vaccinated</div>
-                                    <div class="card-desc">320,918 patients</div>
+                                    <div class="card-desc">20,255,398      people</div>
                                 </div>
                             </div>
                         </li>
                         <li class="list-item2">
                             <div class="list-item-content">
-                                <i class="fas fa-procedures fa-3x slide"></i>
+                                <i class="fas fa-first-aid fa-3x slide"></i>
                                 <div class="card-stats">
-                                    <div class="card-title">Intensive Care Units</div>
-                                    <div class="card-desc">321,918 patients</div>
+                                    <div class="card-title">Total Test Kits Adminstered</div>
+                                    <div class="card-desc">16,763,386 people</div>
                                 </div>
                             </div>
                         </li>
@@ -80,8 +83,8 @@
                             <div class="list-item-content">
                                 <i class="fas fa-stethoscope fa-3x slide"></i>
                                 <div class="card-stats">
-                                    <div class="card-title">Hospital capacity</div>
-                                    <div class="card-desc">32,918 patients</div>
+                                    <div class="card-title">Total Clusters Formed</div>
+                                    <div class="card-desc">4,990 clusters</div>
                                 </div>
                             </div>
                         </li>
@@ -89,9 +92,14 @@
                 </div>
             </div>
             <div class="daily-cases-section">
+                <div class="section-header">
+                    <h3>Does a higher vaccination rate correspond to a lower number of infected citizens?
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quod dolorem atque inventore quas a. Vero culpa animi est aperiam. Magnam voluptates delectus voluptatum nisi, doloribus tempore sequi a nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit iure libero ipsum sit tempore dolorem fuga a sint, in nulla, repellendus veritatis culpa voluptate deserunt inventore? Tempora, eum! Dolore praesentium nobis sunt deleniti, ab incidunt facilis ratione possimus reprehenderit omnis nisi maiores provident pariatur corporis consectetur voluptatum blanditiis nulla accusantium laudantium quibusdam, mollitia consequatur voluptate? Iste officiis incidunt, ab odio ea fugiat praesentium totam beatae voluptatibus repellendus explicabo cumque magni? Soluta unde, repellendus ullam eligendi aut aliquid accusamus nemo vel veritatis dolorum beatae in numquam, id itaque incidunt accusantium iusto consequuntur! Deserunt exercitationem veritatis atque! Repellendus omnis excepturi iure.</p>
+                </div>
                 <div class="timeline-title">Daily Cases in Malaysia</div>
                 <div class="timeline-area">
-                    <div class="vis-wrapper" id="area_timeline"></div>
+                    <div class="vis-wrapper" id="area_timeline_filt"></div>
                 </div>
             </div>
         </div>
@@ -102,15 +110,18 @@
 
 <!--Script Injections for Vega-Lite Idioms-->
 <script type="text/javascript">
-    var vis1 = "JSONs/chloropleth.vg.json"
-    vegaEmbed('#choropleth_map', vis1, {"actions": false}).then(function(result) {}).catch(console.error);
+    // var vis1 = "JSONs/chloropleth.vg.json"
+    // vegaEmbed('#choropleth_map', vis1, {"actions": false}).then(function(result) {}).catch(console.error);
 
-    var vis2 = "JSONs/trellis_area_cases_state.vg.json"
-    vegaEmbed('#area-trellis', vis2, {"actions": false}).then(function(result) {}).catch(console.error);
+    // var vis2 = "JSONs/trellis_area_cases_state.vg.json"
+    // vegaEmbed('#area-trellis', vis2, {"actions": false}).then(function(result) {}).catch(console.error);
 
-    var vis3 = "JSONs/bubble_timeline.vg.json"
-    vegaEmbed('#bubble_timeline', vis3, {"actions": false}).then(function(result) {}).catch(console.error);
+    // var vis3 = "JSONs/bubble_timeline.vg.json"
+    // vegaEmbed('#bubble_timeline', vis3, {"actions": false}).then(function(result) {}).catch(console.error);
 
-    var vis4 = "JSONs/bar_msia_cases.vg.json"
-    vegaEmbed('#area_timeline', vis4, {"actions": false}).then(function(result) {}).catch(console.error);
+    // var vis4 = "JSONs/bar_msia_cases.vg.json"
+    // vegaEmbed('#area_timeline', vis4, {"actions": false}).then(function(result) {}).catch(console.error);
+
+    var vis5 = "JSONs/bar_msia_cases.vg.json"
+    vegaEmbed('#area_timeline_filt', vis5, {"actions": false}).then(function(result) {}).catch(console.error);
 </script>

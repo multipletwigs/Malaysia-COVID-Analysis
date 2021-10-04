@@ -12,7 +12,6 @@
             "field": "date",
             "type": "temporal",
             "timeUnit":"utcyearmonthdate",
-            "title": "Time",
             "axis":{
               "labelFont": "Roboto",
               "labelFontWeight":800,
@@ -119,37 +118,7 @@
             }
           }
         ]
-      },
-      {
-      "transform": [{"filter": {"param": "cases_new", "empty": false}}],
-      "layer": [
-        {
-          "mark": {"type": "rule", "color": "gray"},
-          "encoding": {
-            "x": {"type": "temporal", "field": "date", "timeUnit":"utcyearmonthdate"}
-          }
-        },
-        {
-          "encoding": {
-            "text": {"type": "quantitative", "field": "cases_new"},
-            "x": {"type": "temporal", "field": "date","timeUnit":"utcyearmonthdate"},
-            "y": {"type": "quantitative", "field": "cases_new"}
-          },
-          "layer": [
-            {
-              "mark": {
-                "type": "text",
-                "stroke": "white",
-                "strokeWidth": 2,
-                "align": "left",
-                "dx": 5,
-                "dy": -5
-              }
-            }
-          ]
-        }
-      ]
-    }
+      }
     ],
     "config": {
         "style": {
