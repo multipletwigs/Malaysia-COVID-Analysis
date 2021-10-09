@@ -1,50 +1,32 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Stock prices of four large companies as a small multiples of area charts.",
-    "data": {"url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/msia_monthly_cases.csv"},
-    "layer":[
+    "data": {
+        "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/cases_from.csv"
+    },
+    "transform": [
+        {"calculate": "(datum.total_cases/396346) * 100", "as": "percentage_from"}
+    ],
+    "width": 500,
+    "height": "container",
+    "layer": [
         {
             "mark": {
-              "type": "bar",
-              "size": 500,
-              "tooltip": true
+                "type": "bar",
+                "tooltip": true
             },
             "encoding": {
-              "x": {
-                "field": "column ",
-                "type": "quantitative",
-                "axis": null
-              },
-              "y": {
-                "field": "row ",
-                "type": "quantitative",
-                "axis": null
-              },
-              "color": {
-                "field": "Type",
-                "type": "nominal",
-                "scale": {
-                  "type": "ordinal",
-                  "domain": [
-                    "Full",
-                    "Partial",
-                    "Non-vax"
-                  ],
-                  "range": [
-                    "#aabfea",
-                    "#98e2ed",
-                    "grey"
-                  ]
+                "x": {
+                    "field": "case type",
+                    "type": "nominal",
+                    "axis": {
+                        "labelAngle": 0
+                    }
                 },
-                "legend":{
-                  "labelFont": "Roboto",
-                  "labelFontSize": 15,
-                  "titleFont":"Roboto",
-                  "titleFontSize": 15,
-                  "title": "Vaccination Status"
+                "y": {
+                    "field": "percentage_from",
+                    "type": "quantitative"
                 }
-              }
             }
-          }
+        }
     ]
 }
