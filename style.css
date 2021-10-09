@@ -168,6 +168,10 @@ Add transition to containers so they can push in and out.
 .vax-section-text{
     display: flex;
 }
+
+.waffle_text{
+    margin-left: 2em
+}
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
 
 /*
