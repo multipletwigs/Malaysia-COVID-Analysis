@@ -67,8 +67,8 @@
 7,6,66%,Partial
 7,7,67.00%,Partial
 7,8,68%,Partial
-7,9,69.00%,Partial
-7,10,70%,Partial
+7,9,69.00%,Non-Vax
+7,10,70%,Non-Vax
 8,1,71.00%,Partial
 8,2,72%,Partial
 8,3,73.00%,Partial
@@ -85,10 +85,10 @@
 9,4,84%,Non-vax
 9,5,85.00%,Non-vax
 9,6,86%,Non-vax
-9,7,87.00%,Non-vax
+9,7,87.00%,Partial
 9,8,88%,Non-vax
 9,9,89.00%,Non-vax
-9,10,90%,Non-vax
+9,10,90%,Partial
 10,1,91.00%,Non-vax
 10,2,92%,Non-vax
 10,3,93.00%,Non-vax
