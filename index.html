@@ -99,8 +99,30 @@
                         <div class="vis-wrapper" id="area_timeline_filt"></div>
                     </div>
                     <div class="vis-title">Daily State Performance per 1K Population</div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi laborum praesentium expedita, voluptatem itaque natus iure nobis corrupti saepe, eaque beatae. Dicta animi quasi quo dolorum nobis perferendis est, magni unde itaque mollitia ipsum at maiores ad quisquam impedit. In omnis doloribus tempora eius explicabo totam facilis. Exercitationem, in alias!</p>
-
+                    <p>As observed below, the trend of COVID-19 Cases in States are similar compared to the national graph. The government has also introduced a <b>National Recovery Plan (NCR)</b> that details a set of rules for states in different states to follow depending on the severity of the situation. </p>
+                    <div class="timeline-area">
+                        <div class="vis-wrapper" id="area_state_filt"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="vaccination-section">
+                <div class="section-header">
+                    <div class="vis-title">What is the vaccination progress in Malaysia?</div>
+                    <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos, facere in, molestiae corporis distinctio tempora repellat ex rerum ipsam architecto quae animi repudiandae consectetur atque, placeat similique incidunt nostrum.</p></div>
+                    <div class="vax-section-text">
+                        <div>
+                            <div class="vis-wrapper" id="waffle_vax"></div>
+                        </div>
+                        <div>
+                            <p>Malaysia reported a total of <b>2,147,675 COVID-19 Cases</b> in 2021 with several infection waves. In this year, cases have reached all time highs multiple times, with the highest number of cases being <b>24,599 on the 26th August</b>. Ever since February, Malaysia has been ramping up its vaccination progress, and has undergone lockdown for a total of three times.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="vis-title">Daily State Performance per 1K Population</div>
+                    <p>As observed below, the trend of COVID-19 Cases in States are similar compared to the national graph. The government has also introduced a <b>National Recovery Plan (NCR)</b> that details a set of rules for states in different states to follow depending on the severity of the situation. </p>
+                    <div class="timeline-area">
+                        <div class="vis-wrapper" id="area_state_filt"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -111,6 +133,7 @@
 
 <!--Script Injections for Vega-Lite Idioms-->
 <script type="text/javascript">
+
     // var vis1 = "JSONs/chloropleth.vg.json"
     // vegaEmbed('#choropleth_map', vis1, {"actions": false}).then(function(result) {}).catch(console.error);
 
@@ -125,4 +148,10 @@
 
     var vis5 = "JSONs/area_timeline_filt.vg.json"
     vegaEmbed('#area_timeline_filt', vis5, {"actions": false}).then(function(result) {}).catch(console.error);
+
+    var vis6 = "JSONs/area_state.vg.json"
+    vegaEmbed('#area_state_filt', vis6, {"actions": false}).then(function(result) {}).catch(console.error);
+
+    var vis7 = "JSONs/Waffle chart_vaccination.vg.json"
+    vegaEmbed('#waffle_vax', vis7, {"actions": false}).then(function(result) {}).catch(console.error);
 </script>

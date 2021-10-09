@@ -1,8 +1,198 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A bubble timeline showing distribution of covid-cases in Malaysia against time",
-    "background": "#f4f7fc",
+    "background": "white",
     "data": {
-        "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/msia_monthly_cases.csv"
-    }
+        "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/cases_state_21.csv"
+    },
+    "transform": [
+        {
+            "calculate": "timeParse(datum['date'], '%d/%m/%Y')",
+            "as": "date"
+        },
+        {
+            "calculate": "(datum.cases_new / datum.population) * 1000",
+            "as": "cases_area"
+        }
+    ],
+    "width": "container",
+    "height": "container",
+    "layer": [
+        {
+            "transform": [
+                {
+                    "filter": {
+                        "param": "states"
+                    }
+                }
+            ],
+            "params": [
+                {
+                    "name": "states",
+                    "select": {
+                        "type": "point",
+                        "fields": [
+                            "state"
+                        ]
+                    },
+                    "bind": {
+                        "input": "select",
+                        "options": [
+                            "Selangor",
+                            "Sabah",
+                            "Johor",
+                            "Kedah",
+                            "Melaka",
+                            "Negeri Sembilan",
+                            "Pahang",
+                            "Pulau Pinang",
+                            "Perak",
+                            "Perlis",
+                            "Terengganu",
+                            "W.P. Kuala Lumpur",
+                            "W.P. Labuan",
+                            "W.P. Putrajaya"
+                        ],
+                        "name": "Choose a state: "
+                    },
+                    "value": "Selangor"
+                }
+            ],
+            "mark": {
+                "type": "line",
+                "color": "#3699ff",
+                "size": 3,
+                "interpolate": "natural"
+            },
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "temporal",
+                    "axis": {
+                        "title": null,
+                        "grid": false
+                    }
+                },
+                "y": {
+                    "field": "cases_area",
+                    "type": "quantitative",
+                    "axis": {
+                        "title": "Daily Cases per 1K Population (State)",
+                        "labelFont": "Roboto",
+                        "labelFontSize": 15,
+                        "titleFont": "Roboto",
+                        "titleFontSize": 15
+                    }
+                }
+            }
+        },
+        {
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "temporal",
+                    "axis": {
+                        "title": null,
+                        "grid": false
+                    }
+                },
+                "y": {
+                    "field": "cases_area",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "date",
+                        "title": "Date",
+                        "timeUnit": "monthdate"
+                    },
+                    {
+                        "field": "cases_new",
+                        "title": "Daily Cases Per 1K Pop"
+                    }
+                ]
+            },
+            "layer": [
+                {
+                    "params": [
+                        {
+                            "name": "label",
+                            "select": {
+                                "type": "point",
+                                "encodings": [
+                                    "x"
+                                ],
+                                "nearest": true,
+                                "on": "mouseover"
+                            }
+                        }
+                    ],
+                    "transform": [
+                        {
+                            "filter": {
+                                "param": "states"
+                            }
+                        }
+                    ],
+                    "mark": {
+                        "type": "point"
+                    },
+                    "encoding": {
+                        "opacity": {
+                            "condition": {
+                                "param": "label",
+                                "empty": false,
+                                "value": 1
+                            },
+                            "value": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {   
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "temporal",
+                    "axis": {
+                        "title": null,
+                        "grid": false
+                    }
+                }
+            },
+            "layer": [
+                {
+                    "mark": {
+                        "type": "rule",
+                        "strokeDash": [
+                            7,
+                            7
+                        ],
+                        "strokeWidth": 2
+                    },
+                    "encoding": {
+                        "x": {
+                            "type": "temporal",
+                            "field": "date"
+                        }
+                    },
+                    "transform": [
+                        {
+                            "filter": {
+                                "param": "states",
+                                "empty": false
+                            }
+                        },
+                        {
+                            "filter": {
+                                "param": "label",
+                                "empty": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

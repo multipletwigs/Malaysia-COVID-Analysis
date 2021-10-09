@@ -150,10 +150,6 @@ Add transition to containers so they can push in and out.
     height: 500px;
 }
 
-.daily-cases-section-header{
-    background-color: #ffffff;
-}
-
 .vis-wrapper{
     width: 100%;
     height: 300px;
@@ -163,6 +159,14 @@ Add transition to containers so they can push in and out.
     font-size: 1.5em;
     font-weight: 800;
     margin: 1em 0.5em 0.5em 0;
+}
+
+.vaccination-section{
+    margin-top: 1em;
+}
+
+.vax-section-text{
+    display: flex;
 }
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
 

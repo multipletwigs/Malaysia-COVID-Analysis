@@ -1,41 +1,61 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Stock prices of four large companies as a small multiples of area charts.",
-    "width": 500,
-    "height": 500,
-    "data": {"url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/waffle_vax.csv"},
-    "mark":{
-        "type" : "square",
-        "size": 1500
-    },
-    "encoding": {
-      "x": {
-        "field": "column ",
-        "type": "quantitative",
-        "axis":null
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Stock prices of four large companies as a small multiples of area charts.",
+  "width": 300,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/waffle_vax.csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "square",
+        "size": 500,
+        "tooltip": true
       },
-      "y": {
-        "field": "row ",
-        "type": "quantitative",
-        "axis":null
-      },
-      "color": {
-        "field": "Type",
-        "type": "nominal",
-        "scale": {
-            "type": "ordinal",
-            "domain": ["Full", "Partial", "Non-vax"],
-            "range":["#aabfea", "#98e2ed", "grey"]
+      "encoding": {
+        "x": {
+          "field": "column ",
+          "type": "quantitative",
+          "axis": null
         },
-        "legend":null
-      }
-    },
-    "config": {
-        "style": {
-          "cell": {
-            "stroke": "transparent"
+        "y": {
+          "field": "row ",
+          "type": "quantitative",
+          "axis": null
+        },
+        "color": {
+          "field": "Type",
+          "type": "nominal",
+          "scale": {
+            "type": "ordinal",
+            "domain": [
+              "Full",
+              "Partial",
+              "Non-vax"
+            ],
+            "range": [
+              "#aabfea",
+              "#98e2ed",
+              "grey"
+            ]
+          },
+          "legend":{
+            "labelFont": "Roboto",
+            "labelFontSize": 15,
+            "titleFont":"Roboto",
+            "titleFontSize": 15,
+            "title": "Vaccination Status"
           }
         }
       }
+    }
+  ],
+  "config": {
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    }
   }
-  
+}
