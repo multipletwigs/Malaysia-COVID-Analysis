@@ -19,12 +19,23 @@
                 "x": {
                     "field": "percentage_from",
                     "type": "quantitative",
-                    "axis":null
+                    "axis": {"format": ".2f","ticks": false, "title":null},
+                    "sort":"descending"
                 },
                 "color":{
                     "field": "case type",
                     "type": "nominal",
-                    "legend": null
+                    "legend":{
+                        "title":"Case Types",
+                        "titleFontSize": 20,
+                        "titleFont":"Roboto",
+                        "orient": "bottom",
+                        "direction": "horizontal",
+                        "columns": 7,
+                        "labelFont": "Roboto",
+                        "labelFontSize": 15,
+                        "symbolSize": 500
+                    }
                 }
             }
         }
