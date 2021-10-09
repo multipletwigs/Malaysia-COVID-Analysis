@@ -155,6 +155,11 @@ Add transition to containers so they can push in and out.
     height: 300px;
 }
 
+.vis-wrapper-2{
+    width: 100%;
+    height: 100px;
+}
+
 .vis-title{
     font-size: 1.5em;
     font-weight: 800;

@@ -35,6 +35,16 @@
                         "labelFont": "Roboto",
                         "labelFontSize": 15,
                         "symbolSize": 500
+                    },
+                    "scale":{
+                        "range": [
+                            "#00c0c7",
+                            "#5144d3",
+                            "#e8871a",
+                            "#da3490",
+                            "#2780eb",
+                            "#9089fa"
+                            ]
                     }
                 }
             }

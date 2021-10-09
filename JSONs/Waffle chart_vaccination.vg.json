@@ -10,8 +10,7 @@
     {
       "mark": {
         "type": "square",
-        "size": 500,
-        "tooltip": true
+        "size": 500
       },
       "encoding": {
         "x": {
@@ -47,7 +46,10 @@
             "titleFontSize": 15,
             "title": "Vaccination Status"
           }
-        }
+        },
+        "tooltip":[
+          {"field": "Type"}
+        ]
       }
     }
   ],
