@@ -6,27 +6,34 @@
     "transform": [
         {"calculate": "(datum.total_cases/396346) * 100", "as": "percentage_from"}
     ],
-    "width": 500,
-    "height": "container",
+    "width": "container",
+    "height": 10,
     "layer": [
         {
             "mark": {
                 "type": "bar",
+                "size": 50,
                 "tooltip": true
             },
             "encoding": {
                 "x": {
+                    "field": "percentage_from",
+                    "type": "quantitative",
+                    "axis":null
+                },
+                "color":{
                     "field": "case type",
                     "type": "nominal",
-                    "axis": {
-                        "labelAngle": 0
-                    }
-                },
-                "y": {
-                    "field": "percentage_from",
-                    "type": "quantitative"
+                    "legend": null
                 }
             }
         }
-    ]
+    ],
+  "config": {
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    }
+  }
 }
