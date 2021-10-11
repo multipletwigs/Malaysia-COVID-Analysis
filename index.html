@@ -113,13 +113,13 @@
             <div class="vaccination-section">
                 <div class="section-header">
                     <div class="vis-title">What is the vaccination progress in Malaysia?</div>
-                    <div><p>Ever since 24th of February, the Malaysian Government has started its mass vaccination program. Up to this date, we can see that more than half than the population of Malaysia has been vaccinated as of 30th of September. We are projected to reach 80% immunity in November.</p></div>
-                    <div class="vax-section-text">
+                    <div><p>Ever since 24th of February, the Malaysian Government has started its mass vaccination program. Up to this date, we can see that more than half than the population of Malaysia has been vaccinated as of 30th of September. We are projected to reach 80% immunity in November. It can be seen that the Malaysian Government has increased the daily vaccination amount since June, up to July.</p></div>
+                    <div class="vax-info-section">
                         <div>
                             <div class="vis-wrapper" id="waffle_vax"></div>
                         </div>
                         <div>
-                            <div class="vis-wrapper" id="waffle_vax"></div>
+                            <div class="vis-wrapper" id="bar_vax"></div>
                         </div>
                     </div>
                 </div>
@@ -156,4 +156,7 @@
 
     var vis8 = "JSONs/bar_cases_from.vg.json"
     vegaEmbed('#bar_cases_from', vis8, {"actions": false}).then(function(result) {}).catch(console.error);
+
+    var vis9 = "JSONs/bar_vax.vg.json"
+    vegaEmbed('#bar_vax', vis9, {"actions": false}).then(function(result) {}).catch(console.error);
 </script>

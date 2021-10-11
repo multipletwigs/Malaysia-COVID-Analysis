@@ -1,0 +1,15 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/Vaccination%20Statistics/vaccination/vax_malaysia.csv"
+    },
+    "height": 300,
+    "width": 380,
+    "transform": [
+      {
+        "calculate": "timeParse(datum['date'], '%d/%m/%Y')",
+        "as": "date"
+      }
+    ]
+      
+}

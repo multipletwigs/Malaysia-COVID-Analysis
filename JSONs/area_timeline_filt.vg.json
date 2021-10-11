@@ -9,17 +9,17 @@
             "as": "date"
         },
         {
-            "calculate": "(datum.cumul_partial / 32657400) * 100",
-            "as": "partial_percentage"
+            "calculate": "(datum.cases_new / 32657400) * 1000",
+            "as": "cases_percentage"
         },
         {
-            "calculate": "(datum.cumul_full / 32657400) * 100",
+            "calculate": "(datum.cumul_full / 32657400) * 1000",
             "as": "full_percentage"
         }
     ],
     "vconcat": [
         {
-            "width": 875,
+            "width": 918,
             "height": "container",
             "layer": [
                 {
@@ -43,10 +43,10 @@
                             }
                         },
                         "y": {
-                            "field": "cases_new",
+                            "field": "cases_percentage",
                             "type": "quantitative",
                             "axis": {
-                                "title": "Daily New Cases (Malaysia)",
+                                "title": "Daily New Cases per 1K Pop (Malaysia)",
                                 "labelFont": "Roboto",
                                 "labelFontSize": 15,
                                 "titleFont": "Roboto",
@@ -77,7 +77,7 @@
                             }
                         },
                         "y": {
-                            "field": "cases_new",
+                            "field": "cases_percentage",
                             "type": "quantitative",
                             "axis": null
                         }
@@ -110,8 +110,13 @@
                                 "timeUnit": "monthdate"
                             },
                             {
+                                "field": "cases_percentage",
+                                "format": ".2f",
+                                "title": "Total Cases per 1K Pop"
+                            },
+                            {
                                 "field": "cases_new",
-                                "title": "Total Cases"
+                                "title": "Raw Number of Cases"
                             }
                         ]
                     },
@@ -192,7 +197,7 @@
             }
         },
         {
-            "width": 875,
+            "width": 918,
             "height": 60,
             "layer": [
                 {

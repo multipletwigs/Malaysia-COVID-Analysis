@@ -1,50 +1,272 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Stock prices of four large companies as a small multiples of area charts.",
-    "data": {"url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/msia_monthly_cases.csv"},
-    "layer":[
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/Vaccination%20Statistics/vaccination/vax_malaysia.csv"
+  },
+  "height": 300,
+  "width": 380,
+  "transform": [
+    {
+      "calculate": "timeParse(datum['date'], '%d/%m/%Y')",
+      "as": "date"
+    },
+    {
+      "calculate": "(datum.cumul_partial / 32657400) * 100",
+      "as": "partial_percentage"
+    },
+    {
+      "calculate": "(datum.cumul_full / 32657400) * 100",
+      "as": "full_percentage"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "size": 2,
+        "tooltip": true,
+        "color": "#aabfea"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "daily",
+          "type": "quantitative",
+          "axis": {
+            "title": "daily vaccines administered",
+            "labelFont": "Roboto",
+            "labelFontSize": 15,
+            "titleFont": "Roboto",
+            "titleFontSize": 15
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "size": 2,
+        "tooltip": true,
+        "color": "gray"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "full_percentage",
+          "type": "quantitative",
+          "axis": {
+            "title": "percentage (%)",
+            "labelFont": "Roboto",
+            "labelFontSize": 15,
+            "titleFont": "Roboto",
+            "titleFontSize": 15
+          },
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          }
+        },
+        "tooltip": null
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "size": 2,
+        "strokeDash": [
+          8,
+          8
+        ],
+        "color": "gray"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "partial_percentage",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          }
+        }
+      }
+    },
+    {
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "daily",
+          "type": "quantitative",
+          "axis": null
+        }
+      },
+      "layer": [
         {
-            "mark": {
-              "type": "bar",
-              "size": 500,
-              "tooltip": true
-            },
-            "encoding": {
-              "x": {
-                "field": "column ",
-                "type": "quantitative",
-                "axis": null
-              },
-              "y": {
-                "field": "row ",
-                "type": "quantitative",
-                "axis": null
-              },
-              "color": {
-                "field": "Type",
-                "type": "nominal",
-                "scale": {
-                  "type": "ordinal",
-                  "domain": [
-                    "Full",
-                    "Partial",
-                    "Non-vax"
-                  ],
-                  "range": [
-                    "#aabfea",
-                    "#98e2ed",
-                    "grey"
-                  ]
-                },
-                "legend":{
-                  "labelFont": "Roboto",
-                  "labelFontSize": 15,
-                  "titleFont":"Roboto",
-                  "titleFontSize": 15,
-                  "title": "Vaccination Status"
-                }
+          "params": [
+            {
+              "name": "label",
+              "select": {
+                "type": "point",
+                "encodings": [
+                  "x"
+                ],
+                "nearest": true,
+                "on": "mouseover"
               }
             }
+          ],
+          "mark": {
+            "type": "point"
+          },
+          "encoding": {
+            "opacity": {
+              "condition": {
+                "param": "label",
+                "empty": false,
+                "value": 1
+              },
+              "value": 0
+            }
           }
-    ]
+        }
+      ]
+    },
+    {
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "partial_percentage",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          }
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "point"
+          },
+          "encoding": {
+            "opacity": {
+              "condition": {
+                "param": "label",
+                "empty": false,
+                "value": 1
+              },
+              "value": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "full_percentage",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          }
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "point"
+          },
+          "encoding": {
+            "opacity": {
+              "condition": {
+                "param": "label",
+                "empty": false,
+                "value": 1
+              },
+              "value": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "transform": [
+      {
+          "filter": {
+              "param": "label",
+              "empty": false
+          }
+      }],
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "tooltip": [
+          {"field": "full_percentage","type": "quantitative","title": "Fully Vaccinated (%)","format":".2f"},
+          {"field": "date","type": "temporal", "format": "%d-%b"},
+          {"field": "partial_percentage","type": "quantitative", "title":"Partially Vaccinated (%)","format":".2f"},
+          {"field": "daily","type": "quantitative", "title":"Administered Vaccines"}
+        ]
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "rule",
+            "strokeDash": [
+              7,
+              7
+          ],
+          "strokeWidth": 2
+          },
+          "encoding": {
+            "opacity": {
+              "condition": {
+                "param": "label",
+                "empty": false,
+                "value": 1
+              },
+              "value": 0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  }
 }

@@ -50,6 +50,12 @@
         "tooltip":[
           {"field": "Type"}
         ]
+      },
+      "title":{
+        "text": "Vaccination Progress as per October 2021",
+        "dx": 18,
+        "fontSize": 15,
+        "orient":"bottom"
       }
     }
   ],
