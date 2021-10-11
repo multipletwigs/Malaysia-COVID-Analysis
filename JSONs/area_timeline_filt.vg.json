@@ -59,7 +59,7 @@
                     "mark": {
                         "type": "line",
                         "color": "#3699ff",
-                        "size": 3,
+                        "size": 1,
                         "interpolate": "natural"
                     },
                     "encoding": {
