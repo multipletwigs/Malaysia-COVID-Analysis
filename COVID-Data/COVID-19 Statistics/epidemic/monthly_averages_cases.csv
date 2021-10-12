@@ -1,0 +1,3505 @@
+date,state,cases_new
+2021-01-03,Johor,490
+2021-01-03,Kedah,16
+2021-01-03,Kelantan,36
+2021-01-03,Melaka,8
+2021-01-03,Negeri Sembilan,167
+2021-01-03,Pahang,8
+2021-01-03,Perak,144
+2021-01-03,Perlis,1
+2021-01-03,Pulau Pinang,85
+2021-01-03,Sabah,104
+2021-01-03,Sarawak,220
+2021-01-03,Selangor,453
+2021-01-03,Terengganu,15
+2021-01-03,W.P. Kuala Lumpur,75
+2021-01-03,W.P. Labuan,0
+2021-01-03,W.P. Putrajaya,6
+2021-01-04,Johor,165
+2021-01-04,Kedah,32
+2021-01-04,Kelantan,27
+2021-01-04,Melaka,9
+2021-01-04,Negeri Sembilan,34
+2021-01-04,Pahang,14
+2021-01-04,Perak,31
+2021-01-04,Perlis,0
+2021-01-04,Pulau Pinang,190
+2021-01-04,Sabah,86
+2021-01-04,Sarawak,238
+2021-01-04,Selangor,237
+2021-01-04,Terengganu,6
+2021-01-04,W.P. Kuala Lumpur,101
+2021-01-04,W.P. Labuan,7
+2021-01-04,W.P. Putrajaya,1
+2021-01-05,Johor,310
+2021-01-05,Kedah,111
+2021-01-05,Kelantan,442
+2021-01-05,Melaka,54
+2021-01-05,Negeri Sembilan,89
+2021-01-05,Pahang,47
+2021-01-05,Perak,64
+2021-01-05,Perlis,0
+2021-01-05,Pulau Pinang,133
+2021-01-05,Sabah,64
+2021-01-05,Sarawak,445
+2021-01-05,Selangor,759
+2021-01-05,Terengganu,42
+2021-01-05,W.P. Kuala Lumpur,315
+2021-01-05,W.P. Labuan,3
+2021-01-05,W.P. Putrajaya,3
+2021-01-06,Johor,431
+2021-01-06,Kedah,236
+2021-01-06,Kelantan,531
+2021-01-06,Melaka,249
+2021-01-06,Negeri Sembilan,397
+2021-01-06,Pahang,190
+2021-01-06,Perak,387
+2021-01-06,Perlis,0
+2021-01-06,Pulau Pinang,400
+2021-01-06,Sabah,318
+2021-01-06,Sarawak,703
+2021-01-06,Selangor,2068
+2021-01-06,Terengganu,198
+2021-01-06,W.P. Kuala Lumpur,817
+2021-01-06,W.P. Labuan,162
+2021-01-06,W.P. Putrajaya,18
+2021-01-07,Johor,270
+2021-01-07,Kedah,250
+2021-01-07,Kelantan,108
+2021-01-07,Melaka,311
+2021-01-07,Negeri Sembilan,692
+2021-01-07,Pahang,195
+2021-01-07,Perak,149
+2021-01-07,Perlis,1
+2021-01-07,Pulau Pinang,174
+2021-01-07,Sabah,232
+2021-01-07,Sarawak,544
+2021-01-07,Selangor,2885
+2021-01-07,Terengganu,50
+2021-01-07,W.P. Kuala Lumpur,988
+2021-01-07,W.P. Labuan,129
+2021-01-07,W.P. Putrajaya,10
+2021-01-08,Johor,1045
+2021-01-08,Kedah,1511
+2021-01-08,Kelantan,459
+2021-01-08,Melaka,686
+2021-01-08,Negeri Sembilan,809
+2021-01-08,Pahang,676
+2021-01-08,Perak,693
+2021-01-08,Perlis,21
+2021-01-08,Pulau Pinang,752
+2021-01-08,Sabah,1002
+2021-01-08,Sarawak,578
+2021-01-08,Selangor,6326
+2021-01-08,Terengganu,429
+2021-01-08,W.P. Kuala Lumpur,2086
+2021-01-08,W.P. Labuan,5
+2021-01-08,W.P. Putrajaya,72
+2021-01-09,Johor,1993
+2021-01-09,Kedah,1585
+2021-01-09,Kelantan,1504
+2021-01-09,Melaka,309
+2021-01-09,Negeri Sembilan,291
+2021-01-09,Pahang,715
+2021-01-09,Perak,899
+2021-01-09,Perlis,33
+2021-01-09,Pulau Pinang,1762
+2021-01-09,Sabah,2430
+2021-01-09,Sarawak,2414
+2021-01-09,Selangor,3711
+2021-01-09,Terengganu,506
+2021-01-09,W.P. Kuala Lumpur,573
+2021-01-09,W.P. Labuan,3
+2021-01-09,W.P. Putrajaya,34
+2021-02-03,Johor,163
+2021-02-03,Kedah,11
+2021-02-03,Kelantan,46
+2021-02-03,Melaka,11
+2021-02-03,Negeri Sembilan,115
+2021-02-03,Pahang,3
+2021-02-03,Perak,63
+2021-02-03,Perlis,0
+2021-02-03,Pulau Pinang,106
+2021-02-03,Sabah,53
+2021-02-03,Sarawak,159
+2021-02-03,Selangor,672
+2021-02-03,Terengganu,7
+2021-02-03,W.P. Kuala Lumpur,145
+2021-02-03,W.P. Labuan,0
+2021-02-03,W.P. Putrajaya,1
+2021-02-04,Johor,103
+2021-02-04,Kedah,21
+2021-02-04,Kelantan,66
+2021-02-04,Melaka,22
+2021-02-04,Negeri Sembilan,31
+2021-02-04,Pahang,57
+2021-02-04,Perak,14
+2021-02-04,Perlis,1
+2021-02-04,Pulau Pinang,139
+2021-02-04,Sabah,63
+2021-02-04,Sarawak,217
+2021-02-04,Selangor,455
+2021-02-04,Terengganu,8
+2021-02-04,W.P. Kuala Lumpur,88
+2021-02-04,W.P. Labuan,4
+2021-02-04,W.P. Putrajaya,5
+2021-02-05,Johor,213
+2021-02-05,Kedah,101
+2021-02-05,Kelantan,400
+2021-02-05,Melaka,61
+2021-02-05,Negeri Sembilan,73
+2021-02-05,Pahang,45
+2021-02-05,Perak,77
+2021-02-05,Perlis,4
+2021-02-05,Pulau Pinang,145
+2021-02-05,Sabah,115
+2021-02-05,Sarawak,587
+2021-02-05,Selangor,1200
+2021-02-05,Terengganu,184
+2021-02-05,W.P. Kuala Lumpur,198
+2021-02-05,W.P. Labuan,7
+2021-02-05,W.P. Putrajaya,8
+2021-02-06,Johor,554
+2021-02-06,Kedah,283
+2021-02-06,Kelantan,541
+2021-02-06,Melaka,209
+2021-02-06,Negeri Sembilan,586
+2021-02-06,Pahang,237
+2021-02-06,Perak,224
+2021-02-06,Perlis,7
+2021-02-06,Pulau Pinang,407
+2021-02-06,Sabah,254
+2021-02-06,Sarawak,588
+2021-02-06,Selangor,2728
+2021-02-06,Terengganu,224
+2021-02-06,W.P. Kuala Lumpur,701
+2021-02-06,W.P. Labuan,159
+2021-02-06,W.P. Putrajaya,1
+2021-02-07,Johor,517
+2021-02-07,Kedah,257
+2021-02-07,Kelantan,129
+2021-02-07,Melaka,202
+2021-02-07,Negeri Sembilan,606
+2021-02-07,Pahang,329
+2021-02-07,Perak,182
+2021-02-07,Perlis,0
+2021-02-07,Pulau Pinang,351
+2021-02-07,Sabah,230
+2021-02-07,Sarawak,440
+2021-02-07,Selangor,2907
+2021-02-07,Terengganu,44
+2021-02-07,W.P. Kuala Lumpur,637
+2021-02-07,W.P. Labuan,131
+2021-02-07,W.P. Putrajaya,20
+2021-02-08,Johor,1222
+2021-02-08,Kedah,1108
+2021-02-08,Kelantan,552
+2021-02-08,Melaka,463
+2021-02-08,Negeri Sembilan,862
+2021-02-08,Pahang,475
+2021-02-08,Perak,748
+2021-02-08,Perlis,9
+2021-02-08,Pulau Pinang,667
+2021-02-08,Sabah,1166
+2021-02-08,Sarawak,411
+2021-02-08,Selangor,6067
+2021-02-08,Terengganu,425
+2021-02-08,W.P. Kuala Lumpur,1536
+2021-02-08,W.P. Labuan,7
+2021-02-08,W.P. Putrajaya,46
+2021-02-09,Johor,2145
+2021-02-09,Kedah,2455
+2021-02-09,Kelantan,1247
+2021-02-09,Melaka,407
+2021-02-09,Negeri Sembilan,301
+2021-02-09,Pahang,599
+2021-02-09,Perak,990
+2021-02-09,Perlis,90
+2021-02-09,Pulau Pinang,1600
+2021-02-09,Sabah,2329
+2021-02-09,Sarawak,2992
+2021-02-09,Selangor,4073
+2021-02-09,Terengganu,987
+2021-02-09,W.P. Kuala Lumpur,731
+2021-02-09,W.P. Labuan,5
+2021-02-09,W.P. Putrajaya,37
+2021-02-24,Johor,318
+2021-02-24,Kedah,17
+2021-02-24,Kelantan,53
+2021-02-24,Melaka,26
+2021-02-24,Negeri Sembilan,1392
+2021-02-24,Pahang,8
+2021-02-24,Perak,188
+2021-02-24,Perlis,0
+2021-02-24,Pulau Pinang,95
+2021-02-24,Sabah,105
+2021-02-24,Sarawak,353
+2021-02-24,Selangor,581
+2021-02-24,Terengganu,22
+2021-02-24,W.P. Kuala Lumpur,381
+2021-02-24,W.P. Labuan,5
+2021-02-24,W.P. Putrajaya,1
+2021-02-25,Johor,257
+2021-02-25,Kedah,29
+2021-02-25,Kelantan,44
+2021-02-25,Melaka,22
+2021-02-25,Negeri Sembilan,62
+2021-02-25,Pahang,19
+2021-02-25,Perak,120
+2021-02-25,Perlis,1
+2021-02-25,Pulau Pinang,162
+2021-02-25,Sabah,93
+2021-02-25,Sarawak,219
+2021-02-25,Selangor,666
+2021-02-25,Terengganu,6
+2021-02-25,W.P. Kuala Lumpur,218
+2021-02-25,W.P. Labuan,4
+2021-02-25,W.P. Putrajaya,2
+2021-02-26,Johor,276
+2021-02-26,Kedah,25
+2021-02-26,Kelantan,73
+2021-02-26,Melaka,13
+2021-02-26,Negeri Sembilan,68
+2021-02-26,Pahang,21
+2021-02-26,Perak,545
+2021-02-26,Perlis,4
+2021-02-26,Pulau Pinang,93
+2021-02-26,Sabah,129
+2021-02-26,Sarawak,250
+2021-02-26,Selangor,633
+2021-02-26,Terengganu,1
+2021-02-26,W.P. Kuala Lumpur,122
+2021-02-26,W.P. Labuan,0
+2021-02-26,W.P. Putrajaya,0
+2021-02-27,Johor,314
+2021-02-27,Kedah,17
+2021-02-27,Kelantan,68
+2021-02-27,Melaka,17
+2021-02-27,Negeri Sembilan,74
+2021-02-27,Pahang,8
+2021-02-27,Perak,305
+2021-02-27,Perlis,0
+2021-02-27,Pulau Pinang,155
+2021-02-27,Sabah,157
+2021-02-27,Sarawak,255
+2021-02-27,Selangor,862
+2021-02-27,Terengganu,11
+2021-02-27,W.P. Kuala Lumpur,117
+2021-02-27,W.P. Labuan,0
+2021-02-27,W.P. Putrajaya,4
+2021-02-28,Johor,340
+2021-02-28,Kedah,13
+2021-02-28,Kelantan,33
+2021-02-28,Melaka,10
+2021-02-28,Negeri Sembilan,65
+2021-02-28,Pahang,11
+2021-02-28,Perak,287
+2021-02-28,Perlis,0
+2021-02-28,Pulau Pinang,105
+2021-02-28,Sabah,134
+2021-02-28,Sarawak,171
+2021-02-28,Selangor,914
+2021-02-28,Terengganu,12
+2021-02-28,W.P. Kuala Lumpur,337
+2021-02-28,W.P. Labuan,2
+2021-02-28,W.P. Putrajaya,3
+2021-03-03,Johor,376
+2021-03-03,Kedah,40
+2021-03-03,Kelantan,33
+2021-03-03,Melaka,36
+2021-03-03,Negeri Sembilan,24
+2021-03-03,Pahang,36
+2021-03-03,Perak,136
+2021-03-03,Perlis,0
+2021-03-03,Pulau Pinang,90
+2021-03-03,Sabah,95
+2021-03-03,Sarawak,139
+2021-03-03,Selangor,640
+2021-03-03,Terengganu,5
+2021-03-03,W.P. Kuala Lumpur,92
+2021-03-03,W.P. Labuan,0
+2021-03-03,W.P. Putrajaya,3
+2021-03-04,Johor,83
+2021-03-04,Kedah,20
+2021-03-04,Kelantan,64
+2021-03-04,Melaka,20
+2021-03-04,Negeri Sembilan,25
+2021-03-04,Pahang,35
+2021-03-04,Perak,494
+2021-03-04,Perlis,0
+2021-03-04,Pulau Pinang,92
+2021-03-04,Sabah,73
+2021-03-04,Sarawak,290
+2021-03-04,Selangor,352
+2021-03-04,Terengganu,4
+2021-03-04,W.P. Kuala Lumpur,67
+2021-03-04,W.P. Labuan,12
+2021-03-04,W.P. Putrajaya,7
+2021-03-05,Johor,205
+2021-03-05,Kedah,103
+2021-03-05,Kelantan,401
+2021-03-05,Melaka,95
+2021-03-05,Negeri Sembilan,97
+2021-03-05,Pahang,55
+2021-03-05,Perak,59
+2021-03-05,Perlis,0
+2021-03-05,Pulau Pinang,194
+2021-03-05,Sabah,57
+2021-03-05,Sarawak,356
+2021-03-05,Selangor,637
+2021-03-05,Terengganu,38
+2021-03-05,W.P. Kuala Lumpur,200
+2021-03-05,W.P. Labuan,0
+2021-03-05,W.P. Putrajaya,3
+2021-03-06,Johor,752
+2021-03-06,Kedah,373
+2021-03-06,Kelantan,414
+2021-03-06,Melaka,322
+2021-03-06,Negeri Sembilan,576
+2021-03-06,Pahang,135
+2021-03-06,Perak,384
+2021-03-06,Perlis,5
+2021-03-06,Pulau Pinang,303
+2021-03-06,Sabah,203
+2021-03-06,Sarawak,594
+2021-03-06,Selangor,3125
+2021-03-06,Terengganu,127
+2021-03-06,W.P. Kuala Lumpur,801
+2021-03-06,W.P. Labuan,62
+2021-03-06,W.P. Putrajaya,33
+2021-03-07,Johor,414
+2021-03-07,Kedah,145
+2021-03-07,Kelantan,89
+2021-03-07,Melaka,345
+2021-03-07,Negeri Sembilan,699
+2021-03-07,Pahang,200
+2021-03-07,Perak,101
+2021-03-07,Perlis,2
+2021-03-07,Pulau Pinang,142
+2021-03-07,Sabah,322
+2021-03-07,Sarawak,361
+2021-03-07,Selangor,3047
+2021-03-07,Terengganu,51
+2021-03-07,W.P. Kuala Lumpur,616
+2021-03-07,W.P. Labuan,108
+2021-03-07,W.P. Putrajaya,16
+2021-03-08,Johor,1275
+2021-03-08,Kedah,1036
+2021-03-08,Kelantan,915
+2021-03-08,Melaka,508
+2021-03-08,Negeri Sembilan,816
+2021-03-08,Pahang,628
+2021-03-08,Perak,967
+2021-03-08,Perlis,7
+2021-03-08,Pulau Pinang,798
+2021-03-08,Sabah,1010
+2021-03-08,Sarawak,494
+2021-03-08,Selangor,5836
+2021-03-08,Terengganu,429
+2021-03-08,W.P. Kuala Lumpur,2309
+2021-03-08,W.P. Labuan,5
+2021-03-08,W.P. Putrajaya,72
+2021-03-09,Johor,2331
+2021-03-09,Kedah,1470
+2021-03-09,Kelantan,1356
+2021-03-09,Melaka,399
+2021-03-09,Negeri Sembilan,270
+2021-03-09,Pahang,559
+2021-03-09,Perak,1389
+2021-03-09,Perlis,80
+2021-03-09,Pulau Pinang,1726
+2021-03-09,Sabah,2404
+2021-03-09,Sarawak,2464
+2021-03-09,Selangor,3613
+2021-03-09,Terengganu,532
+2021-03-09,W.P. Kuala Lumpur,740
+2021-03-09,W.P. Labuan,4
+2021-03-09,W.P. Putrajaya,41
+2021-03-13,Johor,101
+2021-03-13,Kedah,13
+2021-03-13,Kelantan,40
+2021-03-13,Melaka,2
+2021-03-13,Negeri Sembilan,6
+2021-03-13,Pahang,8
+2021-03-13,Perak,72
+2021-03-13,Perlis,29
+2021-03-13,Pulau Pinang,178
+2021-03-13,Sabah,71
+2021-03-13,Sarawak,222
+2021-03-13,Selangor,551
+2021-03-13,Terengganu,14
+2021-03-13,W.P. Kuala Lumpur,158
+2021-03-13,W.P. Labuan,1
+2021-03-13,W.P. Putrajaya,4
+2021-03-14,Johor,121
+2021-03-14,Kedah,33
+2021-03-14,Kelantan,26
+2021-03-14,Melaka,4
+2021-03-14,Negeri Sembilan,21
+2021-03-14,Pahang,5
+2021-03-14,Perak,101
+2021-03-14,Perlis,0
+2021-03-14,Pulau Pinang,154
+2021-03-14,Sabah,39
+2021-03-14,Sarawak,178
+2021-03-14,Selangor,577
+2021-03-14,Terengganu,37
+2021-03-14,W.P. Kuala Lumpur,55
+2021-03-14,W.P. Labuan,1
+2021-03-14,W.P. Putrajaya,2
+2021-03-15,Johor,118
+2021-03-15,Kedah,27
+2021-03-15,Kelantan,25
+2021-03-15,Melaka,2
+2021-03-15,Negeri Sembilan,80
+2021-03-15,Pahang,17
+2021-03-15,Perak,37
+2021-03-15,Perlis,0
+2021-03-15,Pulau Pinang,142
+2021-03-15,Sabah,29
+2021-03-15,Sarawak,251
+2021-03-15,Selangor,379
+2021-03-15,Terengganu,39
+2021-03-15,W.P. Kuala Lumpur,61
+2021-03-15,W.P. Labuan,0
+2021-03-15,W.P. Putrajaya,1
+2021-03-16,Johor,91
+2021-03-16,Kedah,32
+2021-03-16,Kelantan,67
+2021-03-16,Melaka,1
+2021-03-16,Negeri Sembilan,17
+2021-03-16,Pahang,2
+2021-03-16,Perak,24
+2021-03-16,Perlis,0
+2021-03-16,Pulau Pinang,175
+2021-03-16,Sabah,38
+2021-03-16,Sarawak,183
+2021-03-16,Selangor,323
+2021-03-16,Terengganu,23
+2021-03-16,W.P. Kuala Lumpur,86
+2021-03-16,W.P. Labuan,1
+2021-03-16,W.P. Putrajaya,0
+2021-03-17,Johor,169
+2021-03-17,Kedah,26
+2021-03-17,Kelantan,19
+2021-03-17,Melaka,20
+2021-03-17,Negeri Sembilan,46
+2021-03-17,Pahang,3
+2021-03-17,Perak,36
+2021-03-17,Perlis,1
+2021-03-17,Pulau Pinang,69
+2021-03-17,Sabah,31
+2021-03-17,Sarawak,225
+2021-03-17,Selangor,499
+2021-03-17,Terengganu,15
+2021-03-17,W.P. Kuala Lumpur,54
+2021-03-17,W.P. Labuan,1
+2021-03-17,W.P. Putrajaya,5
+2021-03-18,Johor,142
+2021-03-18,Kedah,38
+2021-03-18,Kelantan,20
+2021-03-18,Melaka,8
+2021-03-18,Negeri Sembilan,23
+2021-03-18,Pahang,14
+2021-03-18,Perak,39
+2021-03-18,Perlis,0
+2021-03-18,Pulau Pinang,104
+2021-03-18,Sabah,73
+2021-03-18,Sarawak,303
+2021-03-18,Selangor,353
+2021-03-18,Terengganu,15
+2021-03-18,W.P. Kuala Lumpur,79
+2021-03-18,W.P. Labuan,2
+2021-03-18,W.P. Putrajaya,0
+2021-03-19,Johor,137
+2021-03-19,Kedah,25
+2021-03-19,Kelantan,52
+2021-03-19,Melaka,54
+2021-03-19,Negeri Sembilan,41
+2021-03-19,Pahang,13
+2021-03-19,Perak,100
+2021-03-19,Perlis,0
+2021-03-19,Pulau Pinang,182
+2021-03-19,Sabah,33
+2021-03-19,Sarawak,407
+2021-03-19,Selangor,348
+2021-03-19,Terengganu,6
+2021-03-19,W.P. Kuala Lumpur,175
+2021-03-19,W.P. Labuan,2
+2021-03-19,W.P. Putrajaya,1
+2021-03-20,Johor,130
+2021-03-20,Kedah,46
+2021-03-20,Kelantan,63
+2021-03-20,Melaka,18
+2021-03-20,Negeri Sembilan,25
+2021-03-20,Pahang,3
+2021-03-20,Perak,37
+2021-03-20,Perlis,0
+2021-03-20,Pulau Pinang,328
+2021-03-20,Sabah,102
+2021-03-20,Sarawak,154
+2021-03-20,Selangor,652
+2021-03-20,Terengganu,32
+2021-03-20,W.P. Kuala Lumpur,78
+2021-03-20,W.P. Labuan,3
+2021-03-20,W.P. Putrajaya,0
+2021-03-21,Johor,141
+2021-03-21,Kedah,30
+2021-03-21,Kelantan,30
+2021-03-21,Melaka,10
+2021-03-21,Negeri Sembilan,22
+2021-03-21,Pahang,11
+2021-03-21,Perak,55
+2021-03-21,Perlis,5
+2021-03-21,Pulau Pinang,205
+2021-03-21,Sabah,50
+2021-03-21,Sarawak,276
+2021-03-21,Selangor,356
+2021-03-21,Terengganu,18
+2021-03-21,W.P. Kuala Lumpur,115
+2021-03-21,W.P. Labuan,0
+2021-03-21,W.P. Putrajaya,3
+2021-03-22,Johor,86
+2021-03-22,Kedah,27
+2021-03-22,Kelantan,44
+2021-03-22,Melaka,12
+2021-03-22,Negeri Sembilan,41
+2021-03-22,Pahang,42
+2021-03-22,Perak,39
+2021-03-22,Perlis,0
+2021-03-22,Pulau Pinang,88
+2021-03-22,Sabah,36
+2021-03-22,Sarawak,124
+2021-03-22,Selangor,403
+2021-03-22,Terengganu,3
+2021-03-22,W.P. Kuala Lumpur,158
+2021-03-22,W.P. Labuan,8
+2021-03-22,W.P. Putrajaya,5
+2021-03-23,Johor,161
+2021-03-23,Kedah,51
+2021-03-23,Kelantan,65
+2021-03-23,Melaka,45
+2021-03-23,Negeri Sembilan,10
+2021-03-23,Pahang,38
+2021-03-23,Perak,4
+2021-03-23,Perlis,0
+2021-03-23,Pulau Pinang,100
+2021-03-23,Sabah,60
+2021-03-23,Sarawak,140
+2021-03-23,Selangor,625
+2021-03-23,Terengganu,7
+2021-03-23,W.P. Kuala Lumpur,64
+2021-03-23,W.P. Labuan,14
+2021-03-23,W.P. Putrajaya,0
+2021-03-24,Johor,135
+2021-03-24,Kedah,49
+2021-03-24,Kelantan,49
+2021-03-24,Melaka,52
+2021-03-24,Negeri Sembilan,59
+2021-03-24,Pahang,43
+2021-03-24,Perak,42
+2021-03-24,Perlis,0
+2021-03-24,Pulau Pinang,99
+2021-03-24,Sabah,45
+2021-03-24,Sarawak,141
+2021-03-24,Selangor,490
+2021-03-24,Terengganu,4
+2021-03-24,W.P. Kuala Lumpur,53
+2021-03-24,W.P. Labuan,1
+2021-03-24,W.P. Putrajaya,6
+2021-03-25,Johor,129
+2021-03-25,Kedah,44
+2021-03-25,Kelantan,63
+2021-03-25,Melaka,32
+2021-03-25,Negeri Sembilan,49
+2021-03-25,Pahang,10
+2021-03-25,Perak,71
+2021-03-25,Perlis,0
+2021-03-25,Pulau Pinang,113
+2021-03-25,Sabah,70
+2021-03-25,Sarawak,308
+2021-03-25,Selangor,356
+2021-03-25,Terengganu,6
+2021-03-25,W.P. Kuala Lumpur,98
+2021-03-25,W.P. Labuan,3
+2021-03-25,W.P. Putrajaya,8
+2021-03-26,Johor,120
+2021-03-26,Kedah,27
+2021-03-26,Kelantan,86
+2021-03-26,Melaka,19
+2021-03-26,Negeri Sembilan,12
+2021-03-26,Pahang,6
+2021-03-26,Perak,28
+2021-03-26,Perlis,2
+2021-03-26,Pulau Pinang,137
+2021-03-26,Sabah,51
+2021-03-26,Sarawak,213
+2021-03-26,Selangor,478
+2021-03-26,Terengganu,3
+2021-03-26,W.P. Kuala Lumpur,86
+2021-03-26,W.P. Labuan,5
+2021-03-26,W.P. Putrajaya,2
+2021-03-27,Johor,81
+2021-03-27,Kedah,33
+2021-03-27,Kelantan,138
+2021-03-27,Melaka,36
+2021-03-27,Negeri Sembilan,43
+2021-03-27,Pahang,30
+2021-03-27,Perak,9
+2021-03-27,Perlis,0
+2021-03-27,Pulau Pinang,125
+2021-03-27,Sabah,64
+2021-03-27,Sarawak,267
+2021-03-27,Selangor,283
+2021-03-27,Terengganu,3
+2021-03-27,W.P. Kuala Lumpur,84
+2021-03-27,W.P. Labuan,2
+2021-03-27,W.P. Putrajaya,1
+2021-03-28,Johor,176
+2021-03-28,Kedah,23
+2021-03-28,Kelantan,34
+2021-03-28,Melaka,5
+2021-03-28,Negeri Sembilan,9
+2021-03-28,Pahang,32
+2021-03-28,Perak,23
+2021-03-28,Perlis,0
+2021-03-28,Pulau Pinang,212
+2021-03-28,Sabah,38
+2021-03-28,Sarawak,426
+2021-03-28,Selangor,256
+2021-03-28,Terengganu,2
+2021-03-28,W.P. Kuala Lumpur,58
+2021-03-28,W.P. Labuan,6
+2021-03-28,W.P. Putrajaya,2
+2021-03-29,Johor,171
+2021-03-29,Kedah,13
+2021-03-29,Kelantan,49
+2021-03-29,Melaka,8
+2021-03-29,Negeri Sembilan,18
+2021-03-29,Pahang,5
+2021-03-29,Perak,5
+2021-03-29,Perlis,0
+2021-03-29,Pulau Pinang,164
+2021-03-29,Sabah,34
+2021-03-29,Sarawak,192
+2021-03-29,Selangor,219
+2021-03-29,Terengganu,4
+2021-03-29,W.P. Kuala Lumpur,57
+2021-03-29,W.P. Labuan,1
+2021-03-29,W.P. Putrajaya,1
+2021-03-30,Johor,96
+2021-03-30,Kedah,41
+2021-03-30,Kelantan,44
+2021-03-30,Melaka,6
+2021-03-30,Negeri Sembilan,39
+2021-03-30,Pahang,16
+2021-03-30,Perak,44
+2021-03-30,Perlis,1
+2021-03-30,Pulau Pinang,194
+2021-03-30,Sabah,41
+2021-03-30,Sarawak,153
+2021-03-30,Selangor,401
+2021-03-30,Terengganu,2
+2021-03-30,W.P. Kuala Lumpur,53
+2021-03-30,W.P. Labuan,1
+2021-03-30,W.P. Putrajaya,1
+2021-03-31,Johor,86
+2021-03-31,Kedah,37
+2021-03-31,Kelantan,57
+2021-03-31,Melaka,41
+2021-03-31,Negeri Sembilan,32
+2021-03-31,Pahang,36
+2021-03-31,Perak,31
+2021-03-31,Perlis,1
+2021-03-31,Pulau Pinang,200
+2021-03-31,Sabah,69
+2021-03-31,Sarawak,176
+2021-03-31,Selangor,661
+2021-03-31,Terengganu,2
+2021-03-31,W.P. Kuala Lumpur,42
+2021-03-31,W.P. Labuan,8
+2021-03-31,W.P. Putrajaya,3
+2021-04-03,Johor,255
+2021-04-03,Kedah,12
+2021-04-03,Kelantan,44
+2021-04-03,Melaka,3
+2021-04-03,Negeri Sembilan,91
+2021-04-03,Pahang,13
+2021-04-03,Perak,101
+2021-04-03,Perlis,1
+2021-04-03,Pulau Pinang,337
+2021-04-03,Sabah,78
+2021-04-03,Sarawak,361
+2021-04-03,Selangor,630
+2021-04-03,Terengganu,10
+2021-04-03,W.P. Kuala Lumpur,120
+2021-04-03,W.P. Labuan,0
+2021-04-03,W.P. Putrajaya,7
+2021-04-04,Johor,95
+2021-04-04,Kedah,32
+2021-04-04,Kelantan,18
+2021-04-04,Melaka,15
+2021-04-04,Negeri Sembilan,20
+2021-04-04,Pahang,11
+2021-04-04,Perak,24
+2021-04-04,Perlis,1
+2021-04-04,Pulau Pinang,185
+2021-04-04,Sabah,68
+2021-04-04,Sarawak,419
+2021-04-04,Selangor,343
+2021-04-04,Terengganu,6
+2021-04-04,W.P. Kuala Lumpur,73
+2021-04-04,W.P. Labuan,22
+2021-04-04,W.P. Putrajaya,17
+2021-04-05,Johor,336
+2021-04-05,Kedah,155
+2021-04-05,Kelantan,296
+2021-04-05,Melaka,52
+2021-04-05,Negeri Sembilan,95
+2021-04-05,Pahang,41
+2021-04-05,Perak,117
+2021-04-05,Perlis,0
+2021-04-05,Pulau Pinang,167
+2021-04-05,Sabah,89
+2021-04-05,Sarawak,620
+2021-04-05,Selangor,675
+2021-04-05,Terengganu,53
+2021-04-05,W.P. Kuala Lumpur,408
+2021-04-05,W.P. Labuan,5
+2021-04-05,W.P. Putrajaya,11
+2021-04-06,Johor,446
+2021-04-06,Kedah,263
+2021-04-06,Kelantan,286
+2021-04-06,Melaka,234
+2021-04-06,Negeri Sembilan,709
+2021-04-06,Pahang,146
+2021-04-06,Perak,371
+2021-04-06,Perlis,8
+2021-04-06,Pulau Pinang,376
+2021-04-06,Sabah,287
+2021-04-06,Sarawak,706
+2021-04-06,Selangor,2612
+2021-04-06,Terengganu,203
+2021-04-06,W.P. Kuala Lumpur,851
+2021-04-06,W.P. Labuan,230
+2021-04-06,W.P. Putrajaya,20
+2021-04-07,Johor,500
+2021-04-07,Kedah,332
+2021-04-07,Kelantan,124
+2021-04-07,Melaka,290
+2021-04-07,Negeri Sembilan,531
+2021-04-07,Pahang,95
+2021-04-07,Perak,384
+2021-04-07,Perlis,0
+2021-04-07,Pulau Pinang,173
+2021-04-07,Sabah,228
+2021-04-07,Sarawak,365
+2021-04-07,Selangor,2262
+2021-04-07,Terengganu,54
+2021-04-07,W.P. Kuala Lumpur,616
+2021-04-07,W.P. Labuan,75
+2021-04-07,W.P. Putrajaya,16
+2021-04-08,Johor,1162
+2021-04-08,Kedah,1371
+2021-04-08,Kelantan,1003
+2021-04-08,Melaka,508
+2021-04-08,Negeri Sembilan,800
+2021-04-08,Pahang,558
+2021-04-08,Perak,662
+2021-04-08,Perlis,11
+2021-04-08,Pulau Pinang,867
+2021-04-08,Sabah,949
+2021-04-08,Sarawak,552
+2021-04-08,Selangor,8377
+2021-04-08,Terengganu,481
+2021-04-08,W.P. Kuala Lumpur,2467
+2021-04-08,W.P. Labuan,5
+2021-04-08,W.P. Putrajaya,46
+2021-04-09,Johor,2077
+2021-04-09,Kedah,1329
+2021-04-09,Kelantan,1434
+2021-04-09,Melaka,338
+2021-04-09,Negeri Sembilan,242
+2021-04-09,Pahang,410
+2021-04-09,Perak,1450
+2021-04-09,Perlis,99
+2021-04-09,Pulau Pinang,1558
+2021-04-09,Sabah,2279
+2021-04-09,Sarawak,2723
+2021-04-09,Selangor,3775
+2021-04-09,Terengganu,605
+2021-04-09,W.P. Kuala Lumpur,711
+2021-04-09,W.P. Labuan,9
+2021-04-09,W.P. Putrajaya,18
+2021-04-13,Johor,74
+2021-04-13,Kedah,39
+2021-04-13,Kelantan,103
+2021-04-13,Melaka,17
+2021-04-13,Negeri Sembilan,29
+2021-04-13,Pahang,14
+2021-04-13,Perak,36
+2021-04-13,Perlis,0
+2021-04-13,Pulau Pinang,92
+2021-04-13,Sabah,117
+2021-04-13,Sarawak,607
+2021-04-13,Selangor,483
+2021-04-13,Terengganu,13
+2021-04-13,W.P. Kuala Lumpur,133
+2021-04-13,W.P. Labuan,3
+2021-04-13,W.P. Putrajaya,7
+2021-04-14,Johor,84
+2021-04-14,Kedah,53
+2021-04-14,Kelantan,226
+2021-04-14,Melaka,6
+2021-04-14,Negeri Sembilan,51
+2021-04-14,Pahang,13
+2021-04-14,Perak,56
+2021-04-14,Perlis,3
+2021-04-14,Pulau Pinang,92
+2021-04-14,Sabah,142
+2021-04-14,Sarawak,489
+2021-04-14,Selangor,517
+2021-04-14,Terengganu,14
+2021-04-14,W.P. Kuala Lumpur,134
+2021-04-14,W.P. Labuan,1
+2021-04-14,W.P. Putrajaya,8
+2021-04-15,Johor,182
+2021-04-15,Kedah,26
+2021-04-15,Kelantan,221
+2021-04-15,Melaka,53
+2021-04-15,Negeri Sembilan,34
+2021-04-15,Pahang,34
+2021-04-15,Perak,51
+2021-04-15,Perlis,1
+2021-04-15,Pulau Pinang,134
+2021-04-15,Sabah,202
+2021-04-15,Sarawak,512
+2021-04-15,Selangor,459
+2021-04-15,Terengganu,57
+2021-04-15,W.P. Kuala Lumpur,171
+2021-04-15,W.P. Labuan,3
+2021-04-15,W.P. Putrajaya,8
+2021-04-16,Johor,121
+2021-04-16,Kedah,35
+2021-04-16,Kelantan,164
+2021-04-16,Melaka,28
+2021-04-16,Negeri Sembilan,53
+2021-04-16,Pahang,47
+2021-04-16,Perak,49
+2021-04-16,Perlis,2
+2021-04-16,Pulau Pinang,91
+2021-04-16,Sabah,143
+2021-04-16,Sarawak,960
+2021-04-16,Selangor,590
+2021-04-16,Terengganu,16
+2021-04-16,W.P. Kuala Lumpur,245
+2021-04-16,W.P. Labuan,1
+2021-04-16,W.P. Putrajaya,6
+2021-04-17,Johor,100
+2021-04-17,Kedah,45
+2021-04-17,Kelantan,225
+2021-04-17,Melaka,9
+2021-04-17,Negeri Sembilan,89
+2021-04-17,Pahang,20
+2021-04-17,Perak,42
+2021-04-17,Perlis,1
+2021-04-17,Pulau Pinang,116
+2021-04-17,Sabah,163
+2021-04-17,Sarawak,512
+2021-04-17,Selangor,751
+2021-04-17,Terengganu,0
+2021-04-17,W.P. Kuala Lumpur,252
+2021-04-17,W.P. Labuan,2
+2021-04-17,W.P. Putrajaya,4
+2021-04-18,Johor,387
+2021-04-18,Kedah,30
+2021-04-18,Kelantan,332
+2021-04-18,Melaka,15
+2021-04-18,Negeri Sembilan,42
+2021-04-18,Pahang,15
+2021-04-18,Perak,35
+2021-04-18,Perlis,3
+2021-04-18,Pulau Pinang,84
+2021-04-18,Sabah,112
+2021-04-18,Sarawak,508
+2021-04-18,Selangor,431
+2021-04-18,Terengganu,16
+2021-04-18,W.P. Kuala Lumpur,176
+2021-04-18,W.P. Labuan,6
+2021-04-18,W.P. Putrajaya,3
+2021-04-19,Johor,115
+2021-04-19,Kedah,48
+2021-04-19,Kelantan,290
+2021-04-19,Melaka,27
+2021-04-19,Negeri Sembilan,91
+2021-04-19,Pahang,32
+2021-04-19,Perak,43
+2021-04-19,Perlis,1
+2021-04-19,Pulau Pinang,91
+2021-04-19,Sabah,125
+2021-04-19,Sarawak,589
+2021-04-19,Selangor,457
+2021-04-19,Terengganu,8
+2021-04-19,W.P. Kuala Lumpur,153
+2021-04-19,W.P. Labuan,6
+2021-04-19,W.P. Putrajaya,2
+2021-04-20,Johor,102
+2021-04-20,Kedah,44
+2021-04-20,Kelantan,429
+2021-04-20,Melaka,19
+2021-04-20,Negeri Sembilan,17
+2021-04-20,Pahang,17
+2021-04-20,Perak,34
+2021-04-20,Perlis,3
+2021-04-20,Pulau Pinang,92
+2021-04-20,Sabah,82
+2021-04-20,Sarawak,600
+2021-04-20,Selangor,539
+2021-04-20,Terengganu,15
+2021-04-20,W.P. Kuala Lumpur,344
+2021-04-20,W.P. Labuan,1
+2021-04-20,W.P. Putrajaya,3
+2021-04-21,Johor,170
+2021-04-21,Kedah,55
+2021-04-21,Kelantan,370
+2021-04-21,Melaka,63
+2021-04-21,Negeri Sembilan,24
+2021-04-21,Pahang,81
+2021-04-21,Perak,38
+2021-04-21,Perlis,1
+2021-04-21,Pulau Pinang,111
+2021-04-21,Sabah,172
+2021-04-21,Sarawak,429
+2021-04-21,Selangor,526
+2021-04-21,Terengganu,1
+2021-04-21,W.P. Kuala Lumpur,291
+2021-04-21,W.P. Labuan,2
+2021-04-21,W.P. Putrajaya,6
+2021-04-22,Johor,169
+2021-04-22,Kedah,91
+2021-04-22,Kelantan,662
+2021-04-22,Melaka,42
+2021-04-22,Negeri Sembilan,55
+2021-04-22,Pahang,29
+2021-04-22,Perak,49
+2021-04-22,Perlis,0
+2021-04-22,Pulau Pinang,144
+2021-04-22,Sabah,160
+2021-04-22,Sarawak,474
+2021-04-22,Selangor,633
+2021-04-22,Terengganu,22
+2021-04-22,W.P. Kuala Lumpur,332
+2021-04-22,W.P. Labuan,3
+2021-04-22,W.P. Putrajaya,10
+2021-04-23,Johor,130
+2021-04-23,Kedah,44
+2021-04-23,Kelantan,476
+2021-04-23,Melaka,42
+2021-04-23,Negeri Sembilan,105
+2021-04-23,Pahang,39
+2021-04-23,Perak,45
+2021-04-23,Perlis,0
+2021-04-23,Pulau Pinang,89
+2021-04-23,Sabah,82
+2021-04-23,Sarawak,717
+2021-04-23,Selangor,748
+2021-04-23,Terengganu,11
+2021-04-23,W.P. Kuala Lumpur,302
+2021-04-23,W.P. Labuan,3
+2021-04-23,W.P. Putrajaya,14
+2021-04-24,Johor,126
+2021-04-24,Kedah,34
+2021-04-24,Kelantan,518
+2021-04-24,Melaka,30
+2021-04-24,Negeri Sembilan,27
+2021-04-24,Pahang,22
+2021-04-24,Perak,54
+2021-04-24,Perlis,1
+2021-04-24,Pulau Pinang,134
+2021-04-24,Sabah,132
+2021-04-24,Sarawak,570
+2021-04-24,Selangor,768
+2021-04-24,Terengganu,50
+2021-04-24,W.P. Kuala Lumpur,240
+2021-04-24,W.P. Labuan,0
+2021-04-24,W.P. Putrajaya,11
+2021-04-25,Johor,159
+2021-04-25,Kedah,76
+2021-04-25,Kelantan,424
+2021-04-25,Melaka,42
+2021-04-25,Negeri Sembilan,57
+2021-04-25,Pahang,33
+2021-04-25,Perak,64
+2021-04-25,Perlis,1
+2021-04-25,Pulau Pinang,117
+2021-04-25,Sabah,121
+2021-04-25,Sarawak,595
+2021-04-25,Selangor,751
+2021-04-25,Terengganu,25
+2021-04-25,W.P. Kuala Lumpur,217
+2021-04-25,W.P. Labuan,3
+2021-04-25,W.P. Putrajaya,5
+2021-04-26,Johor,309
+2021-04-26,Kedah,39
+2021-04-26,Kelantan,343
+2021-04-26,Melaka,34
+2021-04-26,Negeri Sembilan,112
+2021-04-26,Pahang,34
+2021-04-26,Perak,45
+2021-04-26,Perlis,0
+2021-04-26,Pulau Pinang,123
+2021-04-26,Sabah,88
+2021-04-26,Sarawak,615
+2021-04-26,Selangor,762
+2021-04-26,Terengganu,9
+2021-04-26,W.P. Kuala Lumpur,254
+2021-04-26,W.P. Labuan,2
+2021-04-26,W.P. Putrajaya,7
+2021-04-27,Johor,220
+2021-04-27,Kedah,51
+2021-04-27,Kelantan,484
+2021-04-27,Melaka,33
+2021-04-27,Negeri Sembilan,39
+2021-04-27,Pahang,35
+2021-04-27,Perak,38
+2021-04-27,Perlis,1
+2021-04-27,Pulau Pinang,115
+2021-04-27,Sabah,82
+2021-04-27,Sarawak,432
+2021-04-27,Selangor,750
+2021-04-27,Terengganu,61
+2021-04-27,W.P. Kuala Lumpur,377
+2021-04-27,W.P. Labuan,0
+2021-04-27,W.P. Putrajaya,15
+2021-04-28,Johor,194
+2021-04-28,Kedah,120
+2021-04-28,Kelantan,523
+2021-04-28,Melaka,42
+2021-04-28,Negeri Sembilan,61
+2021-04-28,Pahang,15
+2021-04-28,Perak,69
+2021-04-28,Perlis,1
+2021-04-28,Pulau Pinang,98
+2021-04-28,Sabah,87
+2021-04-28,Sarawak,416
+2021-04-28,Selangor,1019
+2021-04-28,Terengganu,40
+2021-04-28,W.P. Kuala Lumpur,440
+2021-04-28,W.P. Labuan,4
+2021-04-28,W.P. Putrajaya,13
+2021-04-29,Johor,207
+2021-04-29,Kedah,105
+2021-04-29,Kelantan,401
+2021-04-29,Melaka,43
+2021-04-29,Negeri Sembilan,111
+2021-04-29,Pahang,92
+2021-04-29,Perak,91
+2021-04-29,Perlis,1
+2021-04-29,Pulau Pinang,158
+2021-04-29,Sabah,131
+2021-04-29,Sarawak,522
+2021-04-29,Selangor,1083
+2021-04-29,Terengganu,19
+2021-04-29,W.P. Kuala Lumpur,359
+2021-04-29,W.P. Labuan,0
+2021-04-29,W.P. Putrajaya,9
+2021-04-30,Johor,160
+2021-04-30,Kedah,136
+2021-04-30,Kelantan,464
+2021-04-30,Melaka,55
+2021-04-30,Negeri Sembilan,136
+2021-04-30,Pahang,54
+2021-04-30,Perak,118
+2021-04-30,Perlis,5
+2021-04-30,Pulau Pinang,250
+2021-04-30,Sabah,89
+2021-04-30,Sarawak,760
+2021-04-30,Selangor,1265
+2021-04-30,Terengganu,37
+2021-04-30,W.P. Kuala Lumpur,255
+2021-04-30,W.P. Labuan,2
+2021-04-30,W.P. Putrajaya,2
+2021-05-03,Johor,463
+2021-05-03,Kedah,9
+2021-05-03,Kelantan,57
+2021-05-03,Melaka,10
+2021-05-03,Negeri Sembilan,77
+2021-05-03,Pahang,38
+2021-05-03,Perak,109
+2021-05-03,Perlis,1
+2021-05-03,Pulau Pinang,119
+2021-05-03,Sabah,97
+2021-05-03,Sarawak,250
+2021-05-03,Selangor,794
+2021-05-03,Terengganu,16
+2021-05-03,W.P. Kuala Lumpur,108
+2021-05-03,W.P. Labuan,2
+2021-05-03,W.P. Putrajaya,4
+2021-05-04,Johor,55
+2021-05-04,Kedah,34
+2021-05-04,Kelantan,31
+2021-05-04,Melaka,25
+2021-05-04,Negeri Sembilan,12
+2021-05-04,Pahang,37
+2021-05-04,Perak,8
+2021-05-04,Perlis,2
+2021-05-04,Pulau Pinang,133
+2021-05-04,Sabah,65
+2021-05-04,Sarawak,225
+2021-05-04,Selangor,327
+2021-05-04,Terengganu,3
+2021-05-04,W.P. Kuala Lumpur,88
+2021-05-04,W.P. Labuan,17
+2021-05-04,W.P. Putrajaya,8
+2021-05-05,Johor,292
+2021-05-05,Kedah,124
+2021-05-05,Kelantan,480
+2021-05-05,Melaka,43
+2021-05-05,Negeri Sembilan,76
+2021-05-05,Pahang,49
+2021-05-05,Perak,65
+2021-05-05,Perlis,1
+2021-05-05,Pulau Pinang,195
+2021-05-05,Sabah,50
+2021-05-05,Sarawak,419
+2021-05-05,Selangor,1548
+2021-05-05,Terengganu,73
+2021-05-05,W.P. Kuala Lumpur,313
+2021-05-05,W.P. Labuan,5
+2021-05-05,W.P. Putrajaya,11
+2021-05-06,Johor,412
+2021-05-06,Kedah,263
+2021-05-06,Kelantan,312
+2021-05-06,Melaka,206
+2021-05-06,Negeri Sembilan,843
+2021-05-06,Pahang,286
+2021-05-06,Perak,252
+2021-05-06,Perlis,4
+2021-05-06,Pulau Pinang,370
+2021-05-06,Sabah,259
+2021-05-06,Sarawak,651
+2021-05-06,Selangor,2509
+2021-05-06,Terengganu,190
+2021-05-06,W.P. Kuala Lumpur,678
+2021-05-06,W.P. Labuan,205
+2021-05-06,W.P. Putrajaya,12
+2021-05-07,Johor,324
+2021-05-07,Kedah,273
+2021-05-07,Kelantan,114
+2021-05-07,Melaka,206
+2021-05-07,Negeri Sembilan,523
+2021-05-07,Pahang,312
+2021-05-07,Perak,249
+2021-05-07,Perlis,0
+2021-05-07,Pulau Pinang,157
+2021-05-07,Sabah,263
+2021-05-07,Sarawak,424
+2021-05-07,Selangor,2610
+2021-05-07,Terengganu,17
+2021-05-07,W.P. Kuala Lumpur,819
+2021-05-07,W.P. Labuan,71
+2021-05-07,W.P. Putrajaya,25
+2021-05-08,Johor,1300
+2021-05-08,Kedah,1446
+2021-05-08,Kelantan,772
+2021-05-08,Melaka,622
+2021-05-08,Negeri Sembilan,989
+2021-05-08,Pahang,426
+2021-05-08,Perak,916
+2021-05-08,Perlis,4
+2021-05-08,Pulau Pinang,1022
+2021-05-08,Sabah,1062
+2021-05-08,Sarawak,759
+2021-05-08,Selangor,8549
+2021-05-08,Terengganu,501
+2021-05-08,W.P. Kuala Lumpur,2163
+2021-05-08,W.P. Labuan,15
+2021-05-08,W.P. Putrajaya,50
+2021-05-09,Johor,2165
+2021-05-09,Kedah,1587
+2021-05-09,Kelantan,1078
+2021-05-09,Melaka,459
+2021-05-09,Negeri Sembilan,269
+2021-05-09,Pahang,486
+2021-05-09,Perak,1057
+2021-05-09,Perlis,78
+2021-05-09,Pulau Pinang,1961
+2021-05-09,Sabah,2136
+2021-05-09,Sarawak,3747
+2021-05-09,Selangor,3886
+2021-05-09,Terengganu,861
+2021-05-09,W.P. Kuala Lumpur,597
+2021-05-09,W.P. Labuan,4
+2021-05-09,W.P. Putrajaya,25
+2021-05-13,Johor,467
+2021-05-13,Kedah,193
+2021-05-13,Kelantan,339
+2021-05-13,Melaka,67
+2021-05-13,Negeri Sembilan,100
+2021-05-13,Pahang,56
+2021-05-13,Perak,302
+2021-05-13,Perlis,0
+2021-05-13,Pulau Pinang,395
+2021-05-13,Sabah,76
+2021-05-13,Sarawak,395
+2021-05-13,Selangor,1783
+2021-05-13,Terengganu,148
+2021-05-13,W.P. Kuala Lumpur,521
+2021-05-13,W.P. Labuan,4
+2021-05-13,W.P. Putrajaya,9
+2021-05-14,Johor,335
+2021-05-14,Kedah,228
+2021-05-14,Kelantan,371
+2021-05-14,Melaka,107
+2021-05-14,Negeri Sembilan,124
+2021-05-14,Pahang,178
+2021-05-14,Perak,147
+2021-05-14,Perlis,5
+2021-05-14,Pulau Pinang,266
+2021-05-14,Sabah,53
+2021-05-14,Sarawak,533
+2021-05-14,Selangor,1269
+2021-05-14,Terengganu,165
+2021-05-14,W.P. Kuala Lumpur,306
+2021-05-14,W.P. Labuan,6
+2021-05-14,W.P. Putrajaya,20
+2021-05-15,Johor,433
+2021-05-15,Kedah,239
+2021-05-15,Kelantan,109
+2021-05-15,Melaka,97
+2021-05-15,Negeri Sembilan,190
+2021-05-15,Pahang,116
+2021-05-15,Perak,182
+2021-05-15,Perlis,2
+2021-05-15,Pulau Pinang,338
+2021-05-15,Sabah,60
+2021-05-15,Sarawak,324
+2021-05-15,Selangor,1507
+2021-05-15,Terengganu,119
+2021-05-15,W.P. Kuala Lumpur,398
+2021-05-15,W.P. Labuan,3
+2021-05-15,W.P. Putrajaya,23
+2021-05-16,Johor,224
+2021-05-16,Kedah,363
+2021-05-16,Kelantan,357
+2021-05-16,Melaka,122
+2021-05-16,Negeri Sembilan,70
+2021-05-16,Pahang,159
+2021-05-16,Perak,115
+2021-05-16,Perlis,2
+2021-05-16,Pulau Pinang,187
+2021-05-16,Sabah,87
+2021-05-16,Sarawak,405
+2021-05-16,Selangor,1275
+2021-05-16,Terengganu,58
+2021-05-16,W.P. Kuala Lumpur,342
+2021-05-16,W.P. Labuan,7
+2021-05-16,W.P. Putrajaya,7
+2021-05-17,Johor,391
+2021-05-17,Kedah,236
+2021-05-17,Kelantan,343
+2021-05-17,Melaka,80
+2021-05-17,Negeri Sembilan,243
+2021-05-17,Pahang,139
+2021-05-17,Perak,203
+2021-05-17,Perlis,0
+2021-05-17,Pulau Pinang,159
+2021-05-17,Sabah,60
+2021-05-17,Sarawak,433
+2021-05-17,Selangor,1650
+2021-05-17,Terengganu,201
+2021-05-17,W.P. Kuala Lumpur,297
+2021-05-17,W.P. Labuan,0
+2021-05-17,W.P. Putrajaya,11
+2021-05-18,Johor,407
+2021-05-18,Kedah,244
+2021-05-18,Kelantan,406
+2021-05-18,Melaka,127
+2021-05-18,Negeri Sembilan,149
+2021-05-18,Pahang,152
+2021-05-18,Perak,160
+2021-05-18,Perlis,2
+2021-05-18,Pulau Pinang,220
+2021-05-18,Sabah,95
+2021-05-18,Sarawak,512
+2021-05-18,Selangor,1743
+2021-05-18,Terengganu,156
+2021-05-18,W.P. Kuala Lumpur,477
+2021-05-18,W.P. Labuan,6
+2021-05-18,W.P. Putrajaya,9
+2021-05-19,Johor,699
+2021-05-19,Kedah,445
+2021-05-19,Kelantan,441
+2021-05-19,Melaka,122
+2021-05-19,Negeri Sembilan,189
+2021-05-19,Pahang,150
+2021-05-19,Perak,220
+2021-05-19,Perlis,6
+2021-05-19,Pulau Pinang,183
+2021-05-19,Sabah,160
+2021-05-19,Sarawak,323
+2021-05-19,Selangor,2251
+2021-05-19,Terengganu,203
+2021-05-19,W.P. Kuala Lumpur,660
+2021-05-19,W.P. Labuan,14
+2021-05-19,W.P. Putrajaya,9
+2021-05-20,Johor,615
+2021-05-20,Kedah,417
+2021-05-20,Kelantan,426
+2021-05-20,Melaka,212
+2021-05-20,Negeri Sembilan,291
+2021-05-20,Pahang,157
+2021-05-20,Perak,248
+2021-05-20,Perlis,8
+2021-05-20,Pulau Pinang,362
+2021-05-20,Sabah,245
+2021-05-20,Sarawak,608
+2021-05-20,Selangor,2277
+2021-05-20,Terengganu,233
+2021-05-20,W.P. Kuala Lumpur,655
+2021-05-20,W.P. Labuan,17
+2021-05-20,W.P. Putrajaya,35
+2021-05-21,Johor,406
+2021-05-21,Kedah,434
+2021-05-21,Kelantan,467
+2021-05-21,Melaka,165
+2021-05-21,Negeri Sembilan,370
+2021-05-21,Pahang,161
+2021-05-21,Perak,382
+2021-05-21,Perlis,3
+2021-05-21,Pulau Pinang,302
+2021-05-21,Sabah,144
+2021-05-21,Sarawak,612
+2021-05-21,Selangor,2163
+2021-05-21,Terengganu,139
+2021-05-21,W.P. Kuala Lumpur,641
+2021-05-21,W.P. Labuan,84
+2021-05-21,W.P. Putrajaya,20
+2021-05-22,Johor,477
+2021-05-22,Kedah,301
+2021-05-22,Kelantan,613
+2021-05-22,Melaka,175
+2021-05-22,Negeri Sembilan,396
+2021-05-22,Pahang,227
+2021-05-22,Perak,276
+2021-05-22,Perlis,18
+2021-05-22,Pulau Pinang,359
+2021-05-22,Sabah,189
+2021-05-22,Sarawak,749
+2021-05-22,Selangor,1647
+2021-05-22,Terengganu,185
+2021-05-22,W.P. Kuala Lumpur,654
+2021-05-22,W.P. Labuan,36
+2021-05-22,W.P. Putrajaya,18
+2021-05-23,Johor,549
+2021-05-23,Kedah,422
+2021-05-23,Kelantan,626
+2021-05-23,Melaka,209
+2021-05-23,Negeri Sembilan,434
+2021-05-23,Pahang,263
+2021-05-23,Perak,279
+2021-05-23,Perlis,8
+2021-05-23,Pulau Pinang,372
+2021-05-23,Sabah,136
+2021-05-23,Sarawak,663
+2021-05-23,Selangor,2235
+2021-05-23,Terengganu,266
+2021-05-23,W.P. Kuala Lumpur,447
+2021-05-23,W.P. Labuan,37
+2021-05-23,W.P. Putrajaya,30
+2021-05-24,Johor,468
+2021-05-24,Kedah,348
+2021-05-24,Kelantan,451
+2021-05-24,Melaka,329
+2021-05-24,Negeri Sembilan,329
+2021-05-24,Pahang,257
+2021-05-24,Perak,231
+2021-05-24,Perlis,7
+2021-05-24,Pulau Pinang,384
+2021-05-24,Sabah,184
+2021-05-24,Sarawak,530
+2021-05-24,Selangor,2049
+2021-05-24,Terengganu,263
+2021-05-24,W.P. Kuala Lumpur,468
+2021-05-24,W.P. Labuan,171
+2021-05-24,W.P. Putrajaya,40
+2021-05-25,Johor,664
+2021-05-25,Kedah,336
+2021-05-25,Kelantan,425
+2021-05-25,Melaka,258
+2021-05-25,Negeri Sembilan,410
+2021-05-25,Pahang,211
+2021-05-25,Perak,218
+2021-05-25,Perlis,8
+2021-05-25,Pulau Pinang,380
+2021-05-25,Sabah,266
+2021-05-25,Sarawak,513
+2021-05-25,Selangor,2642
+2021-05-25,Terengganu,268
+2021-05-25,W.P. Kuala Lumpur,604
+2021-05-25,W.P. Labuan,63
+2021-05-25,W.P. Putrajaya,23
+2021-05-26,Johor,587
+2021-05-26,Kedah,542
+2021-05-26,Kelantan,547
+2021-05-26,Melaka,230
+2021-05-26,Negeri Sembilan,370
+2021-05-26,Pahang,171
+2021-05-26,Perak,264
+2021-05-26,Perlis,8
+2021-05-26,Pulau Pinang,420
+2021-05-26,Sabah,229
+2021-05-26,Sarawak,640
+2021-05-26,Selangor,2455
+2021-05-26,Terengganu,177
+2021-05-26,W.P. Kuala Lumpur,760
+2021-05-26,W.P. Labuan,49
+2021-05-26,W.P. Putrajaya,29
+2021-05-27,Johor,549
+2021-05-27,Kedah,441
+2021-05-27,Kelantan,754
+2021-05-27,Melaka,234
+2021-05-27,Negeri Sembilan,353
+2021-05-27,Pahang,238
+2021-05-27,Perak,228
+2021-05-27,Perlis,6
+2021-05-27,Pulau Pinang,365
+2021-05-27,Sabah,217
+2021-05-27,Sarawak,772
+2021-05-27,Selangor,2675
+2021-05-27,Terengganu,282
+2021-05-27,W.P. Kuala Lumpur,561
+2021-05-27,W.P. Labuan,170
+2021-05-27,W.P. Putrajaya,12
+2021-05-28,Johor,762
+2021-05-28,Kedah,544
+2021-05-28,Kelantan,851
+2021-05-28,Melaka,380
+2021-05-28,Negeri Sembilan,520
+2021-05-28,Pahang,254
+2021-05-28,Perak,405
+2021-05-28,Perlis,8
+2021-05-28,Pulau Pinang,421
+2021-05-28,Sabah,308
+2021-05-28,Sarawak,698
+2021-05-28,Selangor,2052
+2021-05-28,Terengganu,207
+2021-05-28,W.P. Kuala Lumpur,830
+2021-05-28,W.P. Labuan,6
+2021-05-28,W.P. Putrajaya,44
+2021-05-29,Johor,468
+2021-05-29,Kedah,468
+2021-05-29,Kelantan,907
+2021-05-29,Melaka,340
+2021-05-29,Negeri Sembilan,898
+2021-05-29,Pahang,216
+2021-05-29,Perak,272
+2021-05-29,Perlis,19
+2021-05-29,Pulau Pinang,345
+2021-05-29,Sabah,265
+2021-05-29,Sarawak,726
+2021-05-29,Selangor,2836
+2021-05-29,Terengganu,189
+2021-05-29,W.P. Kuala Lumpur,789
+2021-05-29,W.P. Labuan,253
+2021-05-29,W.P. Putrajaya,29
+2021-05-30,Johor,433
+2021-05-30,Kedah,422
+2021-05-30,Kelantan,612
+2021-05-30,Melaka,202
+2021-05-30,Negeri Sembilan,468
+2021-05-30,Pahang,239
+2021-05-30,Perak,212
+2021-05-30,Perlis,7
+2021-05-30,Pulau Pinang,248
+2021-05-30,Sabah,190
+2021-05-30,Sarawak,513
+2021-05-30,Selangor,2477
+2021-05-30,Terengganu,214
+2021-05-30,W.P. Kuala Lumpur,616
+2021-05-30,W.P. Labuan,133
+2021-05-30,W.P. Putrajaya,13
+2021-05-31,Johor,489
+2021-05-31,Kedah,464
+2021-05-31,Kelantan,695
+2021-05-31,Melaka,352
+2021-05-31,Negeri Sembilan,253
+2021-05-31,Pahang,219
+2021-05-31,Perak,255
+2021-05-31,Perlis,12
+2021-05-31,Pulau Pinang,328
+2021-05-31,Sabah,207
+2021-05-31,Sarawak,654
+2021-05-31,Selangor,2111
+2021-05-31,Terengganu,204
+2021-05-31,W.P. Kuala Lumpur,387
+2021-05-31,W.P. Labuan,166
+2021-05-31,W.P. Putrajaya,28
+2021-06-03,Johor,139
+2021-06-03,Kedah,11
+2021-06-03,Kelantan,35
+2021-06-03,Melaka,10
+2021-06-03,Negeri Sembilan,89
+2021-06-03,Pahang,17
+2021-06-03,Perak,68
+2021-06-03,Perlis,0
+2021-06-03,Pulau Pinang,84
+2021-06-03,Sabah,74
+2021-06-03,Sarawak,221
+2021-06-03,Selangor,826
+2021-06-03,Terengganu,22
+2021-06-03,W.P. Kuala Lumpur,81
+2021-06-03,W.P. Labuan,1
+2021-06-03,W.P. Putrajaya,2
+2021-06-04,Johor,98
+2021-06-04,Kedah,27
+2021-06-04,Kelantan,126
+2021-06-04,Melaka,7
+2021-06-04,Negeri Sembilan,14
+2021-06-04,Pahang,11
+2021-06-04,Perak,61
+2021-06-04,Perlis,0
+2021-06-04,Pulau Pinang,110
+2021-06-04,Sabah,112
+2021-06-04,Sarawak,385
+2021-06-04,Selangor,242
+2021-06-04,Terengganu,9
+2021-06-04,W.P. Kuala Lumpur,87
+2021-06-04,W.P. Labuan,8
+2021-06-04,W.P. Putrajaya,3
+2021-06-05,Johor,258
+2021-06-05,Kedah,112
+2021-06-05,Kelantan,326
+2021-06-05,Melaka,82
+2021-06-05,Negeri Sembilan,85
+2021-06-05,Pahang,97
+2021-06-05,Perak,137
+2021-06-05,Perlis,3
+2021-06-05,Pulau Pinang,305
+2021-06-05,Sabah,69
+2021-06-05,Sarawak,391
+2021-06-05,Selangor,1137
+2021-06-05,Terengganu,58
+2021-06-05,W.P. Kuala Lumpur,477
+2021-06-05,W.P. Labuan,2
+2021-06-05,W.P. Putrajaya,12
+2021-06-06,Johor,565
+2021-06-06,Kedah,125
+2021-06-06,Kelantan,270
+2021-06-06,Melaka,225
+2021-06-06,Negeri Sembilan,556
+2021-06-06,Pahang,155
+2021-06-06,Perak,174
+2021-06-06,Perlis,2
+2021-06-06,Pulau Pinang,271
+2021-06-06,Sabah,305
+2021-06-06,Sarawak,600
+2021-06-06,Selangor,2178
+2021-06-06,Terengganu,158
+2021-06-06,W.P. Kuala Lumpur,415
+2021-06-06,W.P. Labuan,212
+2021-06-06,W.P. Putrajaya,30
+2021-06-07,Johor,313
+2021-06-07,Kedah,337
+2021-06-07,Kelantan,118
+2021-06-07,Melaka,230
+2021-06-07,Negeri Sembilan,698
+2021-06-07,Pahang,180
+2021-06-07,Perak,94
+2021-06-07,Perlis,2
+2021-06-07,Pulau Pinang,185
+2021-06-07,Sabah,225
+2021-06-07,Sarawak,286
+2021-06-07,Selangor,3260
+2021-06-07,Terengganu,61
+2021-06-07,W.P. Kuala Lumpur,1550
+2021-06-07,W.P. Labuan,82
+2021-06-07,W.P. Putrajaya,33
+2021-06-08,Johor,1275
+2021-06-08,Kedah,1371
+2021-06-08,Kelantan,938
+2021-06-08,Melaka,491
+2021-06-08,Negeri Sembilan,986
+2021-06-08,Pahang,610
+2021-06-08,Perak,624
+2021-06-08,Perlis,9
+2021-06-08,Pulau Pinang,776
+2021-06-08,Sabah,1291
+2021-06-08,Sarawak,652
+2021-06-08,Selangor,8792
+2021-06-08,Terengganu,460
+2021-06-08,W.P. Kuala Lumpur,2483
+2021-06-08,W.P. Labuan,9
+2021-06-08,W.P. Putrajaya,122
+2021-06-09,Johor,2101
+2021-06-09,Kedah,1599
+2021-06-09,Kelantan,1213
+2021-06-09,Melaka,295
+2021-06-09,Negeri Sembilan,193
+2021-06-09,Pahang,463
+2021-06-09,Perak,1082
+2021-06-09,Perlis,38
+2021-06-09,Pulau Pinang,1558
+2021-06-09,Sabah,1844
+2021-06-09,Sarawak,3714
+2021-06-09,Selangor,2126
+2021-06-09,Terengganu,700
+2021-06-09,W.P. Kuala Lumpur,398
+2021-06-09,W.P. Labuan,5
+2021-06-09,W.P. Putrajaya,23
+2021-06-13,Johor,363
+2021-06-13,Kedah,301
+2021-06-13,Kelantan,179
+2021-06-13,Melaka,145
+2021-06-13,Negeri Sembilan,331
+2021-06-13,Pahang,78
+2021-06-13,Perak,121
+2021-06-13,Perlis,5
+2021-06-13,Pulau Pinang,256
+2021-06-13,Sabah,335
+2021-06-13,Sarawak,544
+2021-06-13,Selangor,1973
+2021-06-13,Terengganu,46
+2021-06-13,W.P. Kuala Lumpur,462
+2021-06-13,W.P. Labuan,158
+2021-06-13,W.P. Putrajaya,7
+2021-06-14,Johor,430
+2021-06-14,Kedah,199
+2021-06-14,Kelantan,214
+2021-06-14,Melaka,119
+2021-06-14,Negeri Sembilan,323
+2021-06-14,Pahang,61
+2021-06-14,Perak,136
+2021-06-14,Perlis,1
+2021-06-14,Pulau Pinang,214
+2021-06-14,Sabah,273
+2021-06-14,Sarawak,744
+2021-06-14,Selangor,1523
+2021-06-14,Terengganu,86
+2021-06-14,W.P. Kuala Lumpur,503
+2021-06-14,W.P. Labuan,113
+2021-06-14,W.P. Putrajaya,10
+2021-06-15,Johor,366
+2021-06-15,Kedah,252
+2021-06-15,Kelantan,245
+2021-06-15,Melaka,155
+2021-06-15,Negeri Sembilan,396
+2021-06-15,Pahang,32
+2021-06-15,Perak,68
+2021-06-15,Perlis,1
+2021-06-15,Pulau Pinang,124
+2021-06-15,Sabah,230
+2021-06-15,Sarawak,718
+2021-06-15,Selangor,1996
+2021-06-15,Terengganu,43
+2021-06-15,W.P. Kuala Lumpur,650
+2021-06-15,W.P. Labuan,138
+2021-06-15,W.P. Putrajaya,5
+2021-06-16,Johor,392
+2021-06-16,Kedah,228
+2021-06-16,Kelantan,230
+2021-06-16,Melaka,152
+2021-06-16,Negeri Sembilan,607
+2021-06-16,Pahang,57
+2021-06-16,Perak,66
+2021-06-16,Perlis,8
+2021-06-16,Pulau Pinang,99
+2021-06-16,Sabah,184
+2021-06-16,Sarawak,570
+2021-06-16,Selangor,1914
+2021-06-16,Terengganu,56
+2021-06-16,W.P. Kuala Lumpur,480
+2021-06-16,W.P. Labuan,101
+2021-06-16,W.P. Putrajaya,6
+2021-06-17,Johor,449
+2021-06-17,Kedah,197
+2021-06-17,Kelantan,154
+2021-06-17,Melaka,184
+2021-06-17,Negeri Sembilan,1086
+2021-06-17,Pahang,54
+2021-06-17,Perak,30
+2021-06-17,Perlis,0
+2021-06-17,Pulau Pinang,97
+2021-06-17,Sabah,248
+2021-06-17,Sarawak,559
+2021-06-17,Selangor,1858
+2021-06-17,Terengganu,77
+2021-06-17,W.P. Kuala Lumpur,641
+2021-06-17,W.P. Labuan,97
+2021-06-17,W.P. Putrajaya,7
+2021-06-18,Johor,592
+2021-06-18,Kedah,159
+2021-06-18,Kelantan,200
+2021-06-18,Melaka,223
+2021-06-18,Negeri Sembilan,870
+2021-06-18,Pahang,79
+2021-06-18,Perak,357
+2021-06-18,Perlis,2
+2021-06-18,Pulau Pinang,122
+2021-06-18,Sabah,199
+2021-06-18,Sarawak,536
+2021-06-18,Selangor,2095
+2021-06-18,Terengganu,32
+2021-06-18,W.P. Kuala Lumpur,816
+2021-06-18,W.P. Labuan,152
+2021-06-18,W.P. Putrajaya,6
+2021-06-19,Johor,498
+2021-06-19,Kedah,204
+2021-06-19,Kelantan,223
+2021-06-19,Melaka,134
+2021-06-19,Negeri Sembilan,770
+2021-06-19,Pahang,56
+2021-06-19,Perak,245
+2021-06-19,Perlis,0
+2021-06-19,Pulau Pinang,167
+2021-06-19,Sabah,201
+2021-06-19,Sarawak,569
+2021-06-19,Selangor,2111
+2021-06-19,Terengganu,62
+2021-06-19,W.P. Kuala Lumpur,483
+2021-06-19,W.P. Labuan,185
+2021-06-19,W.P. Putrajaya,3
+2021-06-20,Johor,627
+2021-06-20,Kedah,170
+2021-06-20,Kelantan,167
+2021-06-20,Melaka,183
+2021-06-20,Negeri Sembilan,693
+2021-06-20,Pahang,77
+2021-06-20,Perak,205
+2021-06-20,Perlis,2
+2021-06-20,Pulau Pinang,114
+2021-06-20,Sabah,163
+2021-06-20,Sarawak,661
+2021-06-20,Selangor,1680
+2021-06-20,Terengganu,12
+2021-06-20,W.P. Kuala Lumpur,379
+2021-06-20,W.P. Labuan,156
+2021-06-20,W.P. Putrajaya,4
+2021-06-21,Johor,314
+2021-06-21,Kedah,182
+2021-06-21,Kelantan,219
+2021-06-21,Melaka,205
+2021-06-21,Negeri Sembilan,437
+2021-06-21,Pahang,50
+2021-06-21,Perak,453
+2021-06-21,Perlis,0
+2021-06-21,Pulau Pinang,84
+2021-06-21,Sabah,166
+2021-06-21,Sarawak,682
+2021-06-21,Selangor,1346
+2021-06-21,Terengganu,18
+2021-06-21,W.P. Kuala Lumpur,310
+2021-06-21,W.P. Labuan,130
+2021-06-21,W.P. Putrajaya,15
+2021-06-22,Johor,239
+2021-06-22,Kedah,142
+2021-06-22,Kelantan,165
+2021-06-22,Melaka,167
+2021-06-22,Negeri Sembilan,585
+2021-06-22,Pahang,131
+2021-06-22,Perak,68
+2021-06-22,Perlis,2
+2021-06-22,Pulau Pinang,195
+2021-06-22,Sabah,193
+2021-06-22,Sarawak,507
+2021-06-22,Selangor,1566
+2021-06-22,Terengganu,37
+2021-06-22,W.P. Kuala Lumpur,635
+2021-06-22,W.P. Labuan,104
+2021-06-22,W.P. Putrajaya,7
+2021-06-23,Johor,282
+2021-06-23,Kedah,189
+2021-06-23,Kelantan,81
+2021-06-23,Melaka,180
+2021-06-23,Negeri Sembilan,677
+2021-06-23,Pahang,245
+2021-06-23,Perak,75
+2021-06-23,Perlis,1
+2021-06-23,Pulau Pinang,159
+2021-06-23,Sabah,129
+2021-06-23,Sarawak,577
+2021-06-23,Selangor,2001
+2021-06-23,Terengganu,27
+2021-06-23,W.P. Kuala Lumpur,531
+2021-06-23,W.P. Labuan,77
+2021-06-23,W.P. Putrajaya,13
+2021-06-24,Johor,346
+2021-06-24,Kedah,271
+2021-06-24,Kelantan,135
+2021-06-24,Melaka,247
+2021-06-24,Negeri Sembilan,781
+2021-06-24,Pahang,162
+2021-06-24,Perak,120
+2021-06-24,Perlis,5
+2021-06-24,Pulau Pinang,108
+2021-06-24,Sabah,203
+2021-06-24,Sarawak,581
+2021-06-24,Selangor,2072
+2021-06-24,Terengganu,29
+2021-06-24,W.P. Kuala Lumpur,552
+2021-06-24,W.P. Labuan,212
+2021-06-24,W.P. Putrajaya,17
+2021-06-25,Johor,196
+2021-06-25,Kedah,186
+2021-06-25,Kelantan,98
+2021-06-25,Melaka,223
+2021-06-25,Negeri Sembilan,658
+2021-06-25,Pahang,139
+2021-06-25,Perak,72
+2021-06-25,Perlis,0
+2021-06-25,Pulau Pinang,270
+2021-06-25,Sabah,156
+2021-06-25,Sarawak,673
+2021-06-25,Selangor,2187
+2021-06-25,Terengganu,46
+2021-06-25,W.P. Kuala Lumpur,771
+2021-06-25,W.P. Labuan,123
+2021-06-25,W.P. Putrajaya,14
+2021-06-26,Johor,329
+2021-06-26,Kedah,186
+2021-06-26,Kelantan,103
+2021-06-26,Melaka,355
+2021-06-26,Negeri Sembilan,741
+2021-06-26,Pahang,220
+2021-06-26,Perak,137
+2021-06-26,Perlis,4
+2021-06-26,Pulau Pinang,160
+2021-06-26,Sabah,189
+2021-06-26,Sarawak,491
+2021-06-26,Selangor,2108
+2021-06-26,Terengganu,29
+2021-06-26,W.P. Kuala Lumpur,628
+2021-06-26,W.P. Labuan,99
+2021-06-26,W.P. Putrajaya,24
+2021-06-27,Johor,312
+2021-06-27,Kedah,129
+2021-06-27,Kelantan,133
+2021-06-27,Melaka,380
+2021-06-27,Negeri Sembilan,501
+2021-06-27,Pahang,118
+2021-06-27,Perak,229
+2021-06-27,Perlis,0
+2021-06-27,Pulau Pinang,138
+2021-06-27,Sabah,190
+2021-06-27,Sarawak,513
+2021-06-27,Selangor,2212
+2021-06-27,Terengganu,16
+2021-06-27,W.P. Kuala Lumpur,628
+2021-06-27,W.P. Labuan,83
+2021-06-27,W.P. Putrajaya,4
+2021-06-28,Johor,243
+2021-06-28,Kedah,194
+2021-06-28,Kelantan,101
+2021-06-28,Melaka,183
+2021-06-28,Negeri Sembilan,629
+2021-06-28,Pahang,111
+2021-06-28,Perak,400
+2021-06-28,Perlis,5
+2021-06-28,Pulau Pinang,88
+2021-06-28,Sabah,258
+2021-06-28,Sarawak,409
+2021-06-28,Selangor,1989
+2021-06-28,Terengganu,23
+2021-06-28,W.P. Kuala Lumpur,469
+2021-06-28,W.P. Labuan,108
+2021-06-28,W.P. Putrajaya,8
+2021-06-29,Johor,271
+2021-06-29,Kedah,284
+2021-06-29,Kelantan,131
+2021-06-29,Melaka,252
+2021-06-29,Negeri Sembilan,700
+2021-06-29,Pahang,250
+2021-06-29,Perak,184
+2021-06-29,Perlis,0
+2021-06-29,Pulau Pinang,115
+2021-06-29,Sabah,178
+2021-06-29,Sarawak,242
+2021-06-29,Selangor,2299
+2021-06-29,Terengganu,21
+2021-06-29,W.P. Kuala Lumpur,1361
+2021-06-29,W.P. Labuan,117
+2021-06-29,W.P. Putrajaya,32
+2021-06-30,Johor,299
+2021-06-30,Kedah,226
+2021-06-30,Kelantan,159
+2021-06-30,Melaka,223
+2021-06-30,Negeri Sembilan,644
+2021-06-30,Pahang,210
+2021-06-30,Perak,137
+2021-06-30,Perlis,5
+2021-06-30,Pulau Pinang,131
+2021-06-30,Sabah,242
+2021-06-30,Sarawak,376
+2021-06-30,Selangor,2836
+2021-06-30,Terengganu,20
+2021-06-30,W.P. Kuala Lumpur,625
+2021-06-30,W.P. Labuan,132
+2021-06-30,W.P. Putrajaya,11
+2021-07-03,Johor,158
+2021-07-03,Kedah,15
+2021-07-03,Kelantan,12
+2021-07-03,Melaka,3
+2021-07-03,Negeri Sembilan,48
+2021-07-03,Pahang,12
+2021-07-03,Perak,48
+2021-07-03,Perlis,24
+2021-07-03,Pulau Pinang,172
+2021-07-03,Sabah,99
+2021-07-03,Sarawak,201
+2021-07-03,Selangor,746
+2021-07-03,Terengganu,10
+2021-07-03,W.P. Kuala Lumpur,125
+2021-07-03,W.P. Labuan,8
+2021-07-03,W.P. Putrajaya,2
+2021-07-04,Johor,102
+2021-07-04,Kedah,35
+2021-07-04,Kelantan,38
+2021-07-04,Melaka,13
+2021-07-04,Negeri Sembilan,30
+2021-07-04,Pahang,23
+2021-07-04,Perak,24
+2021-07-04,Perlis,0
+2021-07-04,Pulau Pinang,93
+2021-07-04,Sabah,60
+2021-07-04,Sarawak,332
+2021-07-04,Selangor,294
+2021-07-04,Terengganu,10
+2021-07-04,W.P. Kuala Lumpur,84
+2021-07-04,W.P. Labuan,1
+2021-07-04,W.P. Putrajaya,0
+2021-07-05,Johor,327
+2021-07-05,Kedah,209
+2021-07-05,Kelantan,297
+2021-07-05,Melaka,74
+2021-07-05,Negeri Sembilan,188
+2021-07-05,Pahang,78
+2021-07-05,Perak,148
+2021-07-05,Perlis,4
+2021-07-05,Pulau Pinang,313
+2021-07-05,Sabah,153
+2021-07-05,Sarawak,750
+2021-07-05,Selangor,1424
+2021-07-05,Terengganu,87
+2021-07-05,W.P. Kuala Lumpur,436
+2021-07-05,W.P. Labuan,2
+2021-07-05,W.P. Putrajaya,8
+2021-07-06,Johor,355
+2021-07-06,Kedah,194
+2021-07-06,Kelantan,341
+2021-07-06,Melaka,178
+2021-07-06,Negeri Sembilan,571
+2021-07-06,Pahang,99
+2021-07-06,Perak,177
+2021-07-06,Perlis,1
+2021-07-06,Pulau Pinang,153
+2021-07-06,Sabah,336
+2021-07-06,Sarawak,703
+2021-07-06,Selangor,1374
+2021-07-06,Terengganu,117
+2021-07-06,W.P. Kuala Lumpur,455
+2021-07-06,W.P. Labuan,209
+2021-07-06,W.P. Putrajaya,8
+2021-07-07,Johor,224
+2021-07-07,Kedah,198
+2021-07-07,Kelantan,123
+2021-07-07,Melaka,358
+2021-07-07,Negeri Sembilan,788
+2021-07-07,Pahang,258
+2021-07-07,Perak,187
+2021-07-07,Perlis,2
+2021-07-07,Pulau Pinang,140
+2021-07-07,Sabah,244
+2021-07-07,Sarawak,289
+2021-07-07,Selangor,3119
+2021-07-07,Terengganu,43
+2021-07-07,W.P. Kuala Lumpur,1005
+2021-07-07,W.P. Labuan,93
+2021-07-07,W.P. Putrajaya,26
+2021-07-08,Johor,1182
+2021-07-08,Kedah,1514
+2021-07-08,Kelantan,930
+2021-07-08,Melaka,414
+2021-07-08,Negeri Sembilan,884
+2021-07-08,Pahang,714
+2021-07-08,Perak,774
+2021-07-08,Perlis,41
+2021-07-08,Pulau Pinang,959
+2021-07-08,Sabah,1255
+2021-07-08,Sarawak,573
+2021-07-08,Selangor,7084
+2021-07-08,Terengganu,425
+2021-07-08,W.P. Kuala Lumpur,2450
+2021-07-08,W.P. Labuan,2
+2021-07-08,W.P. Putrajaya,56
+2021-07-09,Johor,2174
+2021-07-09,Kedah,1487
+2021-07-09,Kelantan,1458
+2021-07-09,Melaka,448
+2021-07-09,Negeri Sembilan,229
+2021-07-09,Pahang,742
+2021-07-09,Perak,1197
+2021-07-09,Perlis,20
+2021-07-09,Pulau Pinang,1776
+2021-07-09,Sabah,2107
+2021-07-09,Sarawak,3200
+2021-07-09,Selangor,2407
+2021-07-09,Terengganu,645
+2021-07-09,W.P. Kuala Lumpur,631
+2021-07-09,W.P. Labuan,4
+2021-07-09,W.P. Putrajaya,22
+2021-07-13,Johor,406
+2021-07-13,Kedah,497
+2021-07-13,Kelantan,211
+2021-07-13,Melaka,323
+2021-07-13,Negeri Sembilan,1033
+2021-07-13,Pahang,321
+2021-07-13,Perak,329
+2021-07-13,Perlis,0
+2021-07-13,Pulau Pinang,234
+2021-07-13,Sabah,239
+2021-07-13,Sarawak,472
+2021-07-13,Selangor,5263
+2021-07-13,Terengganu,93
+2021-07-13,W.P. Kuala Lumpur,1521
+2021-07-13,W.P. Labuan,60
+2021-07-13,W.P. Putrajaya,77
+2021-07-14,Johor,396
+2021-07-14,Kedah,504
+2021-07-14,Kelantan,236
+2021-07-14,Melaka,526
+2021-07-14,Negeri Sembilan,1537
+2021-07-14,Pahang,400
+2021-07-14,Perak,164
+2021-07-14,Perlis,3
+2021-07-14,Pulau Pinang,210
+2021-07-14,Sabah,286
+2021-07-14,Sarawak,289
+2021-07-14,Selangor,5051
+2021-07-14,Terengganu,189
+2021-07-14,W.P. Kuala Lumpur,1749
+2021-07-14,W.P. Labuan,38
+2021-07-14,W.P. Putrajaya,40
+2021-07-15,Johor,599
+2021-07-15,Kedah,695
+2021-07-15,Kelantan,255
+2021-07-15,Melaka,484
+2021-07-15,Negeri Sembilan,1603
+2021-07-15,Pahang,222
+2021-07-15,Perak,344
+2021-07-15,Perlis,3
+2021-07-15,Pulau Pinang,509
+2021-07-15,Sabah,370
+2021-07-15,Sarawak,363
+2021-07-15,Selangor,6120
+2021-07-15,Terengganu,70
+2021-07-15,W.P. Kuala Lumpur,1499
+2021-07-15,W.P. Labuan,26
+2021-07-15,W.P. Putrajaya,53
+2021-07-16,Johor,609
+2021-07-16,Kedah,458
+2021-07-16,Kelantan,225
+2021-07-16,Melaka,575
+2021-07-16,Negeri Sembilan,1619
+2021-07-16,Pahang,382
+2021-07-16,Perak,299
+2021-07-16,Perlis,7
+2021-07-16,Pulau Pinang,376
+2021-07-16,Sabah,326
+2021-07-16,Sarawak,423
+2021-07-16,Selangor,5512
+2021-07-16,Terengganu,102
+2021-07-16,W.P. Kuala Lumpur,1542
+2021-07-16,W.P. Labuan,24
+2021-07-16,W.P. Putrajaya,62
+2021-07-17,Johor,625
+2021-07-17,Kedah,701
+2021-07-17,Kelantan,211
+2021-07-17,Melaka,569
+2021-07-17,Negeri Sembilan,1280
+2021-07-17,Pahang,317
+2021-07-17,Perak,428
+2021-07-17,Perlis,1
+2021-07-17,Pulau Pinang,396
+2021-07-17,Sabah,647
+2021-07-17,Sarawak,388
+2021-07-17,Selangor,4985
+2021-07-17,Terengganu,177
+2021-07-17,W.P. Kuala Lumpur,1740
+2021-07-17,W.P. Labuan,22
+2021-07-17,W.P. Putrajaya,41
+2021-07-18,Johor,808
+2021-07-18,Kedah,696
+2021-07-18,Kelantan,146
+2021-07-18,Melaka,289
+2021-07-18,Negeri Sembilan,771
+2021-07-18,Pahang,369
+2021-07-18,Perak,407
+2021-07-18,Perlis,5
+2021-07-18,Pulau Pinang,295
+2021-07-18,Sabah,666
+2021-07-18,Sarawak,261
+2021-07-18,Selangor,4828
+2021-07-18,Terengganu,123
+2021-07-18,W.P. Kuala Lumpur,945
+2021-07-18,W.P. Labuan,50
+2021-07-18,W.P. Putrajaya,51
+2021-07-19,Johor,876
+2021-07-19,Kedah,705
+2021-07-19,Kelantan,170
+2021-07-19,Melaka,474
+2021-07-19,Negeri Sembilan,1340
+2021-07-19,Pahang,475
+2021-07-19,Perak,324
+2021-07-19,Perlis,1
+2021-07-19,Pulau Pinang,426
+2021-07-19,Sabah,651
+2021-07-19,Sarawak,301
+2021-07-19,Selangor,4404
+2021-07-19,Terengganu,144
+2021-07-19,W.P. Kuala Lumpur,609
+2021-07-19,W.P. Labuan,24
+2021-07-19,W.P. Putrajaya,48
+2021-07-20,Johor,793
+2021-07-20,Kedah,701
+2021-07-20,Kelantan,179
+2021-07-20,Melaka,309
+2021-07-20,Negeri Sembilan,970
+2021-07-20,Pahang,288
+2021-07-20,Perak,295
+2021-07-20,Perlis,2
+2021-07-20,Pulau Pinang,460
+2021-07-20,Sabah,657
+2021-07-20,Sarawak,351
+2021-07-20,Selangor,5524
+2021-07-20,Terengganu,190
+2021-07-20,W.P. Kuala Lumpur,1580
+2021-07-20,W.P. Labuan,17
+2021-07-20,W.P. Putrajaya,50
+2021-07-21,Johor,644
+2021-07-21,Kedah,800
+2021-07-21,Kelantan,386
+2021-07-21,Melaka,453
+2021-07-21,Negeri Sembilan,745
+2021-07-21,Pahang,603
+2021-07-21,Perak,274
+2021-07-21,Perlis,2
+2021-07-21,Pulau Pinang,362
+2021-07-21,Sabah,474
+2021-07-21,Sarawak,261
+2021-07-21,Selangor,5550
+2021-07-21,Terengganu,171
+2021-07-21,W.P. Kuala Lumpur,1174
+2021-07-21,W.P. Labuan,35
+2021-07-21,W.P. Putrajaya,51
+2021-07-22,Johor,791
+2021-07-22,Kedah,701
+2021-07-22,Kelantan,240
+2021-07-22,Melaka,353
+2021-07-22,Negeri Sembilan,711
+2021-07-22,Pahang,261
+2021-07-22,Perak,284
+2021-07-22,Perlis,6
+2021-07-22,Pulau Pinang,371
+2021-07-22,Sabah,497
+2021-07-22,Sarawak,644
+2021-07-22,Selangor,6049
+2021-07-22,Terengganu,391
+2021-07-22,W.P. Kuala Lumpur,1611
+2021-07-22,W.P. Labuan,24
+2021-07-22,W.P. Putrajaya,100
+2021-07-23,Johor,722
+2021-07-23,Kedah,937
+2021-07-23,Kelantan,372
+2021-07-23,Melaka,452
+2021-07-23,Negeri Sembilan,682
+2021-07-23,Pahang,457
+2021-07-23,Perak,415
+2021-07-23,Perlis,3
+2021-07-23,Pulau Pinang,530
+2021-07-23,Sabah,516
+2021-07-23,Sarawak,461
+2021-07-23,Selangor,7672
+2021-07-23,Terengganu,229
+2021-07-23,W.P. Kuala Lumpur,2063
+2021-07-23,W.P. Labuan,21
+2021-07-23,W.P. Putrajaya,41
+2021-07-24,Johor,804
+2021-07-24,Kedah,867
+2021-07-24,Kelantan,502
+2021-07-24,Melaka,631
+2021-07-24,Negeri Sembilan,625
+2021-07-24,Pahang,406
+2021-07-24,Perak,469
+2021-07-24,Perlis,7
+2021-07-24,Pulau Pinang,505
+2021-07-24,Sabah,712
+2021-07-24,Sarawak,261
+2021-07-24,Selangor,7351
+2021-07-24,Terengganu,267
+2021-07-24,W.P. Kuala Lumpur,2406
+2021-07-24,W.P. Labuan,30
+2021-07-24,W.P. Putrajaya,59
+2021-07-25,Johor,950
+2021-07-25,Kedah,1216
+2021-07-25,Kelantan,266
+2021-07-25,Melaka,370
+2021-07-25,Negeri Sembilan,513
+2021-07-25,Pahang,424
+2021-07-25,Perak,609
+2021-07-25,Perlis,10
+2021-07-25,Pulau Pinang,573
+2021-07-25,Sabah,818
+2021-07-25,Sarawak,407
+2021-07-25,Selangor,8500
+2021-07-25,Terengganu,273
+2021-07-25,W.P. Kuala Lumpur,2045
+2021-07-25,W.P. Labuan,21
+2021-07-25,W.P. Putrajaya,50
+2021-07-26,Johor,1449
+2021-07-26,Kedah,1160
+2021-07-26,Kelantan,346
+2021-07-26,Melaka,373
+2021-07-26,Negeri Sembilan,452
+2021-07-26,Pahang,386
+2021-07-26,Perak,590
+2021-07-26,Perlis,2
+2021-07-26,Pulau Pinang,402
+2021-07-26,Sabah,720
+2021-07-26,Sarawak,356
+2021-07-26,Selangor,6508
+2021-07-26,Terengganu,245
+2021-07-26,W.P. Kuala Lumpur,1425
+2021-07-26,W.P. Labuan,8
+2021-07-26,W.P. Putrajaya,94
+2021-07-27,Johor,907
+2021-07-27,Kedah,1000
+2021-07-27,Kelantan,592
+2021-07-27,Melaka,674
+2021-07-27,Negeri Sembilan,669
+2021-07-27,Pahang,403
+2021-07-27,Perak,583
+2021-07-27,Perlis,2
+2021-07-27,Pulau Pinang,618
+2021-07-27,Sabah,741
+2021-07-27,Sarawak,405
+2021-07-27,Selangor,6616
+2021-07-27,Terengganu,317
+2021-07-27,W.P. Kuala Lumpur,2457
+2021-07-27,W.P. Labuan,11
+2021-07-27,W.P. Putrajaya,122
+2021-07-28,Johor,767
+2021-07-28,Kedah,1112
+2021-07-28,Kelantan,532
+2021-07-28,Melaka,531
+2021-07-28,Negeri Sembilan,863
+2021-07-28,Pahang,429
+2021-07-28,Perak,406
+2021-07-28,Perlis,3
+2021-07-28,Pulau Pinang,760
+2021-07-28,Sabah,913
+2021-07-28,Sarawak,464
+2021-07-28,Selangor,7171
+2021-07-28,Terengganu,490
+2021-07-28,W.P. Kuala Lumpur,2880
+2021-07-28,W.P. Labuan,16
+2021-07-28,W.P. Putrajaya,68
+2021-07-29,Johor,1054
+2021-07-29,Kedah,1212
+2021-07-29,Kelantan,615
+2021-07-29,Melaka,416
+2021-07-29,Negeri Sembilan,884
+2021-07-29,Pahang,638
+2021-07-29,Perak,596
+2021-07-29,Perlis,10
+2021-07-29,Pulau Pinang,554
+2021-07-29,Sabah,776
+2021-07-29,Sarawak,582
+2021-07-29,Selangor,7163
+2021-07-29,Terengganu,437
+2021-07-29,W.P. Kuala Lumpur,2138
+2021-07-29,W.P. Labuan,11
+2021-07-29,W.P. Putrajaya,84
+2021-07-30,Johor,1104
+2021-07-30,Kedah,1281
+2021-07-30,Kelantan,656
+2021-07-30,Melaka,581
+2021-07-30,Negeri Sembilan,1079
+2021-07-30,Pahang,540
+2021-07-30,Perak,810
+2021-07-30,Perlis,13
+2021-07-30,Pulau Pinang,689
+2021-07-30,Sabah,1066
+2021-07-30,Sarawak,450
+2021-07-30,Selangor,6092
+2021-07-30,Terengganu,258
+2021-07-30,W.P. Kuala Lumpur,2114
+2021-07-30,W.P. Labuan,7
+2021-07-30,W.P. Putrajaya,100
+2021-07-31,Johor,1144
+2021-07-31,Kedah,1389
+2021-07-31,Kelantan,580
+2021-07-31,Melaka,697
+2021-07-31,Negeri Sembilan,929
+2021-07-31,Pahang,653
+2021-07-31,Perak,775
+2021-07-31,Perlis,16
+2021-07-31,Pulau Pinang,713
+2021-07-31,Sabah,1035
+2021-07-31,Sarawak,485
+2021-07-31,Selangor,6400
+2021-07-31,Terengganu,883
+2021-07-31,W.P. Kuala Lumpur,1962
+2021-07-31,W.P. Labuan,9
+2021-07-31,W.P. Putrajaya,116
+2021-08-03,Johor,120
+2021-08-03,Kedah,9
+2021-08-03,Kelantan,28
+2021-08-03,Melaka,4
+2021-08-03,Negeri Sembilan,89
+2021-08-03,Pahang,3
+2021-08-03,Perak,49
+2021-08-03,Perlis,17
+2021-08-03,Pulau Pinang,76
+2021-08-03,Sabah,71
+2021-08-03,Sarawak,252
+2021-08-03,Selangor,726
+2021-08-03,Terengganu,13
+2021-08-03,W.P. Kuala Lumpur,71
+2021-08-03,W.P. Labuan,0
+2021-08-03,W.P. Putrajaya,1
+2021-08-04,Johor,101
+2021-08-04,Kedah,31
+2021-08-04,Kelantan,87
+2021-08-04,Melaka,11
+2021-08-04,Negeri Sembilan,12
+2021-08-04,Pahang,12
+2021-08-04,Perak,24
+2021-08-04,Perlis,1
+2021-08-04,Pulau Pinang,162
+2021-08-04,Sabah,106
+2021-08-04,Sarawak,211
+2021-08-04,Selangor,374
+2021-08-04,Terengganu,11
+2021-08-04,W.P. Kuala Lumpur,120
+2021-08-04,W.P. Labuan,3
+2021-08-04,W.P. Putrajaya,19
+2021-08-05,Johor,288
+2021-08-05,Kedah,183
+2021-08-05,Kelantan,373
+2021-08-05,Melaka,100
+2021-08-05,Negeri Sembilan,98
+2021-08-05,Pahang,99
+2021-08-05,Perak,108
+2021-08-05,Perlis,1
+2021-08-05,Pulau Pinang,363
+2021-08-05,Sabah,63
+2021-08-05,Sarawak,479
+2021-08-05,Selangor,1722
+2021-08-05,Terengganu,71
+2021-08-05,W.P. Kuala Lumpur,557
+2021-08-05,W.P. Labuan,2
+2021-08-05,W.P. Putrajaya,12
+2021-08-06,Johor,456
+2021-08-06,Kedah,148
+2021-08-06,Kelantan,204
+2021-08-06,Melaka,314
+2021-08-06,Negeri Sembilan,505
+2021-08-06,Pahang,157
+2021-08-06,Perak,225
+2021-08-06,Perlis,1
+2021-08-06,Pulau Pinang,185
+2021-08-06,Sabah,350
+2021-08-06,Sarawak,707
+2021-08-06,Selangor,1524
+2021-08-06,Terengganu,106
+2021-08-06,W.P. Kuala Lumpur,466
+2021-08-06,W.P. Labuan,191
+2021-08-06,W.P. Putrajaya,27
+2021-08-07,Johor,336
+2021-08-07,Kedah,360
+2021-08-07,Kelantan,135
+2021-08-07,Melaka,183
+2021-08-07,Negeri Sembilan,897
+2021-08-07,Pahang,152
+2021-08-07,Perak,543
+2021-08-07,Perlis,1
+2021-08-07,Pulau Pinang,237
+2021-08-07,Sabah,279
+2021-08-07,Sarawak,281
+2021-08-07,Selangor,4152
+2021-08-07,Terengganu,68
+2021-08-07,W.P. Kuala Lumpur,1133
+2021-08-07,W.P. Labuan,64
+2021-08-07,W.P. Putrajaya,47
+2021-08-08,Johor,1308
+2021-08-08,Kedah,1610
+2021-08-08,Kelantan,870
+2021-08-08,Melaka,526
+2021-08-08,Negeri Sembilan,1140
+2021-08-08,Pahang,602
+2021-08-08,Perak,861
+2021-08-08,Perlis,6
+2021-08-08,Pulau Pinang,694
+2021-08-08,Sabah,1379
+2021-08-08,Sarawak,581
+2021-08-08,Selangor,6565
+2021-08-08,Terengganu,598
+2021-08-08,W.P. Kuala Lumpur,1883
+2021-08-08,W.P. Labuan,2
+2021-08-08,W.P. Putrajaya,63
+2021-08-09,Johor,1867
+2021-08-09,Kedah,1564
+2021-08-09,Kelantan,1471
+2021-08-09,Melaka,375
+2021-08-09,Negeri Sembilan,256
+2021-08-09,Pahang,700
+2021-08-09,Perak,1319
+2021-08-09,Perlis,74
+2021-08-09,Pulau Pinang,2474
+2021-08-09,Sabah,2067
+2021-08-09,Sarawak,3100
+2021-08-09,Selangor,2989
+2021-08-09,Terengganu,904
+2021-08-09,W.P. Kuala Lumpur,537
+2021-08-09,W.P. Labuan,7
+2021-08-09,W.P. Putrajaya,29
+2021-08-13,Johor,1485
+2021-08-13,Kedah,1807
+2021-08-13,Kelantan,1088
+2021-08-13,Melaka,723
+2021-08-13,Negeri Sembilan,974
+2021-08-13,Pahang,572
+2021-08-13,Perak,940
+2021-08-13,Perlis,50
+2021-08-13,Pulau Pinang,1316
+2021-08-13,Sabah,1654
+2021-08-13,Sarawak,715
+2021-08-13,Selangor,7449
+2021-08-13,Terengganu,440
+2021-08-13,W.P. Kuala Lumpur,2183
+2021-08-13,W.P. Labuan,6
+2021-08-13,W.P. Putrajaya,66
+2021-08-14,Johor,1425
+2021-08-14,Kedah,1796
+2021-08-14,Kelantan,1370
+2021-08-14,Melaka,521
+2021-08-14,Negeri Sembilan,727
+2021-08-14,Pahang,794
+2021-08-14,Perak,1003
+2021-08-14,Perlis,61
+2021-08-14,Pulau Pinang,1251
+2021-08-14,Sabah,1752
+2021-08-14,Sarawak,725
+2021-08-14,Selangor,6606
+2021-08-14,Terengganu,560
+2021-08-14,W.P. Kuala Lumpur,2028
+2021-08-14,W.P. Labuan,0
+2021-08-14,W.P. Putrajaya,51
+2021-08-15,Johor,1508
+2021-08-15,Kedah,1596
+2021-08-15,Kelantan,1025
+2021-08-15,Melaka,631
+2021-08-15,Negeri Sembilan,698
+2021-08-15,Pahang,926
+2021-08-15,Perak,1069
+2021-08-15,Perlis,21
+2021-08-15,Pulau Pinang,1111
+2021-08-15,Sabah,1665
+2021-08-15,Sarawak,963
+2021-08-15,Selangor,7307
+2021-08-15,Terengganu,534
+2021-08-15,W.P. Kuala Lumpur,1442
+2021-08-15,W.P. Labuan,3
+2021-08-15,W.P. Putrajaya,47
+2021-08-16,Johor,1510
+2021-08-16,Kedah,1592
+2021-08-16,Kelantan,1227
+2021-08-16,Melaka,1120
+2021-08-16,Negeri Sembilan,343
+2021-08-16,Pahang,646
+2021-08-16,Perak,938
+2021-08-16,Perlis,20
+2021-08-16,Pulau Pinang,1251
+2021-08-16,Sabah,1728
+2021-08-16,Sarawak,1566
+2021-08-16,Selangor,5706
+2021-08-16,Terengganu,688
+2021-08-16,W.P. Kuala Lumpur,1360
+2021-08-16,W.P. Labuan,2
+2021-08-16,W.P. Putrajaya,43
+2021-08-17,Johor,1309
+2021-08-17,Kedah,1863
+2021-08-17,Kelantan,1268
+2021-08-17,Melaka,623
+2021-08-17,Negeri Sembilan,490
+2021-08-17,Pahang,670
+2021-08-17,Perak,1101
+2021-08-17,Perlis,37
+2021-08-17,Pulau Pinang,1275
+2021-08-17,Sabah,2103
+2021-08-17,Sarawak,835
+2021-08-17,Selangor,5753
+2021-08-17,Terengganu,498
+2021-08-17,W.P. Kuala Lumpur,1765
+2021-08-17,W.P. Labuan,0
+2021-08-17,W.P. Putrajaya,41
+2021-08-18,Johor,1477
+2021-08-18,Kedah,1852
+2021-08-18,Kelantan,1351
+2021-08-18,Melaka,579
+2021-08-18,Negeri Sembilan,577
+2021-08-18,Pahang,675
+2021-08-18,Perak,1036
+2021-08-18,Perlis,50
+2021-08-18,Pulau Pinang,1867
+2021-08-18,Sabah,2413
+2021-08-18,Sarawak,1403
+2021-08-18,Selangor,6858
+2021-08-18,Terengganu,487
+2021-08-18,W.P. Kuala Lumpur,1587
+2021-08-18,W.P. Labuan,5
+2021-08-18,W.P. Putrajaya,25
+2021-08-19,Johor,1526
+2021-08-19,Kedah,2137
+2021-08-19,Kelantan,1271
+2021-08-19,Melaka,737
+2021-08-19,Negeri Sembilan,556
+2021-08-19,Pahang,736
+2021-08-19,Perak,1229
+2021-08-19,Perlis,42
+2021-08-19,Pulau Pinang,1655
+2021-08-19,Sabah,2583
+2021-08-19,Sarawak,1206
+2021-08-19,Selangor,7175
+2021-08-19,Terengganu,621
+2021-08-19,W.P. Kuala Lumpur,1439
+2021-08-19,W.P. Labuan,9
+2021-08-19,W.P. Putrajaya,26
+2021-08-20,Johor,1323
+2021-08-20,Kedah,1932
+2021-08-20,Kelantan,1281
+2021-08-20,Melaka,610
+2021-08-20,Negeri Sembilan,608
+2021-08-20,Pahang,517
+2021-08-20,Perak,1248
+2021-08-20,Perlis,64
+2021-08-20,Pulau Pinang,1523
+2021-08-20,Sabah,2738
+2021-08-20,Sarawak,2548
+2021-08-20,Selangor,6974
+2021-08-20,Terengganu,521
+2021-08-20,W.P. Kuala Lumpur,1652
+2021-08-20,W.P. Labuan,1
+2021-08-20,W.P. Putrajaya,24
+2021-08-21,Johor,1558
+2021-08-21,Kedah,1880
+2021-08-21,Kelantan,1039
+2021-08-21,Melaka,882
+2021-08-21,Negeri Sembilan,405
+2021-08-21,Pahang,664
+2021-08-21,Perak,946
+2021-08-21,Perlis,38
+2021-08-21,Pulau Pinang,1459
+2021-08-21,Sabah,2651
+2021-08-21,Sarawak,1964
+2021-08-21,Selangor,7011
+2021-08-21,Terengganu,495
+2021-08-21,W.P. Kuala Lumpur,1220
+2021-08-21,W.P. Labuan,9
+2021-08-21,W.P. Putrajaya,41
+2021-08-22,Johor,1391
+2021-08-22,Kedah,1948
+2021-08-22,Kelantan,1196
+2021-08-22,Melaka,558
+2021-08-22,Negeri Sembilan,508
+2021-08-22,Pahang,598
+2021-08-22,Perak,703
+2021-08-22,Perlis,54
+2021-08-22,Pulau Pinang,1501
+2021-08-22,Sabah,2638
+2021-08-22,Sarawak,1772
+2021-08-22,Selangor,5379
+2021-08-22,Terengganu,534
+2021-08-22,W.P. Kuala Lumpur,999
+2021-08-22,W.P. Labuan,4
+2021-08-22,W.P. Putrajaya,24
+2021-08-23,Johor,1367
+2021-08-23,Kedah,1602
+2021-08-23,Kelantan,1176
+2021-08-23,Melaka,363
+2021-08-23,Negeri Sembilan,478
+2021-08-23,Pahang,506
+2021-08-23,Perak,952
+2021-08-23,Perlis,57
+2021-08-23,Pulau Pinang,1451
+2021-08-23,Sabah,2474
+2021-08-23,Sarawak,1538
+2021-08-23,Selangor,4316
+2021-08-23,Terengganu,470
+2021-08-23,W.P. Kuala Lumpur,891
+2021-08-23,W.P. Labuan,7
+2021-08-23,W.P. Putrajaya,24
+2021-08-24,Johor,1743
+2021-08-24,Kedah,1772
+2021-08-24,Kelantan,1422
+2021-08-24,Melaka,396
+2021-08-24,Negeri Sembilan,351
+2021-08-24,Pahang,521
+2021-08-24,Perak,1242
+2021-08-24,Perlis,74
+2021-08-24,Pulau Pinang,2054
+2021-08-24,Sabah,3376
+2021-08-24,Sarawak,1543
+2021-08-24,Selangor,4645
+2021-08-24,Terengganu,383
+2021-08-24,W.P. Kuala Lumpur,1284
+2021-08-24,W.P. Labuan,4
+2021-08-24,W.P. Putrajaya,27
+2021-08-25,Johor,1832
+2021-08-25,Kedah,2279
+2021-08-25,Kelantan,1424
+2021-08-25,Melaka,342
+2021-08-25,Negeri Sembilan,269
+2021-08-25,Pahang,522
+2021-08-25,Perak,1390
+2021-08-25,Perlis,44
+2021-08-25,Pulau Pinang,1427
+2021-08-25,Sabah,3224
+2021-08-25,Sarawak,1667
+2021-08-25,Selangor,6325
+2021-08-25,Terengganu,744
+2021-08-25,W.P. Kuala Lumpur,1128
+2021-08-25,W.P. Labuan,4
+2021-08-25,W.P. Putrajaya,21
+2021-08-26,Johor,2785
+2021-08-26,Kedah,1538
+2021-08-26,Kelantan,1312
+2021-08-26,Melaka,515
+2021-08-26,Negeri Sembilan,526
+2021-08-26,Pahang,690
+2021-08-26,Perak,1170
+2021-08-26,Perlis,67
+2021-08-26,Pulau Pinang,2078
+2021-08-26,Sabah,3487
+2021-08-26,Sarawak,2024
+2021-08-26,Selangor,6936
+2021-08-26,Terengganu,567
+2021-08-26,W.P. Kuala Lumpur,881
+2021-08-26,W.P. Labuan,3
+2021-08-26,W.P. Putrajaya,20
+2021-08-27,Johor,1809
+2021-08-27,Kedah,2072
+2021-08-27,Kelantan,1051
+2021-08-27,Melaka,589
+2021-08-27,Negeri Sembilan,338
+2021-08-27,Pahang,610
+2021-08-27,Perak,939
+2021-08-27,Perlis,76
+2021-08-27,Pulau Pinang,1829
+2021-08-27,Sabah,3010
+2021-08-27,Sarawak,2224
+2021-08-27,Selangor,5920
+2021-08-27,Terengganu,488
+2021-08-27,W.P. Kuala Lumpur,1068
+2021-08-27,W.P. Labuan,8
+2021-08-27,W.P. Putrajaya,39
+2021-08-28,Johor,1896
+2021-08-28,Kedah,2162
+2021-08-28,Kelantan,1289
+2021-08-28,Melaka,269
+2021-08-28,Negeri Sembilan,345
+2021-08-28,Pahang,579
+2021-08-28,Perak,1061
+2021-08-28,Perlis,98
+2021-08-28,Pulau Pinang,1920
+2021-08-28,Sabah,2834
+2021-08-28,Sarawak,2427
+2021-08-28,Selangor,5814
+2021-08-28,Terengganu,739
+2021-08-28,W.P. Kuala Lumpur,1111
+2021-08-28,W.P. Labuan,5
+2021-08-28,W.P. Putrajaya,48
+2021-08-29,Johor,1852
+2021-08-29,Kedah,1755
+2021-08-29,Kelantan,1316
+2021-08-29,Melaka,636
+2021-08-29,Negeri Sembilan,329
+2021-08-29,Pahang,839
+2021-08-29,Perak,1208
+2021-08-29,Perlis,56
+2021-08-29,Pulau Pinang,1378
+2021-08-29,Sabah,2578
+2021-08-29,Sarawak,2522
+2021-08-29,Selangor,4591
+2021-08-29,Terengganu,789
+2021-08-29,W.P. Kuala Lumpur,680
+2021-08-29,W.P. Labuan,2
+2021-08-29,W.P. Putrajaya,48
+2021-08-30,Johor,2265
+2021-08-30,Kedah,2084
+2021-08-30,Kelantan,1308
+2021-08-30,Melaka,395
+2021-08-30,Negeri Sembilan,269
+2021-08-30,Pahang,788
+2021-08-30,Perak,1144
+2021-08-30,Perlis,71
+2021-08-30,Pulau Pinang,1780
+2021-08-30,Sabah,2310
+2021-08-30,Sarawak,2028
+2021-08-30,Selangor,3567
+2021-08-30,Terengganu,544
+2021-08-30,W.P. Kuala Lumpur,672
+2021-08-30,W.P. Labuan,2
+2021-08-30,W.P. Putrajaya,41
+2021-08-31,Johor,2159
+2021-08-31,Kedah,1942
+2021-08-31,Kelantan,1479
+2021-08-31,Melaka,417
+2021-08-31,Negeri Sembilan,215
+2021-08-31,Pahang,798
+2021-08-31,Perak,1204
+2021-08-31,Perlis,64
+2021-08-31,Pulau Pinang,1732
+2021-08-31,Sabah,2594
+2021-08-31,Sarawak,2285
+2021-08-31,Selangor,4371
+2021-08-31,Terengganu,608
+2021-08-31,W.P. Kuala Lumpur,1003
+2021-08-31,W.P. Labuan,1
+2021-08-31,W.P. Putrajaya,25
+2021-09-03,Johor,165
+2021-09-03,Kedah,25
+2021-09-03,Kelantan,16
+2021-09-03,Melaka,0
+2021-09-03,Negeri Sembilan,45
+2021-09-03,Pahang,2
+2021-09-03,Perak,34
+2021-09-03,Perlis,1
+2021-09-03,Pulau Pinang,143
+2021-09-03,Sabah,64
+2021-09-03,Sarawak,163
+2021-09-03,Selangor,464
+2021-09-03,Terengganu,36
+2021-09-03,W.P. Kuala Lumpur,119
+2021-09-03,W.P. Labuan,0
+2021-09-03,W.P. Putrajaya,3
+2021-09-04,Johor,103
+2021-09-04,Kedah,40
+2021-09-04,Kelantan,143
+2021-09-04,Melaka,34
+2021-09-04,Negeri Sembilan,40
+2021-09-04,Pahang,19
+2021-09-04,Perak,29
+2021-09-04,Perlis,0
+2021-09-04,Pulau Pinang,176
+2021-09-04,Sabah,139
+2021-09-04,Sarawak,555
+2021-09-04,Selangor,403
+2021-09-04,Terengganu,29
+2021-09-04,W.P. Kuala Lumpur,135
+2021-09-04,W.P. Labuan,3
+2021-09-04,W.P. Putrajaya,6
+2021-09-05,Johor,365
+2021-09-05,Kedah,176
+2021-09-05,Kelantan,254
+2021-09-05,Melaka,66
+2021-09-05,Negeri Sembilan,205
+2021-09-05,Pahang,100
+2021-09-05,Perak,80
+2021-09-05,Perlis,1
+2021-09-05,Pulau Pinang,280
+2021-09-05,Sabah,61
+2021-09-05,Sarawak,454
+2021-09-05,Selangor,1278
+2021-09-05,Terengganu,49
+2021-09-05,W.P. Kuala Lumpur,338
+2021-09-05,W.P. Labuan,6
+2021-09-05,W.P. Putrajaya,20
+2021-09-06,Johor,468
+2021-09-06,Kedah,135
+2021-09-06,Kelantan,340
+2021-09-06,Melaka,150
+2021-09-06,Negeri Sembilan,507
+2021-09-06,Pahang,232
+2021-09-06,Perak,175
+2021-09-06,Perlis,4
+2021-09-06,Pulau Pinang,194
+2021-09-06,Sabah,232
+2021-09-06,Sarawak,419
+2021-09-06,Selangor,2291
+2021-09-06,Terengganu,171
+2021-09-06,W.P. Kuala Lumpur,704
+2021-09-06,W.P. Labuan,200
+2021-09-06,W.P. Putrajaya,17
+2021-09-07,Johor,315
+2021-09-07,Kedah,417
+2021-09-07,Kelantan,151
+2021-09-07,Melaka,222
+2021-09-07,Negeri Sembilan,899
+2021-09-07,Pahang,214
+2021-09-07,Perak,241
+2021-09-07,Perlis,1
+2021-09-07,Pulau Pinang,142
+2021-09-07,Sabah,323
+2021-09-07,Sarawak,406
+2021-09-07,Selangor,4400
+2021-09-07,Terengganu,82
+2021-09-07,W.P. Kuala Lumpur,1271
+2021-09-07,W.P. Labuan,80
+2021-09-07,W.P. Putrajaya,16
+2021-09-08,Johor,1232
+2021-09-08,Kedah,1328
+2021-09-08,Kelantan,914
+2021-09-08,Melaka,360
+2021-09-08,Negeri Sembilan,1215
+2021-09-08,Pahang,604
+2021-09-08,Perak,935
+2021-09-08,Perlis,22
+2021-09-08,Pulau Pinang,908
+2021-09-08,Sabah,1247
+2021-09-08,Sarawak,589
+2021-09-08,Selangor,5740
+2021-09-08,Terengganu,501
+2021-09-08,W.P. Kuala Lumpur,1567
+2021-09-08,W.P. Labuan,8
+2021-09-08,W.P. Putrajaya,66
+2021-09-09,Johor,2032
+2021-09-09,Kedah,1355
+2021-09-09,Kelantan,1438
+2021-09-09,Melaka,340
+2021-09-09,Negeri Sembilan,207
+2021-09-09,Pahang,661
+2021-09-09,Perak,1341
+2021-09-09,Perlis,108
+2021-09-09,Pulau Pinang,2243
+2021-09-09,Sabah,2298
+2021-09-09,Sarawak,3118
+2021-09-09,Selangor,2700
+2021-09-09,Terengganu,910
+2021-09-09,W.P. Kuala Lumpur,513
+2021-09-09,W.P. Labuan,15
+2021-09-09,W.P. Putrajaya,28
+2021-09-13,Johor,2030
+2021-09-13,Kedah,1191
+2021-09-13,Kelantan,1070
+2021-09-13,Melaka,206
+2021-09-13,Negeri Sembilan,156
+2021-09-13,Pahang,878
+2021-09-13,Perak,1011
+2021-09-13,Perlis,41
+2021-09-13,Pulau Pinang,1243
+2021-09-13,Sabah,1649
+2021-09-13,Sarawak,3522
+2021-09-13,Selangor,1947
+2021-09-13,Terengganu,704
+2021-09-13,W.P. Kuala Lumpur,398
+2021-09-13,W.P. Labuan,11
+2021-09-13,W.P. Putrajaya,16
+2021-09-14,Johor,1974
+2021-09-14,Kedah,1207
+2021-09-14,Kelantan,1406
+2021-09-14,Melaka,329
+2021-09-14,Negeri Sembilan,143
+2021-09-14,Pahang,763
+2021-09-14,Perak,856
+2021-09-14,Perlis,30
+2021-09-14,Pulau Pinang,1651
+2021-09-14,Sabah,1784
+2021-09-14,Sarawak,1983
+2021-09-14,Selangor,2632
+2021-09-14,Terengganu,483
+2021-09-14,W.P. Kuala Lumpur,411
+2021-09-14,W.P. Labuan,3
+2021-09-14,W.P. Putrajaya,14
+2021-09-15,Johor,1860
+2021-09-15,Kedah,1178
+2021-09-15,Kelantan,1434
+2021-09-15,Melaka,190
+2021-09-15,Negeri Sembilan,222
+2021-09-15,Pahang,766
+2021-09-15,Perak,1174
+2021-09-15,Perlis,108
+2021-09-15,Pulau Pinang,1757
+2021-09-15,Sabah,2015
+2021-09-15,Sarawak,4709
+2021-09-15,Selangor,2710
+2021-09-15,Terengganu,993
+2021-09-15,W.P. Kuala Lumpur,363
+2021-09-15,W.P. Labuan,0
+2021-09-15,W.P. Putrajaya,16
+2021-09-16,Johor,2206
+2021-09-16,Kedah,1233
+2021-09-16,Kelantan,1222
+2021-09-16,Melaka,269
+2021-09-16,Negeri Sembilan,170
+2021-09-16,Pahang,712
+2021-09-16,Perak,1446
+2021-09-16,Perlis,80
+2021-09-16,Pulau Pinang,1777
+2021-09-16,Sabah,1982
+2021-09-16,Sarawak,3660
+2021-09-16,Selangor,2718
+2021-09-16,Terengganu,814
+2021-09-16,W.P. Kuala Lumpur,493
+2021-09-16,W.P. Labuan,11
+2021-09-16,W.P. Putrajaya,22
+2021-09-17,Johor,2334
+2021-09-17,Kedah,1173
+2021-09-17,Kelantan,869
+2021-09-17,Melaka,287
+2021-09-17,Negeri Sembilan,198
+2021-09-17,Pahang,832
+2021-09-17,Perak,1596
+2021-09-17,Perlis,41
+2021-09-17,Pulau Pinang,1462
+2021-09-17,Sabah,1533
+2021-09-17,Sarawak,3480
+2021-09-17,Selangor,2646
+2021-09-17,Terengganu,719
+2021-09-17,W.P. Kuala Lumpur,366
+2021-09-17,W.P. Labuan,10
+2021-09-17,W.P. Putrajaya,31
+2021-09-18,Johor,2208
+2021-09-18,Kedah,1073
+2021-09-18,Kelantan,1214
+2021-09-18,Melaka,263
+2021-09-18,Negeri Sembilan,131
+2021-09-18,Pahang,634
+2021-09-18,Perak,1120
+2021-09-18,Perlis,33
+2021-09-18,Pulau Pinang,1375
+2021-09-18,Sabah,1395
+2021-09-18,Sarawak,2929
+2021-09-18,Selangor,1995
+2021-09-18,Terengganu,755
+2021-09-18,W.P. Kuala Lumpur,382
+2021-09-18,W.P. Labuan,11
+2021-09-18,W.P. Putrajaya,31
+2021-09-19,Johor,1948
+2021-09-19,Kedah,809
+2021-09-19,Kelantan,1420
+2021-09-19,Melaka,207
+2021-09-19,Negeri Sembilan,144
+2021-09-19,Pahang,705
+2021-09-19,Perak,1222
+2021-09-19,Perlis,76
+2021-09-19,Pulau Pinang,1259
+2021-09-19,Sabah,1356
+2021-09-19,Sarawak,2707
+2021-09-19,Selangor,2028
+2021-09-19,Terengganu,671
+2021-09-19,W.P. Kuala Lumpur,383
+2021-09-19,W.P. Labuan,0
+2021-09-19,W.P. Putrajaya,19
+2021-09-20,Johor,1598
+2021-09-20,Kedah,967
+2021-09-20,Kelantan,1050
+2021-09-20,Melaka,162
+2021-09-20,Negeri Sembilan,125
+2021-09-20,Pahang,779
+2021-09-20,Perak,1090
+2021-09-20,Perlis,51
+2021-09-20,Pulau Pinang,1170
+2021-09-20,Sabah,1255
+2021-09-20,Sarawak,3611
+2021-09-20,Selangor,1365
+2021-09-20,Terengganu,804
+2021-09-20,W.P. Kuala Lumpur,307
+2021-09-20,W.P. Labuan,0
+2021-09-20,W.P. Putrajaya,11
+2021-09-21,Johor,1959
+2021-09-21,Kedah,786
+2021-09-21,Kelantan,1338
+2021-09-21,Melaka,264
+2021-09-21,Negeri Sembilan,127
+2021-09-21,Pahang,707
+2021-09-21,Perak,1184
+2021-09-21,Perlis,23
+2021-09-21,Pulau Pinang,1417
+2021-09-21,Sabah,1291
+2021-09-21,Sarawak,3732
+2021-09-21,Selangor,1934
+2021-09-21,Terengganu,592
+2021-09-21,W.P. Kuala Lumpur,359
+2021-09-21,W.P. Labuan,12
+2021-09-21,W.P. Putrajaya,34
+2021-09-22,Johor,1880
+2021-09-22,Kedah,1007
+2021-09-22,Kelantan,1573
+2021-09-22,Melaka,313
+2021-09-22,Negeri Sembilan,170
+2021-09-22,Pahang,688
+2021-09-22,Perak,1490
+2021-09-22,Perlis,97
+2021-09-22,Pulau Pinang,1224
+2021-09-22,Sabah,1199
+2021-09-22,Sarawak,1712
+2021-09-22,Selangor,2414
+2021-09-22,Terengganu,852
+2021-09-22,W.P. Kuala Lumpur,338
+2021-09-22,W.P. Labuan,3
+2021-09-22,W.P. Putrajaya,30
+2021-09-23,Johor,1913
+2021-09-23,Kedah,783
+2021-09-23,Kelantan,1264
+2021-09-23,Melaka,292
+2021-09-23,Negeri Sembilan,175
+2021-09-23,Pahang,869
+2021-09-23,Perak,844
+2021-09-23,Perlis,113
+2021-09-23,Pulau Pinang,1052
+2021-09-23,Sabah,1629
+2021-09-23,Sarawak,1766
+2021-09-23,Selangor,1985
+2021-09-23,Terengganu,664
+2021-09-23,W.P. Kuala Lumpur,383
+2021-09-23,W.P. Labuan,8
+2021-09-23,W.P. Putrajaya,14
+2021-09-24,Johor,1807
+2021-09-24,Kedah,908
+2021-09-24,Kelantan,910
+2021-09-24,Melaka,401
+2021-09-24,Negeri Sembilan,157
+2021-09-24,Pahang,598
+2021-09-24,Perak,1144
+2021-09-24,Perlis,65
+2021-09-24,Pulau Pinang,1231
+2021-09-24,Sabah,1273
+2021-09-24,Sarawak,2825
+2021-09-24,Selangor,2244
+2021-09-24,Terengganu,690
+2021-09-24,W.P. Kuala Lumpur,271
+2021-09-24,W.P. Labuan,0
+2021-09-24,W.P. Putrajaya,30
+2021-09-25,Johor,1377
+2021-09-25,Kedah,708
+2021-09-25,Kelantan,1170
+2021-09-25,Melaka,339
+2021-09-25,Negeri Sembilan,194
+2021-09-25,Pahang,779
+2021-09-25,Perak,1128
+2021-09-25,Perlis,17
+2021-09-25,Pulau Pinang,1060
+2021-09-25,Sabah,962
+2021-09-25,Sarawak,2712
+2021-09-25,Selangor,2341
+2021-09-25,Terengganu,760
+2021-09-25,W.P. Kuala Lumpur,310
+2021-09-25,W.P. Labuan,5
+2021-09-25,W.P. Putrajaya,37
+2021-09-26,Johor,1455
+2021-09-26,Kedah,721
+2021-09-26,Kelantan,1206
+2021-09-26,Melaka,362
+2021-09-26,Negeri Sembilan,165
+2021-09-26,Pahang,604
+2021-09-26,Perak,994
+2021-09-26,Perlis,80
+2021-09-26,Pulau Pinang,955
+2021-09-26,Sabah,1078
+2021-09-26,Sarawak,2943
+2021-09-26,Selangor,1558
+2021-09-26,Terengganu,685
+2021-09-26,W.P. Kuala Lumpur,270
+2021-09-26,W.P. Labuan,4
+2021-09-26,W.P. Putrajaya,24
+2021-09-27,Johor,1226
+2021-09-27,Kedah,660
+2021-09-27,Kelantan,983
+2021-09-27,Melaka,346
+2021-09-27,Negeri Sembilan,110
+2021-09-27,Pahang,739
+2021-09-27,Perak,713
+2021-09-27,Perlis,51
+2021-09-27,Pulau Pinang,793
+2021-09-27,Sabah,751
+2021-09-27,Sarawak,2723
+2021-09-27,Selangor,979
+2021-09-27,Terengganu,691
+2021-09-27,W.P. Kuala Lumpur,176
+2021-09-27,W.P. Labuan,0
+2021-09-27,W.P. Putrajaya,18
+2021-09-28,Johor,1319
+2021-09-28,Kedah,819
+2021-09-28,Kelantan,1088
+2021-09-28,Melaka,303
+2021-09-28,Negeri Sembilan,89
+2021-09-28,Pahang,677
+2021-09-28,Perak,678
+2021-09-28,Perlis,19
+2021-09-28,Pulau Pinang,895
+2021-09-28,Sabah,965
+2021-09-28,Sarawak,2358
+2021-09-28,Selangor,1231
+2021-09-28,Terengganu,629
+2021-09-28,W.P. Kuala Lumpur,240
+2021-09-28,W.P. Labuan,3
+2021-09-28,W.P. Putrajaya,19
+2021-09-29,Johor,1289
+2021-09-29,Kedah,652
+2021-09-29,Kelantan,1125
+2021-09-29,Melaka,375
+2021-09-29,Negeri Sembilan,169
+2021-09-29,Pahang,663
+2021-09-29,Perak,971
+2021-09-29,Perlis,79
+2021-09-29,Pulau Pinang,863
+2021-09-29,Sabah,1000
+2021-09-29,Sarawak,2967
+2021-09-29,Selangor,1362
+2021-09-29,Terengganu,612
+2021-09-29,W.P. Kuala Lumpur,284
+2021-09-29,W.P. Labuan,5
+2021-09-29,W.P. Putrajaya,18
+2021-09-30,Johor,1241
+2021-09-30,Kedah,1033
+2021-09-30,Kelantan,1232
+2021-09-30,Melaka,194
+2021-09-30,Negeri Sembilan,132
+2021-09-30,Pahang,697
+2021-09-30,Perak,913
+2021-09-30,Perlis,97
+2021-09-30,Pulau Pinang,763
+2021-09-30,Sabah,993
+2021-09-30,Sarawak,2487
+2021-09-30,Selangor,1940
+2021-09-30,Terengganu,726
+2021-09-30,W.P. Kuala Lumpur,258
+2021-09-30,W.P. Labuan,1
+2021-09-30,W.P. Putrajaya,28
+2021-10-03,Johor,273
+2021-10-03,Kedah,20
+2021-10-03,Kelantan,19
+2021-10-03,Melaka,11
+2021-10-03,Negeri Sembilan,10
+2021-10-03,Pahang,1
+2021-10-03,Perak,83
+2021-10-03,Perlis,7
+2021-10-03,Pulau Pinang,99
+2021-10-03,Sabah,54
+2021-10-03,Sarawak,199
+2021-10-03,Selangor,561
+2021-10-03,Terengganu,8
+2021-10-03,W.P. Kuala Lumpur,103
+2021-10-03,W.P. Labuan,0
+2021-10-03,W.P. Putrajaya,0
+2021-10-04,Johor,80
+2021-10-04,Kedah,59
+2021-10-04,Kelantan,171
+2021-10-04,Melaka,6
+2021-10-04,Negeri Sembilan,28
+2021-10-04,Pahang,13
+2021-10-04,Perak,46
+2021-10-04,Perlis,2
+2021-10-04,Pulau Pinang,101
+2021-10-04,Sabah,131
+2021-10-04,Sarawak,296
+2021-10-04,Selangor,415
+2021-10-04,Terengganu,44
+2021-10-04,W.P. Kuala Lumpur,106
+2021-10-04,W.P. Labuan,2
+2021-10-04,W.P. Putrajaya,10
+2021-10-05,Johor,257
+2021-10-05,Kedah,224
+2021-10-05,Kelantan,329
+2021-10-05,Melaka,88
+2021-10-05,Negeri Sembilan,144
+2021-10-05,Pahang,77
+2021-10-05,Perak,119
+2021-10-05,Perlis,3
+2021-10-05,Pulau Pinang,245
+2021-10-05,Sabah,96
+2021-10-05,Sarawak,649
+2021-10-05,Selangor,1149
+2021-10-05,Terengganu,93
+2021-10-05,W.P. Kuala Lumpur,320
+2021-10-05,W.P. Labuan,3
+2021-10-05,W.P. Putrajaya,11
+2021-10-06,Johor,524
+2021-10-06,Kedah,309
+2021-10-06,Kelantan,262
+2021-10-06,Melaka,184
+2021-10-06,Negeri Sembilan,593
+2021-10-06,Pahang,112
+2021-10-06,Perak,143
+2021-10-06,Perlis,3
+2021-10-06,Pulau Pinang,166
+2021-10-06,Sabah,233
+2021-10-06,Sarawak,631
+2021-10-06,Selangor,1510
+2021-10-06,Terengganu,108
+2021-10-06,W.P. Kuala Lumpur,769
+2021-10-06,W.P. Labuan,106
+2021-10-06,W.P. Putrajaya,18
+2021-10-07,Johor,399
+2021-10-07,Kedah,364
+2021-10-07,Kelantan,89
+2021-10-07,Melaka,835
+2021-10-07,Negeri Sembilan,638
+2021-10-07,Pahang,247
+2021-10-07,Perak,145
+2021-10-07,Perlis,4
+2021-10-07,Pulau Pinang,180
+2021-10-07,Sabah,251
+2021-10-07,Sarawak,352
+2021-10-07,Selangor,4277
+2021-10-07,Terengganu,50
+2021-10-07,W.P. Kuala Lumpur,1398
+2021-10-07,W.P. Labuan,85
+2021-10-07,W.P. Putrajaya,39
+2021-10-08,Johor,1344
+2021-10-08,Kedah,1830
+2021-10-08,Kelantan,1030
+2021-10-08,Melaka,578
+2021-10-08,Negeri Sembilan,564
+2021-10-08,Pahang,539
+2021-10-08,Perak,953
+2021-10-08,Perlis,24
+2021-10-08,Pulau Pinang,743
+2021-10-08,Sabah,1383
+2021-10-08,Sarawak,836
+2021-10-08,Selangor,7338
+2021-10-08,Terengganu,378
+2021-10-08,W.P. Kuala Lumpur,2374
+2021-10-08,W.P. Labuan,1
+2021-10-08,W.P. Putrajaya,76
+2021-10-09,Johor,2297
+2021-10-09,Kedah,1808
+2021-10-09,Kelantan,1254
+2021-10-09,Melaka,485
+2021-10-09,Negeri Sembilan,252
+2021-10-09,Pahang,853
+2021-10-09,Perak,1366
+2021-10-09,Perlis,77
+2021-10-09,Pulau Pinang,1939
+2021-10-09,Sabah,2246
+2021-10-09,Sarawak,3734
+2021-10-09,Selangor,3595
+2021-10-09,Terengganu,776
+2021-10-09,W.P. Kuala Lumpur,467
+2021-10-09,W.P. Labuan,6
+2021-10-09,W.P. Putrajaya,21
+2021-11-03,Johor,170
+2021-11-03,Kedah,18
+2021-11-03,Kelantan,28
+2021-11-03,Melaka,71
+2021-11-03,Negeri Sembilan,79
+2021-11-03,Pahang,7
+2021-11-03,Perak,69
+2021-11-03,Perlis,2
+2021-11-03,Pulau Pinang,169
+2021-11-03,Sabah,61
+2021-11-03,Sarawak,168
+2021-11-03,Selangor,712
+2021-11-03,Terengganu,4
+2021-11-03,W.P. Kuala Lumpur,86
+2021-11-03,W.P. Labuan,1
+2021-11-03,W.P. Putrajaya,2
+2021-11-04,Johor,67
+2021-11-04,Kedah,40
+2021-11-04,Kelantan,98
+2021-11-04,Melaka,59
+2021-11-04,Negeri Sembilan,40
+2021-11-04,Pahang,22
+2021-11-04,Perak,50
+2021-11-04,Perlis,0
+2021-11-04,Pulau Pinang,113
+2021-11-04,Sabah,127
+2021-11-04,Sarawak,443
+2021-11-04,Selangor,535
+2021-11-04,Terengganu,34
+2021-11-04,W.P. Kuala Lumpur,96
+2021-11-04,W.P. Labuan,4
+2021-11-04,W.P. Putrajaya,11
+2021-11-05,Johor,384
+2021-11-05,Kedah,174
+2021-11-05,Kelantan,321
+2021-11-05,Melaka,79
+2021-11-05,Negeri Sembilan,126
+2021-11-05,Pahang,85
+2021-11-05,Perak,140
+2021-11-05,Perlis,0
+2021-11-05,Pulau Pinang,187
+2021-11-05,Sabah,50
+2021-11-05,Sarawak,512
+2021-11-05,Selangor,1328
+2021-11-05,Terengganu,93
+2021-11-05,W.P. Kuala Lumpur,483
+2021-11-05,W.P. Labuan,3
+2021-11-05,W.P. Putrajaya,8
+2021-11-06,Johor,426
+2021-11-06,Kedah,161
+2021-11-06,Kelantan,248
+2021-11-06,Melaka,170
+2021-11-06,Negeri Sembilan,685
+2021-11-06,Pahang,89
+2021-11-06,Perak,161
+2021-11-06,Perlis,2
+2021-11-06,Pulau Pinang,205
+2021-11-06,Sabah,309
+2021-11-06,Sarawak,699
+2021-11-06,Selangor,2558
+2021-11-06,Terengganu,66
+2021-11-06,W.P. Kuala Lumpur,884
+2021-11-06,W.P. Labuan,176
+2021-11-06,W.P. Putrajaya,10
+2021-11-07,Johor,392
+2021-11-07,Kedah,382
+2021-11-07,Kelantan,150
+2021-11-07,Melaka,278
+2021-11-07,Negeri Sembilan,541
+2021-11-07,Pahang,300
+2021-11-07,Perak,207
+2021-11-07,Perlis,1
+2021-11-07,Pulau Pinang,243
+2021-11-07,Sabah,271
+2021-11-07,Sarawak,270
+2021-11-07,Selangor,4682
+2021-11-07,Terengganu,38
+2021-11-07,W.P. Kuala Lumpur,1247
+2021-11-07,W.P. Labuan,54
+2021-11-07,W.P. Putrajaya,49
+2021-11-08,Johor,1693
+2021-11-08,Kedah,1534
+2021-11-08,Kelantan,1284
+2021-11-08,Melaka,636
+2021-11-08,Negeri Sembilan,1015
+2021-11-08,Pahang,585
+2021-11-08,Perak,828
+2021-11-08,Perlis,29
+2021-11-08,Pulau Pinang,1385
+2021-11-08,Sabah,1514
+2021-11-08,Sarawak,634
+2021-11-08,Selangor,6921
+2021-11-08,Terengganu,613
+2021-11-08,W.P. Kuala Lumpur,2065
+2021-11-08,W.P. Labuan,3
+2021-11-08,W.P. Putrajaya,41
+2021-11-09,Johor,2282
+2021-11-09,Kedah,1390
+2021-11-09,Kelantan,1320
+2021-11-09,Melaka,490
+2021-11-09,Negeri Sembilan,198
+2021-11-09,Pahang,722
+2021-11-09,Perak,1354
+2021-11-09,Perlis,73
+2021-11-09,Pulau Pinang,1865
+2021-11-09,Sabah,2163
+2021-11-09,Sarawak,3743
+2021-11-09,Selangor,2416
+2021-11-09,Terengganu,953
+2021-11-09,W.P. Kuala Lumpur,555
+2021-11-09,W.P. Labuan,2
+2021-11-09,W.P. Putrajaya,24
+2021-12-03,Johor,135
+2021-12-03,Kedah,23
+2021-12-03,Kelantan,43
+2021-12-03,Melaka,25
+2021-12-03,Negeri Sembilan,32
+2021-12-03,Pahang,4
+2021-12-03,Perak,44
+2021-12-03,Perlis,25
+2021-12-03,Pulau Pinang,132
+2021-12-03,Sabah,57
+2021-12-03,Sarawak,173
+2021-12-03,Selangor,751
+2021-12-03,Terengganu,16
+2021-12-03,W.P. Kuala Lumpur,108
+2021-12-03,W.P. Labuan,3
+2021-12-03,W.P. Putrajaya,4
+2021-12-04,Johor,61
+2021-12-04,Kedah,47
+2021-12-04,Kelantan,58
+2021-12-04,Melaka,11
+2021-12-04,Negeri Sembilan,63
+2021-12-04,Pahang,32
+2021-12-04,Perak,21
+2021-12-04,Perlis,2
+2021-12-04,Pulau Pinang,112
+2021-12-04,Sabah,109
+2021-12-04,Sarawak,351
+2021-12-04,Selangor,303
+2021-12-04,Terengganu,22
+2021-12-04,W.P. Kuala Lumpur,116
+2021-12-04,W.P. Labuan,0
+2021-12-04,W.P. Putrajaya,9
+2021-12-05,Johor,348
+2021-12-05,Kedah,226
+2021-12-05,Kelantan,297
+2021-12-05,Melaka,110
+2021-12-05,Negeri Sembilan,122
+2021-12-05,Pahang,63
+2021-12-05,Perak,172
+2021-12-05,Perlis,1
+2021-12-05,Pulau Pinang,259
+2021-12-05,Sabah,70
+2021-12-05,Sarawak,405
+2021-12-05,Selangor,2082
+2021-12-05,Terengganu,60
+2021-12-05,W.P. Kuala Lumpur,540
+2021-12-05,W.P. Labuan,6
+2021-12-05,W.P. Putrajaya,4
+2021-12-06,Johor,504
+2021-12-06,Kedah,171
+2021-12-06,Kelantan,337
+2021-12-06,Melaka,178
+2021-12-06,Negeri Sembilan,618
+2021-12-06,Pahang,121
+2021-12-06,Perak,218
+2021-12-06,Perlis,5
+2021-12-06,Pulau Pinang,198
+2021-12-06,Sabah,378
+2021-12-06,Sarawak,569
+2021-12-06,Selangor,1582
+2021-12-06,Terengganu,82
+2021-12-06,W.P. Kuala Lumpur,559
+2021-12-06,W.P. Labuan,250
+2021-12-06,W.P. Putrajaya,23
+2021-12-07,Johor,407
+2021-12-07,Kedah,415
+2021-12-07,Kelantan,133
+2021-12-07,Melaka,411
+2021-12-07,Negeri Sembilan,794
+2021-12-07,Pahang,314
+2021-12-07,Perak,168
+2021-12-07,Perlis,0
+2021-12-07,Pulau Pinang,231
+2021-12-07,Sabah,298
+2021-12-07,Sarawak,235
+2021-12-07,Selangor,4308
+2021-12-07,Terengganu,140
+2021-12-07,W.P. Kuala Lumpur,609
+2021-12-07,W.P. Labuan,66
+2021-12-07,W.P. Putrajaya,45
+2021-12-08,Johor,1706
+2021-12-08,Kedah,2143
+2021-12-08,Kelantan,972
+2021-12-08,Melaka,494
+2021-12-08,Negeri Sembilan,899
+2021-12-08,Pahang,629
+2021-12-08,Perak,930
+2021-12-08,Perlis,23
+2021-12-08,Pulau Pinang,1229
+2021-12-08,Sabah,2052
+2021-12-08,Sarawak,1216
+2021-12-08,Selangor,6278
+2021-12-08,Terengganu,594
+2021-12-08,W.P. Kuala Lumpur,2436
+2021-12-08,W.P. Labuan,11
+2021-12-08,W.P. Putrajaya,56
+2021-12-09,Johor,2110
+2021-12-09,Kedah,1256
+2021-12-09,Kelantan,1435
+2021-12-09,Melaka,340
+2021-12-09,Negeri Sembilan,283
+2021-12-09,Pahang,584
+2021-12-09,Perak,1118
+2021-12-09,Perlis,67
+2021-12-09,Pulau Pinang,1309
+2021-12-09,Sabah,1717
+2021-12-09,Sarawak,5291
+2021-12-09,Selangor,2347
+2021-12-09,Terengganu,930
+2021-12-09,W.P. Kuala Lumpur,376
+2021-12-09,W.P. Labuan,3
+2021-12-09,W.P. Putrajaya,32

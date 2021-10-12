@@ -1,6 +1,5 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Stock prices of four large companies as a small multiples of area charts.",
     "width": "container",
     "height": "container",
     "background": "#f4f7fc",

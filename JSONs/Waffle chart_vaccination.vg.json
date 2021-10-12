@@ -8,6 +8,7 @@
   },
   "layer": [
     {
+      
       "mark": {
         "type": "square",
         "size": 500
@@ -54,8 +55,7 @@
       "title":{
         "text": "Vaccination Progress as per October 2021",
         "dx": 18,
-        "fontSize": 15,
-        "orient":"bottom"
+        "orient":"top"
       }
     }
   ],

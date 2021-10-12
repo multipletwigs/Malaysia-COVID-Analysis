@@ -1,15 +1,79 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-      "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/Vaccination%20Statistics/vaccination/vax_malaysia.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/cases_state_vax.csv"
+  },
+  "height": 300,
+  "width": 380,
+  "transform": [
+    {
+      "calculate": "month(timeParse(datum['date']), '%d/%m/%Y')",
+      "as": "date"
     },
-    "height": 300,
-    "width": 380,
-    "transform": [
-      {
-        "calculate": "timeParse(datum['date'], '%d/%m/%Y')",
-        "as": "date"
+    {
+      "calculate": "(datum.cases_new/datum.population) * 1000",
+      "as": "normal_cases"
+    },
+    {
+      "calculate": "(datum.daily/datum.population) * 1000",
+      "as": "normal_daily"
+    }
+  ],
+  "layer": [
+    {
+      "transform": [
+        {
+          "filter": {
+            "param": "states"
+          }
+        }
+      ],
+      "params": [
+        {
+          "name": "states",
+          "select": {
+            "type": "point",
+            "fields": [
+              "state"
+            ]
+          },
+          "bind": {
+            "input": "select",
+            "options": [
+              "Selangor",
+              "Sabah",
+              "Johor",
+              "Kedah",
+              "Melaka",
+              "Negeri Sembilan",
+              "Pahang",
+              "Pulau Pinang",
+              "Perak",
+              "Perlis",
+              "Terengganu",
+              "W.P. Kuala Lumpur",
+              "W.P. Labuan",
+              "W.P. Putrajaya"
+            ],
+            "name": "Choose a state: "
+          },
+          "value": "Selangor"
+        }
+      ],
+      "mark": "point",
+      "encoding": {
+        "x": {
+          "field": "normal_cases",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "normal_daily",
+          "type": "quantitative"
+        },
+        "color":{
+          "field": "state"
+        }
       }
-    ]
-      
+    }
+  ]
 }

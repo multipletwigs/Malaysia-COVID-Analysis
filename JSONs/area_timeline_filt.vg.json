@@ -15,6 +15,10 @@
         {
             "calculate": "(datum.cumul_full / 32657400) * 1000",
             "as": "full_percentage"
+        },
+        {
+            "calculate": "(datum.cases_recovered / 32657400) * 1000",
+            "as": "recovered_percentage"
         }
     ],
     "vconcat": [
@@ -26,7 +30,8 @@
                     "mark": {
                         "type": "area",
                         "color": "#e1f0ff",
-                        "interpolate": "natural"
+                        "interpolate": "natural",
+                        "opacity": 0.5
                     },
                     "encoding": {
                         "x": {
@@ -59,7 +64,7 @@
                     "mark": {
                         "type": "line",
                         "color": "#3699ff",
-                        "size": 1,
+                        "size": 2,
                         "interpolate": "natural"
                     },
                     "encoding": {
@@ -78,6 +83,62 @@
                         },
                         "y": {
                             "field": "cases_percentage",
+                            "type": "quantitative",
+                            "axis": null
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "area",
+                        "color": "#c9f7f5",
+                        "interpolate": "natural",
+                        "opacity": 0.5
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "type": "temporal",
+                            "axis": {
+                                "title": null,
+                                "grid": false
+                            },
+                            "scale": {
+                                "domain": {
+                                    "param": "brush"
+                                }
+                            }
+                        },
+                        "y": {
+                            "field": "recovered_percentage",
+                            "type": "quantitative",
+                            "axis": null
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "line",
+                        "color": "#1bc5bd",
+                        "size": 2,
+                        "interpolate": "natural"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "type": "temporal",
+                            "axis": {
+                                "title": null,
+                                "grid": false
+                            },
+                            "scale": {
+                                "domain": {
+                                    "param": "brush"
+                                }
+                            }
+                        },
+                        "y": {
+                            "field": "recovered_percentage",
                             "type": "quantitative",
                             "axis": null
                         }

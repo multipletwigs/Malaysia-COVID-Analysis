@@ -4,7 +4,7 @@
     "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/Vaccination%20Statistics/vaccination/vax_malaysia.csv"
   },
   "height": 300,
-  "width": 380,
+  "width": 300,
   "transform": [
     {
       "calculate": "timeParse(datum['date'], '%d/%m/%Y')",
@@ -36,7 +36,7 @@
           "field": "daily",
           "type": "quantitative",
           "axis": {
-            "title": "daily vaccines administered",
+            "title": "daily vaccines administered (doses)",
             "labelFont": "Roboto",
             "labelFontSize": 15,
             "titleFont": "Roboto",
@@ -61,7 +61,7 @@
           "field": "full_percentage",
           "type": "quantitative",
           "axis": {
-            "title": "percentage (%)",
+            "title": "percentage vaccinated (%)",
             "labelFont": "Roboto",
             "labelFontSize": 15,
             "titleFont": "Roboto",
@@ -267,6 +267,14 @@
   "resolve": {
     "scale": {
       "y": "independent"
+    }
+  },
+  "title":{
+    "text": "Number of Daily Vaccinations and Vaccination Progress"
+  },
+  "config": {
+    "axis":{
+      "grid": false
     }
   }
 }

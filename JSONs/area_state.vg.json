@@ -13,6 +13,10 @@
         {
             "calculate": "(datum.cases_new / datum.population) * 1000",
             "as": "cases_area"
+        },
+        {
+            "calculate": "(datum.cases_recovered / datum.population) * 1000",
+            "as": "recovered"
         }
     ],
     "width": "container",
@@ -59,10 +63,15 @@
                 }
             ],
             "mark": {
-                "type": "line",
-                "color": "#3699ff",
+                "type": "area",
+                "color": "#e1f0ff",
                 "size": 3,
-                "interpolate": "natural"
+                "interpolate": "natural",
+                "opacity": 0.5,
+                "line":{
+                    "color":"#3699ff",
+                    "opacity": 1
+                }
             },
             "encoding": {
                 "x": {
@@ -75,6 +84,45 @@
                 },
                 "y": {
                     "field": "cases_area",
+                    "type": "quantitative",
+                    "axis": {
+                        "title": "Daily Cases per 1K Population (State)",
+                        "labelFont": "Roboto",
+                        "labelFontSize": 15,
+                        "titleFont": "Roboto",
+                        "titleFontSize": 15
+                    }
+                }
+            }
+        },
+        {   "transform": [
+            {
+                "filter": {
+                    "param": "states"
+                }
+            }
+        ],
+            "mark": {
+                "type": "area",
+                "color": "#c9f7f5",
+                "interpolate": "natural",
+                "opacity": 0.5,
+                "line": {
+                    "color": "#1bc5bd",
+                    "opacity": 1
+                }
+            },
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "temporal",
+                    "axis": {
+                        "title": null,
+                        "grid": false
+                    }
+                },
+                "y": {
+                    "field": "recovered",
                     "type": "quantitative",
                     "axis": {
                         "title": "Daily Cases per 1K Population (State)",
@@ -109,6 +157,60 @@
                     {
                         "field": "cases_new",
                         "title": "Daily Cases Per 1K Pop"
+                    }
+                ]
+            },
+            "layer": [
+                {
+                    "transform": [
+                        {
+                            "filter": {
+                                "param": "states"
+                            }
+                        }
+                    ],
+                    "mark": {
+                        "type": "point"
+                    },
+                    "encoding": {
+                        "opacity": {
+                            "condition": {
+                                "param": "label",
+                                "empty": false,
+                                "value": 1
+                            },
+                            "value": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "temporal",
+                    "axis": {
+                        "title": null,
+                        "grid": false
+                    }
+                },
+                "y": {
+                    "field": "recovered",
+                    "type": "quantitative",
+                    "axis": {
+                        "grid": false
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "date",
+                        "title": "Date",
+                        "timeUnit": "monthdate"
+                    },
+                    {
+                        "field": "recovered",
+                        "title": "Daily Recovery Per 1K Pop"
                     }
                 ]
             },

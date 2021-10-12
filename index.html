@@ -113,16 +113,22 @@
             <div class="vaccination-section">
                 <div class="section-header">
                     <div class="vis-title">What is the vaccination progress in Malaysia?</div>
-                    <div><p>Ever since 24th of February, the Malaysian Government has started its mass vaccination program. Up to this date, we can see that more than half than the population of Malaysia has been vaccinated as of 30th of September. We are projected to reach 80% immunity in November. It can be seen that the Malaysian Government has increased the daily vaccination amount since June, up to July.</p></div>
+                    <div><p>Ever since 24th of February, the Malaysian Government has started its mass vaccination program. As of 30th of September, we can see that <b>more than half than the population of Malaysia has been vaccinated</b>. We are projected to reach <b>80% nationwide immunity in 26th of November</b> if the vaccine momentum is maintained. </p>
+                    </div>
                     <div class="vax-info-section">
-                        <div>
                             <div class="vis-wrapper" id="waffle_vax"></div>
-                        </div>
-                        <div>
                             <div class="vis-wrapper" id="bar_vax"></div>
-                        </div>
+                    </div>
+                    <div class="waffle_text">
+                            <h2 class="waffle-header">Where is Malaysia headed?</h2>
+                            <p>9th October 2021- In a national address, Malaysian Prime Minister Ismail Sabri Yaakob said that the state is headed for a major re-opening after hitting an important vaccination milestone. Relaxation of interstate and overseas travel will start effectively on the 11th of October for individuals who are adults and fully vaccinated against COVID-19. However, those who enter Malaysia will need need to undergo a 14-day quarantine at government provided locations even if vaccinated. The PM warned that Malaysians will have to comply with COVID-19 Standard Operating Procedures, and will be fined if caught violated.</p>
+                        
                     </div>
                 </div>
+            </div>
+            <div class="deaths-section">
+                <div class="vis-title">What is the COVID-19 Survival Rate in Malaysia?</div>
+                <div>There are many factors that influence the survival rate of COVID-19. We will explore this below by analysing the commonalities of those who did not win the fight against the COVID Infection.</div>
             </div>
         </div>
     </div>
@@ -159,4 +165,7 @@
 
     var vis9 = "JSONs/bar_vax.vg.json"
     vegaEmbed('#bar_vax', vis9, {"actions": false}).then(function(result) {}).catch(console.error);
+
+    // var vis10 = "JSONs/scatter_plot_vax_cases.vg.json"
+    // vegaEmbed('#scatter-plot', vis10, {"actions": false}).then(function(result) {}).catch(console.error);
 </script>
