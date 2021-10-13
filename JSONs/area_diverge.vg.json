@@ -17,24 +17,27 @@
             "as": "full_percentage"
         },
         {
-            "calculate": "(datum.cases_recovered / 32657400) * 1000",
-            "as": "recovered_percentage"
+            "calculate": "-(datum.cases_recovered)",
+            "as": "recovered_flip"
+        },
+        {
+            "calculate": "datum.cases_new - datum.cases_recovered",
+            "as": "difference"
         }
     ],
     "vconcat": [
         {
-            "width": 918,
+            "width": 888,
             "height": "container",
-            "layer": [
+            "layer":[
                 {
                     "mark": {
                         "type": "area",
-                        "color": "#e1f0ff",
+                        "size": 10,
+                        "color": "#f1faff",
                         "interpolate": "natural",
-                        "opacity": 0.5,
                         "line":{
-                            "color":"#3699ff",
-                            "opacity":1
+                            "color": "#009ef7"
                         }
                     },
                     "encoding": {
@@ -44,18 +47,13 @@
                             "axis": {
                                 "title": null,
                                 "grid": false
-                            },
-                            "scale": {
-                                "domain": {
-                                    "param": "brush"
-                                }
                             }
                         },
                         "y": {
-                            "field": "cases_percentage",
+                            "field": "cases_new",
                             "type": "quantitative",
                             "axis": {
-                                "title": "Daily New Cases per 1K Pop (Malaysia)",
+                                "title": "Daily Recoveries              Daily new cases",
                                 "labelFont": "Roboto",
                                 "labelFontSize": 15,
                                 "titleFont": "Roboto",
@@ -67,22 +65,33 @@
                 {
                     "mark": {
                         "type": "area",
-                        "color": "#c9f7f5",
-                        "interpolate": "natural",
-                        "opacity": 0.5,
+                        "color": "#e8fff3",
+                        "size": 10,
                         "line":{
-                            "color":"#1bc5bd",
-                            "opacity": 1
+                            "color": "#50cd89"
                         }
                     },
                     "encoding": {
                         "x": {
                             "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "recovered_flip",
+                            "type": "quantitative"
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "area",
+                        "size": 10,
+                        "color": "grey"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "date",
                             "type": "temporal",
-                            "axis": {
-                                "title": null,
-                                "grid": false
-                            },
                             "scale": {
                                 "domain": {
                                     "param": "brush"
@@ -90,9 +99,8 @@
                             }
                         },
                         "y": {
-                            "field": "recovered_percentage",
-                            "type": "quantitative",
-                            "axis": null
+                            "field": "difference",
+                            "type": "quantitative"
                         }
                     }
                 },
@@ -113,8 +121,7 @@
                         },
                         "y": {
                             "field": "cases_new",
-                            "type": "quantitative",
-                            "axis": null
+                            "type": "quantitative"
                         },
                         "tooltip": [
                             {
@@ -202,22 +209,17 @@
                         }
                     ]
                 }
-            ],
-            "resolve": {
-                "scale": {
-                    "y": "independent"
-                }
-            }
+            ]
         },
         {
-            "width": 918,
+            "width": 888,
             "height": 60,
             "layer": [
                 {
                     "title": "Drag to filter out an interval",
                     "mark": {
                         "type": "area",
-                        "color": "#e1f0ff",
+                        "color": "#f1faff",
                         "cursor": "col-resize"
                     },
                     "params": [
@@ -238,6 +240,50 @@
                         },
                         "y": {
                             "field": "cases_new",
+                            "type": "quantitative",
+                            "axis": {
+                                "title": null,
+                                "tickCount": 3,
+                                "grid": false
+                            }
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "area",
+                        "color": "#e8fff3",
+                        "cursor": "col-resize"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "recovered_flip",
+                            "type": "quantitative",
+                            "axis": {
+                                "title": null,
+                                "tickCount": 3,
+                                "grid": false
+                            }
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "area",
+                        "color": "grey",
+                        "cursor": "col-resize"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "type": "temporal"
+                        },
+                        "y": {
+                            "field": "difference",
                             "type": "quantitative",
                             "axis": {
                                 "title": null,

@@ -11,11 +11,11 @@
             "as": "date"
         },
         {
-            "calculate": "(datum.cases_new / datum.population) * 1000",
+            "calculate": "datum.cases_new",
             "as": "cases_area"
         },
         {
-            "calculate": "(datum.cases_recovered / datum.population) * 1000",
+            "calculate": "-datum.cases_recovered",
             "as": "recovered"
         }
     ],
