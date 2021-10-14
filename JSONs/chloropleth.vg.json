@@ -21,40 +21,38 @@
       "lookup": "properties.name",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/Vaccination%20Statistics/vaccination/vax_pop_latest.csv"
+          "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/cases_state_21.csv"
         },
         "key": "state",
-        "fields": ["daily_full", "pop", "cumul_full"]
+        "fields": ["cases_new", "Population Density"]
       }
     },
     {
-      "calculate": "datum.cumul_full/datum.pop * 1000", "as":"Fully Vaccinated Per 1K Population"
-    },
-    {
-      "calculate": "datum.cumul_full/datum.pop", "as":"Percentage Vaccinated"
+      "calculate": "datum['Population Density']/datum.cases_new", "as":"Severity Measure"
     }
   ],
-  
-  "projection": {
-    "type": "equirectangular"
-  },
-  "mark": {
-    "type": "geoshape",
-    "stroke": "black"
-    },
-  "encoding": {
-    "color": {
-      "field": "Fully Vaccinated Per 1K Population",
-      "type": "quantitative",
-      "scale": {"type": "log"},
-      "legend": { "direction": "horizontal",
-                  "orient": "bottom-left",
-                  "title": "Fully Vaxed per 1K pop"}
-    },
-    "tooltip": [
-      {"field": "properties.name", "type": "nominal", "title": "State"},
-      {"field": "Fully Vaccinated Per 1K Population", "type": "quantitative", "format": ".2f"},
-      {"field": "Percentage Vaccinated", "type":"quantitative", "format":".0%"}
-    ]
-  }
+  "layer":[
+    {
+      "projection": {
+        "type": "equirectangular"
+      },
+      "mark": {
+        "type": "geoshape",
+        "stroke": "black"
+        },
+      "encoding": {
+        "color": {
+          "field": "Severity Measure",
+          "type": "quantitative",
+          "scale": {"type": "log"},
+          "legend": { "direction": "horizontal",
+                      "orient": "bottom-left",
+                      "title": "Fully Vaxed per 1K pop"}
+        },
+        "tooltip": [
+          {"field": "properties.name", "type": "nominal", "title": "State"}
+        ]
+      }
+    }
+  ]
 }
