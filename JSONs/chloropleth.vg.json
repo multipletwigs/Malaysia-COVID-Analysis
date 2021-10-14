@@ -25,13 +25,12 @@
         "key": "state",
         "fields": [
           "cases_new",
-          "Population Density",
-          "date"
+          "Population Density"
         ]
       }
     },
     {
-      "calculate": "datum.cases_new/datum['Population Density']",
+      "calculate": "datum['Average Cases']/datum['Population Density']",
       "as": "Severity Measure"
     }
   ],
