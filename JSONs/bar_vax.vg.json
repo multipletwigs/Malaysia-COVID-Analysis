@@ -25,7 +25,7 @@
         "type": "bar",
         "size": 2,
         "tooltip": true,
-        "color": "#aabfea"
+        "color": "#a7f3d0"
       },
       "encoding": {
         "x": {
@@ -55,7 +55,14 @@
       "encoding": {
         "x": {
           "field": "date",
-          "type": "temporal"
+          "type": "temporal",
+          "axis": {
+            "title": "percentage vaccinated (%)",
+            "labelFont": "Roboto",
+            "labelFontSize": 15,
+            "titleFont": "Roboto",
+            "titleFontSize": 15
+          }
         },
         "y": {
           "field": "full_percentage",
@@ -274,7 +281,7 @@
   },
   "config": {
     "axis":{
-      "grid": false
+      "gridDash": [7,7]
     }
   }
 }

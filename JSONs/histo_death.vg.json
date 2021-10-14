@@ -1,0 +1,100 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/linelist/linelist_deaths_21.csv"
+    },
+    "height": "container",
+    "width": 400,
+    "layer": [
+        {
+            "mark": "bar",
+            "encoding": {
+                "x": {
+                    "bin": {
+                        "steps": [
+                            10,
+                            20,
+                            30,
+                            40,
+                            50,
+                            60,
+                            70,
+                            80,
+                            90,
+                            100
+                        ]
+                    },
+                    "field": "age"
+                },
+                "y": {
+                    "aggregate": "count",
+                    "axis": {
+                        "title": "Number of Deaths (Malaysia)",
+                        "labelFont": "Roboto",
+                        "labelFontSize": 15,
+                        "titleFont": "Roboto",
+                        "titleFontSize": 15,
+                        "gridDash": [7,7]
+                    }
+                },
+                "color": {
+                    "aggregate": "count",
+                    "scale": {
+                        "range": [
+                            "#ffe2e5",
+                            "#ffe2e5",
+                            "#ffe2e5",
+                            "#f64e60",
+                            "#f64e60"
+                        ]
+                    },
+                    "legend": null
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "line",
+                "color":"darkred"
+            },
+            "encoding": {
+                "x": {
+                    "bin": {
+                        "steps": [
+                            10,
+                            20,
+                            30,
+                            40,
+                            50,
+                            60,
+                            70,
+                            80,
+                            90,
+                            100
+                        ]
+                    },
+                    "field": "age",
+                    "axis":{
+                        "title": "Age Group (bins of 10)",
+                        "labelFont": "Roboto",
+                        "labelFontSize": 15,
+                        "titleFont": "Roboto",
+                        "titleFontSize": 15,
+                        "grid": false
+                    }
+                },
+                "y": {
+                    "aggregate": "count",
+                    "axis": {
+                        "title": "Number of Deaths (Malaysia)",
+                        "labelFont": "Roboto",
+                        "labelFontSize": 15,
+                        "titleFont": "Roboto",
+                        "titleFontSize": 15,
+                        "gridDash": [7,7]
+                    }
+                }
+            }
+        }
+    ]
+}

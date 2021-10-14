@@ -62,61 +62,6 @@
             }
           }
         ] 
-      },
-      {
-        "encoding": {
-          "x": {
-            "field": "date",
-            "type": "temporal",
-            "timeUnit":"utcyearmonthdate",
-            "axis":{
-              "labelFont": "Roboto",
-              "labelFontWeight":800,
-              "labelFontSize": 10,
-              "labelColor":"black",
-              "ticks": false,
-              "grid": false,
-              "title": null
-          }
-          },
-          "y": {
-            "field": "cases_recovered",
-            "type": "quantitative",
-            "title": null
-          }
-        },
-        "layer": [
-          {
-            "mark": {
-              "type" : "area",
-              "color": "#989fff",
-              "interpolate": "natural",
-              "opacity": 0.5
-            }
-          },
-          {
-            "params": [{
-              "name": "cases_recovered",
-              "select": {
-                "type": "point",
-                "encodings": ["x"],
-                "nearest": true,
-                "on": "mouseover"
-              }
-            }],
-            "mark": "point",
-            "encoding": {
-              "opacity": {
-                "condition": {
-                  "param": "cases_recovered",
-                  "empty": false,
-                  "value": 1
-                },
-                "value": 0
-              }
-            }
-          }
-        ]
       }
     ],
     "config": {

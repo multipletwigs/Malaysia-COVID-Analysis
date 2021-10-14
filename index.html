@@ -134,7 +134,7 @@
                         </p>
                     </div>
                     <div class="deaths-info-section">
-
+                        <div class="vis-wrapper" id="deaths_his"></div>
                     </div>
                 </div>
             </div>
@@ -176,4 +176,7 @@
 
     // var vis10 = "JSONs/scatter_plot_vax_cases.vg.json"
     // vegaEmbed('#scatter-plot', vis10, {"actions": false}).then(function(result) {}).catch(console.error);
+
+    var vis11 = "JSONs/histo_death.vg.json"
+    vegaEmbed('#deaths_his', vis11, {"actions": false}).then(function(result) {}).catch(console.error);
 </script>
