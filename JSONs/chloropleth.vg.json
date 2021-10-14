@@ -1,58 +1,123 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "config": {
-      "view": {
-         "stroke": "transparent"
-      }
-    },
-    "width": "container",
-    "height": "container",
-    "autosize": {
-      "resize": true
-    },
-    "data": {
-      "url": "https://raw.githubusercontent.com/multipletwigs/FIT3179-Data-Visualization/main/Week%209%20Homework/Layout/JSONs/malaysia_singapore_brunei_administrative_malaysia_state_province_boundary.json",
-      "format": {
-        "type": "topojson",
-        "feature": "malaysia_singapore_brunei_administrative_malaysia_state_province_boundary"
-      }
-    },
-    "transform": [{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "autosize": {
+    "resize": true
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/multipletwigs/FIT3179-Data-Visualization/main/Week%209%20Homework/Layout/JSONs/malaysia_singapore_brunei_administrative_malaysia_state_province_boundary.json",
+    "format": {
+      "type": "topojson",
+      "feature": "malaysia_singapore_brunei_administrative_malaysia_state_province_boundary"
+    }
+  },
+  "transform": [
+    {
       "lookup": "properties.name",
       "from": {
         "data": {
           "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/cases_state_21.csv"
         },
         "key": "state",
-        "fields": ["cases_new", "Population Density"]
+        "fields": [
+          "cases_new",
+          "Population Density",
+          "date"
+        ]
       }
     },
     {
-      "calculate": "datum['Population Density']/datum.cases_new", "as":"Severity Measure"
+      "calculate": "datum.cases_new/datum['Population Density']",
+      "as": "Severity Measure"
     }
   ],
-  "layer":[
+  "vconcat": [
     {
-      "projection": {
-        "type": "equirectangular"
-      },
-      "mark": {
-        "type": "geoshape",
-        "stroke": "black"
-        },
-      "encoding": {
-        "color": {
-          "field": "Severity Measure",
-          "type": "quantitative",
-          "scale": {"type": "log"},
-          "legend": { "direction": "horizontal",
-                      "orient": "bottom-left",
-                      "title": "Fully Vaxed per 1K pop"}
-        },
-        "tooltip": [
-          {"field": "properties.name", "type": "nominal", "title": "State"}
-        ]
-      }
+      "width": "container",
+      "height": "container",
+      "layer": [
+        {
+          "projection": {
+            "type": "equirectangular"
+          },
+          "mark": {
+            "type": "geoshape",
+            "stroke": "black"
+          },
+          "transform": [
+            {
+              "filter": "datum.date== 1/1/2021"
+            }
+          ],
+          "encoding": {
+            "color": {
+              "field": "Severity Measure",
+              "aggregate":"average",
+              "type": "quantitative",
+              "scale": {
+                "type": "log"
+              },
+              "legend": {
+                "direction": "horizontal",
+                "orient": "bottom-left",
+                "title": "Fully Vaxed per 1K pop"
+              }
+            },
+            "tooltip": [
+              {
+                "field": "properties.name",
+                "type": "nominal",
+                "title": "State"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "width": 918,
+      "height": 60,
+      "layer": [
+        {
+          "title": "Drag to filter out an interval",
+          "mark": {
+            "type": "area",
+            "color": "#e1f0ff",
+            "cursor": "col-resize"
+          },
+          "params": [
+            {
+              "name": "brush",
+              "select": {
+                "type": "interval",
+                "encodings": [
+                  "x"
+                ]
+              }
+            }
+          ],
+          "encoding": {
+            "x": {
+              "field": "date",
+              "type": "temporal",
+              "timeUnit": "month"
+            },
+            "y": {
+              "field": "Severity Measure",
+              "type": "quantitative",
+              "axis": {
+                "title": null,
+                "tickCount": 3,
+                "grid": false
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }
