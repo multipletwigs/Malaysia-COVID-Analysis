@@ -25,7 +25,9 @@
         "key": "state",
         "fields": [
           "cases_new",
-          "Population Density"
+          "Population Density",
+          "Average Cases",
+          "state"
         ]
       }
     },
@@ -52,12 +54,13 @@
               "field": "Severity Measure",
               "type": "quantitative",
               "scale": {
-                "type": "log"
+                "type": "log",
+                "scheme": "redyellowblue"
               },
               "legend": {
                 "direction": "horizontal",
                 "orient": "bottom-left",
-                "title": "Fully Vaxed per 1K pop"
+                "title": "Population Density against average cases"
               }
             },
             "tooltip": [
