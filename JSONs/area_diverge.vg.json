@@ -13,6 +13,10 @@
             "as": "cases_percentage"
         },
         {
+            "calculate": "datum.cases_new - 10",
+            "as": "cases_line"
+        },
+        {
             "calculate": "(datum.cumul_full / 32657400) * 1000",
             "as": "full_percentage"
         },
@@ -32,77 +36,131 @@
             "layer":[
                 {
                     "mark": {
-                        "type": "area",
-                        "size": 10,
-                        "color": "#f1faff",
-                        "interpolate": "natural",
-                        "line":{
-                            "color": "#009ef7"
-                        }
+                        "type": "bar",
+                        "size": 2,
+                        "color": "#c6dffe"
                     },
                     "encoding": {
                         "x": {
                             "field": "date",
                             "type": "temporal",
                             "axis": {
-                                "title": null,
-                                "grid": false
+                                "title": "null",
+                                "labelFont": "Roboto",
+                                "labelFontSize": 12
                             }
                         },
                         "y": {
                             "field": "cases_new",
                             "type": "quantitative",
                             "axis": {
-                                "title": "Daily Recoveries              Daily new cases",
+                                "title": "Daily New Cases (Malaysia)",
                                 "labelFont": "Roboto",
                                 "labelFontSize": 15,
                                 "titleFont": "Roboto",
                                 "titleFontSize": 15
-                            }
+                            },
+                            "scale": {"domain": [0,30000]}
                         }
                     }
                 },
                 {
                     "mark": {
-                        "type": "area",
-                        "color": "#e8fff3",
-                        "size": 10,
-                        "line":{
-                            "color": "#50cd89"
-                        }
-                    },
-                    "encoding": {
-                        "x": {
-                            "field": "date",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "field": "recovered_flip",
-                            "type": "quantitative"
-                        }
-                    }
-                },
-                {
-                    "mark": {
-                        "type": "area",
-                        "size": 10,
-                        "color": "grey"
+                        "type": "line",
+                        "size": 2,
+                        "color": "#1b6d56"
                     },
                     "encoding": {
                         "x": {
                             "field": "date",
                             "type": "temporal",
-                            "scale": {
-                                "domain": {
-                                    "param": "brush"
-                                }
+                            "axis": {
+                                "title": "null",
+                                "labelFont": "Roboto",
+                                "labelFontSize": 12
                             }
                         },
                         "y": {
-                            "field": "difference",
-                            "type": "quantitative"
+                            "field": "cases_recovered",
+                            "type": "quantitative",
+                            "axis": {
+                                "title": "Daily New Cases (Malaysia)",
+                                "labelFont": "Roboto",
+                                "labelFontSize": 15,
+                                "titleFont": "Roboto",
+                                "titleFontSize": 15,
+                                "gridDash": [7,7]
+                            },
+                            "scale": {"domain": [0, 30000]}
                         }
                     }
+                },
+                {
+                    "transform": [
+                        {
+                          "filter": {"param":"brush"}
+                        }
+                      ],
+                      "mark":{
+                          "type": "text",
+                          "dx": -120,
+                          "dy": -130,
+                          "font": "Roboto",
+                          "fontSize": 15,
+                          "fontWeight": "bold"
+                      },
+                      "encoding": {
+                          "text": {
+                              "aggregate":"max",
+                              "field": "cases_new"
+                          }
+                      }
+                },
+                {
+                    "transform": [
+
+                        {
+                          "filter": {"param":"brush"}
+                        }
+                      ],
+                      "mark":{
+                        "type": "text",
+                        "dx": -290,
+                        "dy": -110,
+                        "font": "Roboto",
+                        "fontSize": 15,
+                        "fontWeight": "bold"
+                      },
+                      "encoding": {
+                          "text": {
+                              "aggregate": "min",
+                              "field": "date",
+                              "timeUnit":"monthdate"
+                          }
+                      }
+                },
+                {
+                    "transform": [
+
+                        {
+                          "filter": {"param":"brush"}
+                        }
+                      ],
+                      "mark":{
+                        "type": "text",
+                        "dx": -220,
+                        "dy": -110,
+                        "font": "Roboto",
+                        "fontSize": 15,
+                        "fontWeight": "bold"
+                      },
+                      "encoding": {
+                          "text": {
+                              "aggregate": "max",
+                              "field": "date",
+                              "timeUnit":"monthdate"
+                          }
+                      }
                 },
                 {
                     "encoding": {
@@ -208,17 +266,77 @@
                             }
                         }
                     ]
+                },
+                {
+                    "transform": [
+                        {
+                          "filter": "datum.cases_new == 24599"
+                        }
+                      ],
+                      "mark":{
+                        "type": "text",
+                        "dx": -290,
+                        "dy": -130,
+                        "font": "Roboto",
+                        "fontSize": 15,
+                        "fontWeight": "bold"
+                    },
+                    "encoding": {
+                        "text": {
+                            "value": "Maximum number of cases within period: "
+                        }
+                    }
+                },
+                {
+                    "transform": [
+                        {
+                          "filter": "datum.cases_new == 24599"
+                        }
+                      ],
+                      "mark":{
+                        "type": "text",
+                        "dx": -374,
+                        "dy": -110,
+                        "font": "Roboto",
+                        "fontSize": 15,
+                        "fontWeight": "bold"
+                    },
+                    "encoding": {
+                        "text": {
+                            "value": "Selected Period: "
+                        }
+                    }
+                },
+                {
+                    "transform": [
+                        {
+                          "filter": "datum.cases_new == 24599"
+                        }
+                      ],
+                      "mark":{
+                        "type": "text",
+                        "dx": -255,
+                        "dy": -110,
+                        "font": "Roboto",
+                        "fontSize": 15,
+                        "fontWeight": "bold"
+                    },
+                    "encoding": {
+                        "text": {
+                            "value": "to"
+                        }
+                    }
                 }
             ]
         },
         {
             "width": 888,
-            "height": 60,
+            "height": 50,
             "layer": [
                 {
                     "title": "Drag to filter out an interval",
                     "mark": {
-                        "type": "area",
+                        "type": "bar",
                         "color": "#f1faff",
                         "cursor": "col-resize"
                     },
@@ -236,7 +354,10 @@
                     "encoding": {
                         "x": {
                             "field": "date",
-                            "type": "temporal"
+                            "type": "temporal",
+                            "axis":{
+                                "grid": false
+                            }
                         },
                         "y": {
                             "field": "cases_new",
@@ -251,8 +372,8 @@
                 },
                 {
                     "mark": {
-                        "type": "area",
-                        "color": "#e8fff3",
+                        "type": "line",
+                        "color": "#1b6d56",
                         "cursor": "col-resize"
                     },
                     "encoding": {
@@ -261,29 +382,7 @@
                             "type": "temporal"
                         },
                         "y": {
-                            "field": "recovered_flip",
-                            "type": "quantitative",
-                            "axis": {
-                                "title": null,
-                                "tickCount": 3,
-                                "grid": false
-                            }
-                        }
-                    }
-                },
-                {
-                    "mark": {
-                        "type": "area",
-                        "color": "grey",
-                        "cursor": "col-resize"
-                    },
-                    "encoding": {
-                        "x": {
-                            "field": "date",
-                            "type": "temporal"
-                        },
-                        "y": {
-                            "field": "difference",
+                            "field": "cases_recovered",
                             "type": "quantitative",
                             "axis": {
                                 "title": null,
@@ -295,5 +394,12 @@
                 }
             ]
         }
-    ]
+    ],
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        }
+    }
 }

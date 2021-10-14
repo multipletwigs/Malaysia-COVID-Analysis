@@ -101,7 +101,7 @@
                     <div class="vis-title">Daily State Performance per 1K Population</div>
                     <p>As observed below, the trend of COVID-19 Cases in States are similar compared to the national graph. The government has also introduced a <b>National Recovery Plan (NCR)</b> that details a set of rules for states in different states to follow depending on the severity of the situation. </p>
                     <div class="timeline-area">
-                        <div class="vis-wrapper" id="area_state_filt"></div>
+                        <div class="vis-wrapper" id="choropleth_map"></div>
                     </div>
                     <div class="vis-title">Where are these cases coming from?</div>
                     <p>Despite having several total lockdowns in Malaysia, our cases does not seem to fall. This might be explained by the fact that work places such as factories are still allowed to operate, even during the lockdown period. Without surprise, majority of the cases fall within that category.</p>
@@ -126,10 +126,15 @@
                 </div>
             </div>
             <div class="deaths-section">
-                <div class="vis-title">What is the COVID-19 Survival Rate in Malaysia?</div>
-                <div>There are many factors that influence the survival rate of COVID-19. We will explore this below by analysing the commonalities of those who did not win the fight against the COVID Infection.</div>
+                <div class="section-header">
+                    <div class="vis-title">COVID-19 Death Rates Analysis in Malaysia</div>
+                    <div>
+                        <p>
+                            It is unfortunate that deaths
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="vis-wrapper" id="test"></div>
         </div>
     </div>
     
@@ -139,8 +144,8 @@
 <!--Script Injections for Vega-Lite Idioms-->
 <script type="text/javascript">
 
-    // var vis1 = "JSONs/chloropleth.vg.json"
-    // vegaEmbed('#choropleth_map', vis1, {"actions": false}).then(function(result) {}).catch(console.error);
+     var vis1 = "JSONs/chloropleth.vg.json"
+     vegaEmbed('#choropleth_map', vis1, {"actions": false}).then(function(result) {}).catch(console.error);
 
     // var vis2 = "JSONs/trellis_area_cases_state.vg.json"
     // vegaEmbed('#area-trellis', vis2, {"actions": false}).then(function(result) {}).catch(console.error);

@@ -170,6 +170,10 @@ Add transition to containers so they can push in and out.
     margin-top: 1em;
 }
 
+.deaths-section{
+    margin-top: 1em;
+}
+
 .vax-info-section{
     display: flex;
 }
