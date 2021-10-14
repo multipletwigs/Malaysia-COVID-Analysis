@@ -48,15 +48,9 @@
             "type": "geoshape",
             "stroke": "black"
           },
-          "transform": [
-            {
-              "filter": "datum.date== 1/1/2021"
-            }
-          ],
           "encoding": {
             "color": {
               "field": "Severity Measure",
-              "aggregate":"average",
               "type": "quantitative",
               "scale": {
                 "type": "log"
@@ -74,47 +68,6 @@
                 "title": "State"
               }
             ]
-          }
-        }
-      ]
-    },
-    {
-      "width": 918,
-      "height": 60,
-      "layer": [
-        {
-          "title": "Drag to filter out an interval",
-          "mark": {
-            "type": "area",
-            "color": "#e1f0ff",
-            "cursor": "col-resize"
-          },
-          "params": [
-            {
-              "name": "brush",
-              "select": {
-                "type": "interval",
-                "encodings": [
-                  "x"
-                ]
-              }
-            }
-          ],
-          "encoding": {
-            "x": {
-              "field": "date",
-              "type": "temporal",
-              "timeUnit": "month"
-            },
-            "y": {
-              "field": "Severity Measure",
-              "type": "quantitative",
-              "axis": {
-                "title": null,
-                "tickCount": 3,
-                "grid": false
-              }
-            }
           }
         }
       ]
