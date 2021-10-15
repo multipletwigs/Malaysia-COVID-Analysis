@@ -193,6 +193,10 @@ Add transition to containers so they can push in and out.
 .bolds{
     font-size: 1.2em;
 }
+
+.death-wrapper{
+    margin-top: 2em
+}
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
 
 /*

@@ -32,7 +32,7 @@
       }
     },
     {
-      "calculate": "datum['Average Cases']/datum['Population Density']",
+      "calculate": "datum['Population Density']/datum['Average Cases'] * 100",
       "as": "Severity Measure"
     }
   ],
@@ -55,12 +55,17 @@
               "type": "quantitative",
               "scale": {
                 "type": "log",
-                "scheme": "redyellowblue"
+                "scheme": "lightmulti"
               },
               "legend": {
                 "direction": "horizontal",
-                "orient": "bottom-left",
-                "title": "Population Density against average cases"
+                "orient": "bottom",
+                "title": "Severity Measure",
+                "labelFont": "Roboto",
+                "labelFontSize":15,
+                "titleFont": "Roboto",
+                "titleFontSize": 15,
+                "gradientLength": 300
               }
             },
             "tooltip": [
@@ -68,8 +73,18 @@
                 "field": "properties.name",
                 "type": "nominal",
                 "title": "State"
+              },
+              {
+                "field":"Severity Measure",
+                "type":"quantitative",
+                "format": ".2f"
               }
             ]
+          },
+          "title": {
+            "text": "Average cases in October against Population Density",
+            "font": "Roboto",
+                "fontSize": 15
           }
         }
       ]

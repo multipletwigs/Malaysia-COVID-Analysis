@@ -1,38 +1,90 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-      "values": [{"S": "Unvaccinated", "b": 18028},{"S": "First Dose", "b": 5181},{"S": "Second Dose", "b": 2978}]
-    },
-    "width": 500,
-    "height": "container",
-    "layer": [{
-      "mark": {"type": "arc", "innerRadius": 0, "stroke": "#fff"}
-    },{
-      "mark": {"type": "text", "radiusOffset": 30, "size": 20, "color": "black"},
-      "encoding": {
-        "text": {"field": "b", "type": "quantitative"}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "S": "Unvaccinated",
+        "b": 18028
+      },
+      {
+        "S": "First Dose",
+        "b": 5181
+      },
+      {
+        "S": "Second Dose",
+        "b": 2978
       }
-    }],
-    "encoding": {
-      "theta": {"field": "b", "type": "quantitative", "stack": true},
-      "radius": {"field": "b", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
-      "color": {"field": "S", "type": "nominal", "legend":{
+    ]
+  },
+  "width": 500,
+  "height": "container",
+  "layer": [
+    {
+      "mark": {
+        "type": "arc",
+        "innerRadius": 0,
+        "stroke": "#fff"
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "radiusOffset": 30,
+        "size": 20,
+        "color": "black"
+      },
+      "encoding": {
+        "text": {
+          "field": "b",
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "encoding": {
+    "theta": {
+      "field": "b",
+      "type": "quantitative",
+      "stack": true
+    },
+    "radius": {
+      "field": "b",
+      "scale": {
+        "type": "sqrt",
+        "zero": true,
+        "rangeMin": 20
+      }
+    },
+    "color": {
+      "field": "S",
+      "type": "nominal",
+      "legend": {
         "labelFont": "Roboto",
         "labelFontSize": 15,
-        "titleFont":"Roboto",
+        "titleFont": "Roboto",
         "titleFontSize": 15,
         "title": "Vaccination Status",
         "orient": "top-right"
       },
-    "scale":{
-        "range": ["#10b981","#1b6d56","#f64e60"]
-    }}
-    },
-    "config": {
-        "style": {
-          "cell": {
-            "stroke": "transparent"
-          }
-        }
+      "scale": {
+        "range": [
+          "#10b981",
+          "#1b6d56",
+          "#f64e60"
+        ]
       }
+    }
+  },
+  "title": {
+    "text": "COVID-19 Deaths by Vaccination Status",
+    "font": "Roboto",
+    "fontSize": 15
+  },
+  "config": {
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    }
   }
+}

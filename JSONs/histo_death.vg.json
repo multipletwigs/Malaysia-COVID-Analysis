@@ -60,7 +60,18 @@
                         ]
                     },
                     "legend": null
-                }
+                },
+                "tooltip":[
+                    {
+                        "field": "age",
+                        "aggregate": "count"
+                    }
+                ]
+            },
+            "title":{
+                "text":"COVID-19 Age Distribution for Deaths",
+                "font": "Roboto",
+                        "fontSize": 15
             }
         },
         {

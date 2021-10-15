@@ -78,7 +78,9 @@
                                 "labelFont": "Roboto",
                                 "labelFontSize": 15,
                                 "labelExpr": "'Daily new cases'",
-                                "title": null,
+                                "title": "Encoding Legend",
+                                "titleFont":"Roboto",
+                                "titleFontSize": 15,
                                 "symbolSize": 500
                                 
                             }
@@ -120,13 +122,15 @@
                                 "range":["#1b6d56"]
                             },
                             "legend":{
-                                "orient": "bottom",
+                                "orient": "none",
                                 "labelExpr": "'Daily new recoveries'",
                                 "labelFont": "Roboto",
                                 "labelFontSize": 15,
                                 "title": null,
                                 "symbolSize": 500,
-                                "symbolStrokeWidth": 5
+                                "symbolStrokeWidth": 5,
+                                "legendY": 478,
+                                "legendX": 150
                             }
                         }
                     }
