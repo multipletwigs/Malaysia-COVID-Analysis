@@ -4,24 +4,35 @@
         "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/linelist/linelist_deaths_21.csv"
     },
     "height": "container",
-    "width": 400,
+    "width": 500,
     "layer": [
         {
             "mark": "bar",
             "encoding": {
                 "x": {
                     "bin": {
+                        "step": 5,
                         "steps": [
                             10,
+                            15,
                             20,
+                            25,
                             30,
+                            35,
                             40,
+                            45,
                             50,
+                            55,
                             60,
+                            65,
                             70,
+                            75,
                             80,
+                            85,
                             90,
-                            100
+                            95,
+                            100,
+                            105
                         ]
                     },
                     "field": "age"
@@ -60,6 +71,7 @@
             "encoding": {
                 "x": {
                     "bin": {
+                        "step": 5,
                         "steps": [
                             10,
                             20,
@@ -75,7 +87,7 @@
                     },
                     "field": "age",
                     "axis":{
-                        "title": "Age Group (bins of 10)",
+                        "title": "Age Group (bins of 5)",
                         "labelFont": "Roboto",
                         "labelFontSize": 15,
                         "titleFont": "Roboto",
@@ -96,5 +108,12 @@
                 }
             }
         }
-    ]
+    ],
+    "config": {
+        "style": {
+          "cell": {
+            "stroke": "transparent"
+          }
+        }
+      }
 }

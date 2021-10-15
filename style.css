@@ -81,7 +81,7 @@ Add transition to containers so they can push in and out.
 .info-cards{
     list-style: none;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0;
 }
 .row-1{
     display: flex;
@@ -116,7 +116,7 @@ Add transition to containers so they can push in and out.
 .list-item2{
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    margin: 0 1em 2em;
+    margin: 0 1em 0em;
     width: 330px;
     height: 100px;
     border-radius: 0.2em;
@@ -150,6 +150,10 @@ Add transition to containers so they can push in and out.
     height: 500px;
 }
 
+.daily-cases-section{
+    margin-top: 1em;
+}
+
 .vis-wrapper{
     width: 100%;
     height: 300px;
@@ -180,6 +184,14 @@ Add transition to containers so they can push in and out.
 
 .waffle_text{
     margin-top: 4em;
+}
+
+#deaths_radial{
+    margin-left: 4em
+}
+
+.bolds{
+    font-size: 1.2em;
 }
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
 

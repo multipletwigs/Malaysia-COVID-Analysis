@@ -27,7 +27,7 @@
         <div class="content">
             <div class="top-cards">
                 <div class="section-header">
-                    <h3>Nation Performance Index (Analysis Period: January 2021 to September 2021)</h3>
+                    <div class="vis-title">Nation Performance Index (Analysis Period: January 2021 to September 2021)</div>
                     <p>This visualization reports on the important findings of COVID-19 Data in Malaysia using data from January to September. Below is a summary of statistical figures in 2021, in which we will perform in depth analysis on.</p>
                 </div>
                 <div class="info-cards">
@@ -46,16 +46,16 @@
                                 <i class="fas fa-procedures fa-3x slide"></i>
                                 <div class="card-stats">
                                     <div class="card-title">Total Deaths</div>
-                                    <div class="card-desc">567 patients</div>
+                                    <div class="card-desc">24,094 patients</div>
                                 </div>
                             </div>
                         </li>
                         <li class="list-item">
                             <div class="list-item-content">
-                                <i class="fas fa-heartbeat fa-3x slide"></i>
+                                <i class="fas fa-syringe fa-3x slide"></i>
                                 <div class="card-stats">
-                                    <div class="card-title">Total Recovered Cases</div>
-                                    <div class="card-desc">1,828,237 patients</div>
+                                    <div class="card-title">Fully Vaccinated Population</div>
+                                    <div class="card-desc">62.02 percent</div>
                                 </div>
                             </div>
                         </li>
@@ -63,10 +63,10 @@
                     <div class="row-1">
                         <li class="list-item">
                             <div class="list-item-content">
-                                <i class="fas fa-syringe fa-3x slide"></i>
+                                <i class="fas fa-heartbeat fa-3x slide"></i>
                                 <div class="card-stats">
-                                    <div class="card-title">Total Population Vaccinated</div>
-                                    <div class="card-desc">20,255,398      people</div>
+                                    <div class="card-title">Total Recovered Cases</div>
+                                    <div class="card-desc">1,828,237 patients</div>
                                 </div>
                             </div>
                         </li>
@@ -83,8 +83,8 @@
                             <div class="list-item-content">
                                 <i class="fas fa-stethoscope fa-3x slide"></i>
                                 <div class="card-stats">
-                                    <div class="card-title">Total Clusters Formed</div>
-                                    <div class="card-desc">4,990 clusters</div>
+                                    <div class="card-title">Partly Vaccinated Population</div>
+                                    <div class="card-desc">72.08 percent</div>
                                 </div>
                             </div>
                         </li>
@@ -98,13 +98,13 @@
                     <div class="timeline-area">
                         <div class="vis-wrapper" id="area_timeline_filt"></div>
                     </div>
-                    <div class="vis-title">Daily State Performance per 1K Population</div>
-                    <p>As observed below, the trend of COVID-19 Cases in States are similar compared to the national graph. The government has also introduced a <b>National Recovery Plan (NCR)</b> that details a set of rules for states in different states to follow depending on the severity of the situation. </p>
+                    <div class="vis-title">COVID-19 Severity Measure for each state in October</div>
+                    <p>A state is said to be <b class="bolds">severe if there are high COVID-19 cases with high population density.</b></p>
                     <div class="timeline-area">
                         <div class="vis-wrapper" id="choropleth_map"></div>
                     </div>
                     <div class="vis-title">Where are these cases coming from?</div>
-                    <p>Despite having several total lockdowns in Malaysia, our cases does not seem to fall. This might be explained by the fact that work places such as factories are still allowed to operate, even during the lockdown period. Without surprise, majority of the cases fall within that category.</p>
+                    <p>Despite having several total lockdowns in Malaysia, our cases does not seem to fall. This might be explained by the fact that<b class = "bolds"> work places such as factories are still allowed to operate, even during the lockdown period</b>.</p>
                     <div class="timeline-area">
                         <div class="vis-wrapper-2" id="bar_cases_from"></div>
                     </div>
@@ -113,15 +113,18 @@
             <div class="vaccination-section">
                 <div class="section-header">
                     <div class="vis-title">What is the vaccination progress in Malaysia?</div>
-                    <div><p>Ever since 24th of February, the Malaysian Government has started its mass vaccination program. As of 30th of September, we can see that <b>more than half than the population of Malaysia has been vaccinated</b>. We are projected to reach <b>80% nationwide immunity in 26th of November</b> if the vaccine momentum is maintained. </p>
+                    <div><p>Ever since 24th of February, the Malaysian Government has started its mass vaccination program. As of 30th of September, we can see that <b class="bolds">more than half than the population of Malaysia has been vaccinated</b>. We are projected to reach <b class="bolds">80% nationwide immunity in 26th of November</b> if the vaccine momentum is maintained. </p>
                     </div>
                     <div class="vax-info-section">
-                            <div class="vis-wrapper" id="waffle_vax"></div>
                             <div class="vis-wrapper" id="bar_vax"></div>
+                            
+                            <div class="vis-wrapper" id="waffle_vax"></div>
                     </div>
                     <div class="waffle_text">
+                            <br>
+                            <br>
                             <h2 class="waffle-header">Where is Malaysia headed?</h2>
-                            <p>9th October 2021- In a national address, Malaysian Prime Minister Ismail Sabri Yaakob said that the state is headed for a major re-opening after hitting an important vaccination milestone. Relaxation of interstate and overseas travel will start effectively on the 11th of October for individuals who are adults and fully vaccinated against COVID-19. However, those who enter Malaysia will need need to undergo a 14-day quarantine at government provided locations even if vaccinated. The PM warned that Malaysians will have to comply with COVID-19 Standard Operating Procedures, and will be fined if caught violated.</p>
+                            <p>9th October 2021- In a national address, Malaysian Prime Minister Ismail Sabri Yaakob said that the state is headed for a <b class="bolds">major re-opening</b> after hitting an important vaccination milestone. <b class="bolds">Relaxation of interstate and overseas travel will start effectively on the 11th of October</b> for individuals who are adults and fully vaccinated against COVID-19.</p>
                     </div>
                 </div>
             </div>
@@ -130,11 +133,25 @@
                     <div class="vis-title">COVID-19 Death Rates Analysis in Malaysia</div>
                     <div>
                         <p>
-                            It is unfortunate that deaths
+                            Here we analyse the <b class="bolds">commonalities of those who lost the battle against the COVID-19 Virus</b>.
                         </p>
                     </div>
-                    <div class="deaths-info-section">
+                    <div class="vax-info-section">
                         <div class="vis-wrapper" id="deaths_his"></div>
+                        <div>
+                            <h2>Death by Age Groups</h2>
+                            <p>It appears that most deaths occur between<b class="bolds"> age 55 to age 75</b>. The youngest infected patient was <b class="bolds">aged 5 years old</b> and the oldest patient was <b class="bolds">aged 105 years old.</b></p>
+                            <p>Most of the deaths are also patients presented with comorbidities. Meaning they had <b class="bolds">underlying health conditions</b> to begin with.<p>
+                        </div>
+                    </div>
+                    <div class="death-wrapper">
+                        <div class="vax-info-section">
+                            <div class="vis-wrapper" id="deaths_radial"></div>
+                            <div>
+                                <h2>Are the deceased vaccinated?</h2>
+                            <p>We also can see that majority of those <b class="bolds">who did not survive are not vaccinated.</b> Although there are cases where the patient is completely vaccinated, but they usually <b class="bolds">present other health problems as well.</b></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -179,4 +196,7 @@
 
     var vis11 = "JSONs/histo_death.vg.json"
     vegaEmbed('#deaths_his', vis11, {"actions": false}).then(function(result) {}).catch(console.error);
+
+    var vis12 = "JSONs/radial_death_attr.vg.json"
+    vegaEmbed('#deaths_radial', vis12, {"actions": false}).then(function(result) {}).catch(console.error);
 </script>

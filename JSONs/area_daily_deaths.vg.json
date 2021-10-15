@@ -1,0 +1,152 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A bubble timeline showing distribution of covid-cases in Malaysia against time",
+    "background": "white",
+    "data": {
+        "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/deaths_malaysia_21.csv"
+    },
+    "transform": [
+        {
+            "calculate": "timeParse(datum['date'], '%d/%m/%Y')",
+            "as": "date"
+        },
+        {
+            "calculate": "datum.deaths_new",
+            "as": "cases_area"
+        }
+    ],
+    "width": "container",
+    "height": "container",
+    "layer": [
+        {
+            "mark": {
+                "type": "area",
+                "color": "#e1f0ff",
+                "size": 3,
+                "interpolate": "natural",
+                "opacity": 0.5,
+                "line":{
+                    "color":"#3699ff",
+                    "opacity": 1
+                }
+            },
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "temporal",
+                    "axis": {
+                        "title": null,
+                        "grid": false
+                    }
+                },
+                "y": {
+                    "field": "deaths_new",
+                    "type": "quantitative",
+                    "axis": {
+                        "title": "Daily Cases per 1K Population (State)",
+                        "labelFont": "Roboto",
+                        "labelFontSize": 15,
+                        "titleFont": "Roboto",
+                        "titleFontSize": 15
+                    }
+                }
+            }
+        },
+        {
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "temporal",
+                    "axis": {
+                        "title": null,
+                        "grid": false
+                    }
+                },
+                "y": {
+                    "field": "cases_area",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "date",
+                        "title": "Date",
+                        "timeUnit": "monthdate"
+                    },
+                    {
+                        "field": "cases_new",
+                        "title": "Daily Cases Per 1K Pop"
+                    }
+                ]
+            },
+            
+            "layer": [
+                {
+                    "params": [
+                        {
+                          "name": "label",
+                          "select": {
+                            "type": "point",
+                            "encodings": [
+                              "x"
+                            ],
+                            "nearest": true,
+                            "on": "mouseover"
+                          }
+                        }
+                      ],
+                    "mark": {
+                        "type": "point"
+                    },
+                    "encoding": {
+                        "opacity": {
+                            "condition": {
+                                "param": "label",
+                                "empty": false,
+                                "value": 1
+                            },
+                            "value": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {   
+            "encoding": {
+                "x": {
+                    "field": "date",
+                    "type": "temporal",
+                    "axis": {
+                        "title": null,
+                        "grid": false
+                    }
+                }
+            },
+            "layer": [
+                {
+                    "mark": {
+                        "type": "rule",
+                        "strokeDash": [
+                            7,
+                            7
+                        ],
+                        "strokeWidth": 2
+                    },
+                    "encoding": {
+                        "x": {
+                            "type": "temporal",
+                            "field": "date"
+                        }
+                    },
+                    "transform": [
+                        {
+                            "filter": {
+                                "param": "label",
+                                "empty": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

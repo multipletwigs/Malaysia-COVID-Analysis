@@ -45,7 +45,9 @@
             "labelFontSize": 15,
             "titleFont":"Roboto",
             "titleFontSize": 15,
-            "title": "Vaccination Status"
+            "title": "Vaccination Status",
+            "orient": "bottom",
+            "offset": 38
           }
         },
         "tooltip":[
@@ -55,7 +57,9 @@
       "title":{
         "text": "Vaccination Progress as per October 2021",
         "dx": 18,
-        "orient":"top"
+        "orient":"top",
+        "font": "Roboto",
+        "fontSize": 15
       }
     }
   ],

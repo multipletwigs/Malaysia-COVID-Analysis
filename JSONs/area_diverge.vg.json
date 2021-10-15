@@ -27,6 +27,12 @@
         {
             "calculate": "datum.cases_new - datum.cases_recovered",
             "as": "difference"
+        },
+        {
+            "calculate": "1", "as": "colors"
+        },
+        {
+            "calculate": "1", "as": "colors1"
         }
     ],
     "vconcat": [
@@ -61,6 +67,21 @@
                                 "titleFontSize": 15
                             },
                             "scale": {"domain": [0,30000]}
+                        },
+                        "color":{
+                            "field":"colors",
+                            "scale":{
+                                "range":["#c6dffe"]
+                            },
+                            "legend":{
+                                "orient": "bottom",
+                                "labelFont": "Roboto",
+                                "labelFontSize": 15,
+                                "labelExpr": "'Daily new cases'",
+                                "title": null,
+                                "symbolSize": 500
+                                
+                            }
                         }
                     }
                 },
@@ -92,6 +113,21 @@
                                 "gridDash": [7,7]
                             },
                             "scale": {"domain": [0, 30000]}
+                        },
+                        "stroke":{
+                            "field":"colors1",
+                            "scale":{
+                                "range":["#1b6d56"]
+                            },
+                            "legend":{
+                                "orient": "bottom",
+                                "labelExpr": "'Daily new recoveries'",
+                                "labelFont": "Roboto",
+                                "labelFontSize": 15,
+                                "title": null,
+                                "symbolSize": 500,
+                                "symbolStrokeWidth": 5
+                            }
                         }
                     }
                 },
@@ -103,8 +139,8 @@
                       ],
                       "mark":{
                           "type": "text",
-                          "dx": -120,
-                          "dy": -130,
+                          "dx": -90,
+                          "dy": -115,
                           "font": "Roboto",
                           "fontSize": 15,
                           "fontWeight": "bold"
@@ -118,6 +154,27 @@
                 },
                 {
                     "transform": [
+                        {
+                          "filter": {"param":"brush"}
+                        }
+                      ],
+                      "mark":{
+                          "type": "text",
+                          "dx": -50,
+                          "dy": -135,
+                          "font": "Roboto",
+                          "fontSize": 15,
+                          "fontWeight": "bold"
+                      },
+                      "encoding": {
+                          "text": {
+                              "aggregate":"max",
+                              "field": "cases_recovered"
+                          }
+                      }
+                },
+                {
+                    "transform": [
 
                         {
                           "filter": {"param":"brush"}
@@ -126,7 +183,7 @@
                       "mark":{
                         "type": "text",
                         "dx": -290,
-                        "dy": -110,
+                        "dy": -90,
                         "font": "Roboto",
                         "fontSize": 15,
                         "fontWeight": "bold"
@@ -149,7 +206,7 @@
                       "mark":{
                         "type": "text",
                         "dx": -220,
-                        "dy": -110,
+                        "dy": -90,
                         "font": "Roboto",
                         "fontSize": 15,
                         "fontWeight": "bold"
@@ -188,13 +245,12 @@
                                 "timeUnit": "monthdate"
                             },
                             {
-                                "field": "cases_percentage",
-                                "format": ".2f",
-                                "title": "Total Cases per 1K Pop"
+                                "field": "cases_recovered",
+                                "title": "Number of recoveries"
                             },
                             {
                                 "field": "cases_new",
-                                "title": "Raw Number of Cases"
+                                "title": "Number of new cases"
                             }
                         ]
                     },
@@ -213,6 +269,59 @@
                                     }
                                 }
                             ],
+                            "mark": {
+                                "type": "point"
+                            },
+                            "encoding": {
+                                "opacity": {
+                                    "condition": {
+                                        "param": "label",
+                                        "empty": false,
+                                        "value": 1
+                                    },
+                                    "value": 0
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "type": "temporal",
+                            "axis": {
+                                "title": null,
+                                "grid": false
+                            },
+                            "scale": {
+                                "domain": {
+                                    "param": "brush"
+                                }
+                            }
+                        },
+                        "y": {
+                            "field": "cases_recovered",
+                            "type": "quantitative"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "date",
+                                "title": "Date",
+                                "timeUnit": "monthdate"
+                            },
+                            {
+                                "field": "cases_recovered",
+                                "title": "Number of recoveries"
+                            },
+                            {
+                                "field": "cases_new",
+                                "title": "Number of new cases"
+                            }
+                        ]
+                    },
+                    "layer": [
+                        {
                             "mark": {
                                 "type": "point"
                             },
@@ -275,15 +384,35 @@
                       ],
                       "mark":{
                         "type": "text",
-                        "dx": -290,
-                        "dy": -130,
+                        "dx": -275,
+                        "dy": -115,
                         "font": "Roboto",
                         "fontSize": 15,
                         "fontWeight": "bold"
                     },
                     "encoding": {
                         "text": {
-                            "value": "Maximum number of cases within period: "
+                            "value": "Maximum number of new cases within period: "
+                        }
+                    }
+                },
+                {
+                    "transform": [
+                        {
+                          "filter": "datum.cases_new == 24599"
+                        }
+                      ],
+                      "mark":{
+                        "type": "text",
+                        "dx": -259,
+                        "dy": -135,
+                        "font": "Roboto",
+                        "fontSize": 15,
+                        "fontWeight": "bold"
+                    },
+                    "encoding": {
+                        "text": {
+                            "value": "Maximum number of new recoveries within period: "
                         }
                     }
                 },
@@ -296,7 +425,7 @@
                       "mark":{
                         "type": "text",
                         "dx": -374,
-                        "dy": -110,
+                        "dy": -90,
                         "font": "Roboto",
                         "fontSize": 15,
                         "fontWeight": "bold"
@@ -316,7 +445,7 @@
                       "mark":{
                         "type": "text",
                         "dx": -255,
-                        "dy": -110,
+                        "dy": -90,
                         "font": "Roboto",
                         "fontSize": 15,
                         "fontWeight": "bold"

@@ -4,7 +4,7 @@
     "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/Vaccination%20Statistics/vaccination/vax_malaysia.csv"
   },
   "height": 300,
-  "width": 300,
+  "width": 500,
   "transform": [
     {
       "calculate": "timeParse(datum['date'], '%d/%m/%Y')",
@@ -17,6 +17,12 @@
     {
       "calculate": "(datum.cumul_full / 32657400) * 100",
       "as": "full_percentage"
+    },
+    {
+      "calculate": "1", "as": "colors"
+    },
+    {
+      "calculate": "1", "as": "colors1"
     }
   ],
   "layer": [
@@ -24,13 +30,15 @@
       "mark": {
         "type": "bar",
         "size": 2,
-        "tooltip": true,
-        "color": "#a7f3d0"
+        "tooltip": true
       },
       "encoding": {
         "x": {
           "field": "date",
-          "type": "temporal"
+          "type": "temporal",
+          "axis":{
+            "grid": false
+          }
         },
         "y": {
           "field": "daily",
@@ -40,6 +48,23 @@
             "labelFont": "Roboto",
             "labelFontSize": 15,
             "titleFont": "Roboto",
+            "titleFontSize": 15,
+            "grid": true,
+            "gridDash":[8,8] 
+          }
+        },
+        "color":{
+          "field": "colors",
+          "scale":{
+            "range": ["#a7f3d0"]
+          },
+          "legend": {
+            "orient": "bottom",
+            "labelExpr": "'Administered Doses'",
+            "title": "Encoding Legends",
+            "labelFont": "Roboto",
+            "labelFontSize": 15,
+            "titleFont":"Roboto",
             "titleFontSize": 15
           }
         }
@@ -57,7 +82,7 @@
           "field": "date",
           "type": "temporal",
           "axis": {
-            "title": "percentage vaccinated (%)",
+            "title": null,
             "labelFont": "Roboto",
             "labelFontSize": 15,
             "titleFont": "Roboto",
@@ -81,17 +106,24 @@
             ]
           }
         },
-        "tooltip": null
+        "tooltip": null,
+        "strokeDash": {"field": "colors", "type": "nominal",
+        "legend": {
+          "title": null,
+          "labelExpr": "'Fully Vaccinated'",
+          "orient": "none",
+          "legendY": 360,
+          "legendX": 180,
+          "labelFont": "Roboto",
+            "labelFontSize": 15
+        }}
       }
     },
     {
       "mark": {
         "type": "line",
         "size": 2,
-        "strokeDash": [
-          8,
-          8
-        ],
+        "strokeDash": [8,8],
         "color": "gray"
       },
       "encoding": {
@@ -108,6 +140,23 @@
               0,
               100
             ]
+          }
+        },
+        "stroke":{
+          "field": "colors1",
+          "scale":{
+            "range": ["grey"]
+          },
+          "legend": {
+            "orient": "none",
+            "symbolDash":[3,3],
+            "symbolSize": 500,
+            "legendX": 350,
+            "legendY": 355,
+            "title": null,
+            "labelFont": "Roboto",
+            "labelFontSize": 15,
+            "labelExpr": "'Partially Vaccinated'"
           }
         }
       }
@@ -277,11 +326,8 @@
     }
   },
   "title":{
-    "text": "Number of Daily Vaccinations and Vaccination Progress"
-  },
-  "config": {
-    "axis":{
-      "gridDash": [7,7]
-    }
+    "text": "Number of Daily Vaccinations and Vaccination Progress",
+    "font": "Roboto",
+    "fontSize": 15
   }
 }
