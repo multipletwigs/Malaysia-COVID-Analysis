@@ -20,20 +20,14 @@
       "lookup": "properties.name",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/cases_state_21.csv"
+          "url": "https://raw.githubusercontent.com/multipletwigs/Malaysia-COVID-Analysis/main/COVID-Data/COVID-19%20Statistics/epidemic/severity%20measure.csv"
         },
         "key": "state",
         "fields": [
-          "cases_new",
-          "Population Density",
-          "Average Cases",
+          "severity",
           "state"
         ]
       }
-    },
-    {
-      "calculate": "datum['Population Density']/datum['Average Cases'] * 100",
-      "as": "Severity Measure"
     }
   ],
   "vconcat": [
@@ -51,21 +45,22 @@
           },
           "encoding": {
             "color": {
-              "field": "Severity Measure",
-              "type": "quantitative",
-              "scale": {
-                "type": "log",
-                "scheme": "lightmulti"
+              "field": "severity",
+              "type": "ordinal",
+              "scale":{
+                "domain":["Lowest", "Low", "Moderate", "Severe", "Very Severe"],
+                "range":["#1a9641","#a6d96a","#ffffbf","#fdae61","#d7191c"]
               },
               "legend": {
+                "values":["Lowest", "Low", "Moderate", "Severe", "Very Severe"],
+                "symbolType":"square",
                 "direction": "horizontal",
                 "orient": "bottom",
                 "title": "Severity Measure",
                 "labelFont": "Roboto",
                 "labelFontSize":15,
                 "titleFont": "Roboto",
-                "titleFontSize": 15,
-                "gradientLength": 300
+                "titleFontSize": 15
               }
             },
             "tooltip": [
@@ -75,9 +70,9 @@
                 "title": "State"
               },
               {
-                "field":"Severity Measure",
-                "type":"quantitative",
-                "format": ".2f"
+                "field":"severity",
+                "type":"ordinal",
+                "title": "Severity Measure"
               }
             ]
           },
